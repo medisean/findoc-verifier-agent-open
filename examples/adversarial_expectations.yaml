@@ -1,0 +1,59 @@
+tasks:
+  adversarial_low_light_scan:
+    min_table_count: 1
+    min_row_count: 3
+    max_failed_count: 0
+    min_validation_pass_rate: 1.0
+    required_tables:
+      - degraded_scan_income_metrics
+    required_metrics:
+      - table_contains: degraded_scan_income_metrics
+        row_contains: Revenue
+        period: "2025"
+        expected_value: 2450
+        evidence_required: true
+      - table_contains: degraded_scan_income_metrics
+        row_contains: Operating income
+        period: "2025"
+        expected_value: 610
+        evidence_required: true
+
+  adversarial_cross_page_unit:
+    min_table_count: 1
+    min_row_count: 3
+    max_failed_count: 0
+    min_validation_pass_rate: 1.0
+    required_tables:
+      - cross_page_cash_flow_statement
+    required_metrics:
+      - table_contains: cross_page_cash_flow_statement
+        row_contains: Net cash from operating activities
+        period: "2025"
+        expected_value: 183200
+        unit_contains: RMB thousand
+        evidence_required: true
+      - table_contains: cross_page_cash_flow_statement
+        row_contains: Cash and equivalents at end of year
+        period: "2025"
+        expected_value: 271900
+        unit_contains: RMB thousand
+        evidence_required: true
+
+  adversarial_dense_numeric_footnotes:
+    min_table_count: 1
+    min_row_count: 3
+    max_failed_count: 0
+    min_validation_pass_rate: 1.0
+    required_tables:
+      - dense_numeric_footnote_table
+    required_metrics:
+      - table_contains: dense_numeric_footnote_table
+        row_contains: Revenue
+        period: "2025"
+        expected_value: 12567
+        evidence_required: true
+      - table_contains: dense_numeric_footnote_table
+        row_contains: Net income
+        period: "2024"
+        expected_value: -512
+        evidence_required: true

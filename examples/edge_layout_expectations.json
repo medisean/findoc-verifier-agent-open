@@ -1,0 +1,86 @@
+{
+  "cases": [
+    {
+      "name": "edge_handwritten_annotation_overlay",
+      "result_path": "examples/edge_layout_results/edge_handwritten_annotation_overlay.json",
+      "expected_table": "annotated_income_statement",
+      "expected_warning_type": "handwritten_annotation_overlay",
+      "expected_edge_flags": {
+        "annotation_noise_rejected": true
+      },
+      "forbidden_row_fragments": [
+        "recheck",
+        "approved",
+        "ok"
+      ],
+      "required_metrics": [
+        {
+          "row": "Revenue",
+          "period": "2025",
+          "value": 8420
+        },
+        {
+          "row": "Net profit",
+          "period": "2024",
+          "value": 1110
+        }
+      ]
+    },
+    {
+      "name": "edge_two_column_mixed_layout",
+      "result_path": "examples/edge_layout_results/edge_two_column_mixed_layout.json",
+      "expected_table": "right_column_segment_table",
+      "expected_edge_flags": {
+        "column_bleed_rejected": true,
+        "reading_order_accuracy": 1.0
+      },
+      "forbidden_row_fragments": [
+        "management discussion",
+        "margin pressure"
+      ],
+      "required_metrics": [
+        {
+          "row": "Cloud",
+          "period": "2025",
+          "value": 3180
+        },
+        {
+          "row": "Devices",
+          "period": "2024",
+          "value": 1280
+        }
+      ]
+    },
+    {
+      "name": "edge_nested_multiline_header_table",
+      "result_path": "examples/edge_layout_results/edge_nested_multiline_header_table.json",
+      "expected_table": "nested_header_kpi_table",
+      "expected_periods": [
+        "H1 2025 actual",
+        "H1 2025 budget",
+        "H1 2024 actual"
+      ],
+      "expected_edge_flags": {
+        "nested_header_accuracy": 1.0,
+        "merged_cell_expansion_accuracy": 1.0
+      },
+      "required_metrics": [
+        {
+          "row": "Operating revenue",
+          "period": "H1 2025 actual",
+          "value": 5280
+        },
+        {
+          "row": "Gross margin",
+          "period": "H1 2024 actual",
+          "value": 36.8
+        },
+        {
+          "row": "Operating cash flow",
+          "period": "H1 2025 budget",
+          "value": 1040
+        }
+      ]
+    }
+  ]
+}

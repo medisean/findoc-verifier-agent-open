@@ -1,0 +1,157 @@
+samples:
+  - id: annual_report_pdf
+    title: 年报 PDF
+    inputs:
+      - path: examples/inputs/annual_report.pdf
+        role: primary
+        mime_type: application/pdf
+    goal: 抽取资产负债表、利润表、现金流量表、单位、期间和来源证据。
+    expected_challenges:
+      - 高密度数字表格
+      - 多级表头
+      - 脚注和单位变化
+
+  - id: scanned_financial_statement_pdf
+    title: 扫描财务报表 PDF
+    inputs:
+      - path: examples/inputs/scanned_financial_statement.pdf
+        role: primary
+        mime_type: application/pdf
+    goal: 解析扫描报表，保留证据，并标记低置信 OCR 字段。
+    expected_challenges:
+      - 模糊
+      - 光照不均
+      - OCR 数字混淆
+
+  - id: cross_page_table_pdf
+    title: 跨页财务表 PDF
+    inputs:
+      - path: examples/inputs/cross_page_table.pdf
+        role: primary
+        mime_type: application/pdf
+    goal: 合并跨页续表并校验合计数。
+    expected_challenges:
+      - 重复表头
+      - 续表行
+      - 页边界拆分
+
+  - id: docx_management_report
+    title: DOCX 管理或审计报告
+    inputs:
+      - path: examples/inputs/management_report.docx
+        role: primary
+        mime_type: application/vnd.openxmlformats-officedocument.wordprocessingml.document
+    goal: 抽取嵌入表格、关键财务指标、元数据和证据引用。
+    expected_challenges:
+      - 叙述性引用
+      - 文本和表格混排
+      - 样式不一致
+
+  - id: ppt_xlsx_attachment_pack
+    title: PPT/XLSX 附件包
+    inputs:
+      - path: examples/inputs/investor_deck.pptx
+        role: primary
+        mime_type: application/vnd.openxmlformats-officedocument.presentationml.presentation
+      - path: examples/inputs/financial_model.xlsx
+        role: attachment
+        mime_type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+    goal: 解析演示文稿和电子表格附件，并对重复指标进行核对。
+    expected_challenges:
+      - 图表和表格抽取
+      - 工作表选择
+      - 跨文件指标核对
+
+  - id: html_financial_table
+    title: HTML 财务表格
+    inputs:
+      - path: examples/inputs/html_financial_table.html
+        role: primary
+        mime_type: text/html
+    goal: 解析网页中的多级表头财务表，保留 caption、单位、期间和行级证据。
+    expected_challenges:
+      - HTML table
+      - rowspan / colspan
+      - 网页单位继承
+
+  - id: complex_chart_reference_resolution
+    title: 复杂图表与全局指代消解样本
+    inputs:
+      - path: examples/inputs/complex_chart_reference_blocks.json
+        role: primary
+        mime_type: application/json
+    goal: 从堆叠柱状图、折线图和瀑布图中抽取指标，并将正文中的上述收入、该增幅、该比率和该金额回指到来源指标。
+    expected_challenges:
+      - 复杂图表结构化
+      - 图表 annotation 数值抽取
+      - 跨页叙述指代消解
+      - 指标来源证据保留
+
+  - id: mixed_financial_verification_pack
+    title: 混合金融材料核验包
+    inputs:
+      - path: examples/inputs/annual_report.pdf
+        role: primary
+        mime_type: application/pdf
+      - path: examples/inputs/scanned_financial_statement.pdf
+        role: reference
+        mime_type: application/pdf
+      - path: examples/inputs/financial_model.xlsx
+        role: attachment
+        mime_type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+    goal: 从 PDF 年报抽取营收和经营利润，解析扫描审计证据，并与 XLSX 明细模型做跨文件核验。
+    expected_challenges:
+      - 多输入动态 DAG 规划
+      - 扫描件 OCR 风险隔离
+      - XLSX 附件结构化
+      - 跨文件指标、期间和单位核验
+
+  - id: cn_byd_2025_annual_report
+    title: 比亚迪 2025 年报 PDF
+    inputs:
+      - path: examples/inputs/public_benchmark_cn/byd_2025_annual_report.pdf
+        role: primary
+        mime_type: application/pdf
+    goal: 抽取主要会计数据、合并三表、分部收入、研发投入和经营讨论中的关键指标。
+    expected_challenges:
+      - 百页级中文 PDF
+      - 亿元和百万元混合
+      - 分部收入与总收入校验
+      - 财务指标和经营指标重复出现
+
+  - id: cn_catl_2025_annual_report
+    title: 宁德时代 2025 年报 PDF
+    inputs:
+      - path: examples/inputs/public_benchmark_cn/catl_2025_annual_report.pdf
+        role: primary
+        mime_type: application/pdf
+    goal: 抽取营收、净利润、现金流、研发投入、销量、产能和市占率等财务与经营指标。
+    expected_challenges:
+      - GWh 和金额单位混排
+      - 增长率和市占率并列
+      - 指标分散在正文、图表和报表页
+
+  - id: cn_moutai_2025_annual_report
+    title: 贵州茅台 2025 年报 PDF
+    inputs:
+      - path: examples/inputs/public_benchmark_cn/moutai_2025_annual_report.pdf
+        role: primary
+        mime_type: application/pdf
+    goal: 抽取营业收入、营业总收入、归母净利润、现金流、每股收益和分红相关指标。
+    expected_challenges:
+      - 营业收入和营业总收入口径区分
+      - 主业收入和利息收入并存
+      - 季度数据与全年数据核对
+
+  - id: cn_cmb_2025_annual_report
+    title: 招商银行 2025 年报 PDF
+    inputs:
+      - path: examples/inputs/public_benchmark_cn/cmb_2025_annual_report.pdf
+        role: primary
+        mime_type: application/pdf
+    goal: 抽取银行利润表、净利息收入、非利息净收入、资产质量和资本充足率指标。
+    expected_challenges:
+      - 银行专用财务科目
+      - 人民币百万元和亿元换算
+      - 资产质量与监管比例指标
+      - 超长 PDF 的页段路由

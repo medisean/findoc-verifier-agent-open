@@ -1,0 +1,185 @@
+tasks:
+  annual_report_pdf-full-local:
+    min_table_count: 50
+    min_row_count: 600
+    max_failed_count: 0
+    min_validation_pass_rate: 1.0
+    required_tables:
+      - income_statements
+      - balance_sheets
+      - cash_flows_statements
+
+  cross_page_table_pdf-full-local:
+    min_table_count: 50
+    min_row_count: 600
+    max_failed_count: 0
+    min_validation_pass_rate: 1.0
+    required_tables:
+      - income_statements
+      - balance_sheets
+      - cash_flows_statements
+
+  scanned_financial_statement_pdf-ocr-fallback:
+    min_table_count: 1
+    min_row_count: 2
+    max_failed_count: 0
+    min_validation_pass_rate: 1.0
+    required_tables:
+      - financial_metrics
+    required_metrics:
+      - table_contains: financial_metrics
+        row_contains: annual revenue
+        period: amount_usd_billions
+        expected_value: 245
+      - table_contains: financial_metrics
+        row_contains: operating income
+        period: amount_usd_billions
+        expected_value: 109
+
+  docx_management_report-latest-smoke:
+    min_table_count: 1
+    min_row_count: 3
+    max_failed_count: 0
+    min_validation_pass_rate: 1.0
+    required_tables:
+      - quarterly_summary
+
+  ppt_xlsx_attachment_pack-multi-smoke:
+    min_table_count: 3
+    min_row_count: 10
+    max_failed_count: 0
+    min_validation_pass_rate: 1.0
+    required_tables:
+      - model
+      - key_metrics
+      - assumptions
+
+  public-aapl-2024-financials:
+    min_table_count: 5
+    min_row_count: 120
+    max_failed_count: 0
+    min_validation_pass_rate: 1.0
+    required_tables:
+      - comprehensive_income
+      - cash_flows
+
+  public-wmt-2024-financials:
+    min_table_count: 5
+    min_row_count: 140
+    max_failed_count: 0
+    min_validation_pass_rate: 1.0
+    required_tables:
+      - consolidated_balance_sheets
+      - cash_flows
+
+  public-nvda-2024-financials:
+    min_table_count: 5
+    min_row_count: 120
+    max_failed_count: 0
+    min_validation_pass_rate: 1.0
+    required_tables:
+      - consolidated_balance_sheets
+      - cash_flows
+
+  public-jpm-2024-financials:
+    min_table_count: 6
+    min_row_count: 160
+    max_failed_count: 0
+    min_validation_pass_rate: 1.0
+    required_tables:
+      - consolidated_balance_sheets
+      - cash_flows
+
+  cn_byd_2025_annual_report:
+    min_table_count: 250
+    min_row_count: 2400
+    max_failed_count: 0
+    min_validation_pass_rate: 1.0
+    required_tables:
+      - 主要会计数据
+      - 合并资产负债表
+      - 合并利润表
+      - 合并现金流量表
+    required_metrics:
+      - table_contains: 主要会计数据
+        row_contains: 营业收入
+        period: 2025年
+        expected_value: 803964958000
+        evidence_required: true
+      - table_contains: 主要会计数据
+        row_contains: 归属于上市公司股东的净利润
+        period: 2025年
+        expected_value: 32619022000
+        evidence_required: true
+
+  cn_catl_2025_annual_report:
+    min_table_count: 300
+    min_row_count: 2200
+    max_failed_count: 0
+    min_validation_pass_rate: 1.0
+    required_tables:
+      - 主要会计数据
+      - 合并利润表
+      - 合并现金流量表
+      - 营业收入
+    required_metrics:
+      - table_contains: 主要会计数据
+        row_contains: 营业收入
+        period: 2025年
+        expected_value: 423701834
+        unit_contains: 千元
+        evidence_required: true
+      - table_contains: 主要会计数据
+        row_contains: 归属于上市公司股东的净利润
+        period: 2025年
+        expected_value: 72201282
+        unit_contains: 千元
+        evidence_required: true
+
+  cn_moutai_2025_annual_report:
+    min_table_count: 230
+    min_row_count: 2000
+    max_failed_count: 0
+    min_validation_pass_rate: 1.0
+    required_tables:
+      - 主要会计数据
+      - 合并资产负债表
+      - 合并利润表
+      - 合并现金流量表
+    required_metrics:
+      - table_contains: 主要会计数据
+        row_contains: 营业收入
+        period: 2025年
+        expected_value: 168838102514.79
+        unit_contains: 人民币
+        evidence_required: true
+      - table_contains: 主要会计数据
+        row_contains: 归属于上市公司股东的净利润
+        period: 2025年
+        expected_value: 82320067101.68
+        unit_contains: 人民币
+        evidence_required: true
+
+  cn_cmb_2025_annual_report:
+    min_table_count: 240
+    min_row_count: 3600
+    max_failed_count: 0
+    min_validation_pass_rate: 1.0
+    required_tables:
+      - 主要会计数据
+      - 净利息收入
+      - 资本充足率
+      - 合并资产负债表
+      - 合并利润表
+      - 合并现金流量表
+    required_metrics:
+      - table_contains: 主要会计数据
+        row_contains: 营业收入
+        period: 2025年
+        expected_value: 337532
+        evidence_required: true
+      - table_contains: 主要会计数据
+        row_contains: 归属于本行股东的净利润
+        period: 2025年
+        expected_value: 150181
+        evidence_required: true

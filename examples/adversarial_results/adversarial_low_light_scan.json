@@ -1,0 +1,141 @@
+{
+  "task_id": "adversarial_low_light_scan",
+  "task_name": "adversarial_low_light_scan",
+  "status": "succeeded",
+  "document_type": "scanned_financial_statement_pdf",
+  "summary": "Adversarial fixture with 1 tables and 3 rows.",
+  "tables": [
+    {
+      "name": "degraded_scan_income_metrics",
+      "title": "Low-Light Scanned Income Metrics",
+      "unit": "USD million; percent",
+      "table_type": "adversarial_financial_table",
+      "table_nest_level": 0,
+      "footnote": "",
+      "image_source": null,
+      "periods": [
+        "2025",
+        "2024"
+      ],
+      "rows": [
+        {
+          "item": "Revenue",
+          "raw_values": [
+            "2,450",
+            "2,180"
+          ],
+          "values": {
+            "2025": 2450,
+            "2024": 2180
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": null,
+            "source": "adversarial_fixture"
+          }
+        },
+        {
+          "item": "Operating income",
+          "raw_values": [
+            "610",
+            "544"
+          ],
+          "values": {
+            "2025": 610,
+            "2024": 544
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": null,
+            "source": "adversarial_fixture"
+          }
+        },
+        {
+          "item": "Gross margin",
+          "raw_values": [
+            "41.8%",
+            "39.6%"
+          ],
+          "values": {
+            "2025": 41.8,
+            "2024": 39.6
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": null,
+            "source": "adversarial_fixture"
+          }
+        }
+      ],
+      "evidence": {
+        "page_start": 0,
+        "page_end": 0
+      },
+      "sources": [
+        {
+          "page_start": 0,
+          "page_end": 0
+        }
+      ],
+      "raw_block": null
+    }
+  ],
+  "quality": {
+    "validation_pass_rate": 1.0,
+    "check_count": 1,
+    "hard_check_count": 1,
+    "passed_count": 1,
+    "warning_count": 0,
+    "failed_count": 0,
+    "issue_count": 0,
+    "checks": [
+      {
+        "table": "degraded_scan_income_metrics",
+        "type": "table_presence",
+        "status": "pass",
+        "detail": "Table loaded successfully."
+      }
+    ],
+    "warnings": [],
+    "diagnostics": {
+      "risk_level": "low",
+      "table_count": 1,
+      "row_count": 3,
+      "raw_cell_count": 6,
+      "numeric_like_cell_count": 6,
+      "parsed_numeric_cell_count": 6,
+      "numeric_parse_coverage": 1.0,
+      "evidence_coverage": 1.0,
+      "financial_table_count": 1,
+      "recommended_actions": [],
+      "tables": [
+        {
+          "name": "degraded_scan_income_metrics",
+          "title": "Low-Light Scanned Income Metrics",
+          "table_type": "adversarial_financial_table",
+          "page_start": 0,
+          "page_end": 0,
+          "row_count": 3,
+          "raw_cell_count": 6,
+          "numeric_like_cell_count": 6,
+          "parsed_numeric_cell_count": 6,
+          "numeric_parse_coverage": 1.0,
+          "rows_with_evidence": 3,
+          "evidence_coverage": 1.0,
+          "has_periods": true,
+          "has_unit": true,
+          "financial_relevance": 0.75
+        }
+      ]
+    }
+  },
+  "trace_path": null,
+  "plan_path": null,
+  "result_path": "examples/adversarial_results/adversarial_low_light_scan.json"
+}

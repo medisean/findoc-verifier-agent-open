@@ -1,0 +1,148 @@
+{
+  "task_id": "adversarial_dense_numeric_footnotes",
+  "task_name": "adversarial_dense_numeric_footnotes",
+  "status": "succeeded",
+  "document_type": "annual_report_pdf",
+  "summary": "Adversarial fixture with 1 tables and 3 rows.",
+  "tables": [
+    {
+      "name": "dense_numeric_footnote_table",
+      "title": "Dense Numeric Footnote Table",
+      "unit": "USD million; percent; USD per share",
+      "table_type": "adversarial_financial_table",
+      "table_nest_level": 0,
+      "footnote": "",
+      "image_source": null,
+      "periods": [
+        "2025",
+        "2024",
+        "change_percent"
+      ],
+      "rows": [
+        {
+          "item": "Revenue",
+          "raw_values": [
+            "12,567",
+            "11,802",
+            "6.5%"
+          ],
+          "values": {
+            "2025": 12567,
+            "2024": 11802,
+            "change_percent": 6.5
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": null,
+            "source": "adversarial_fixture"
+          }
+        },
+        {
+          "item": "Net income (loss)",
+          "raw_values": [
+            "2,684",
+            "(512)",
+            "n.m."
+          ],
+          "values": {
+            "2025": 2684,
+            "2024": -512,
+            "change_percent": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": null,
+            "source": "adversarial_fixture"
+          }
+        },
+        {
+          "item": "Operating margin",
+          "raw_values": [
+            "24.1%",
+            "18.9%",
+            "5.2ppt"
+          ],
+          "values": {
+            "2025": 24.1,
+            "2024": 18.9,
+            "change_percent": 5.2
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": null,
+            "source": "adversarial_fixture"
+          }
+        }
+      ],
+      "evidence": {
+        "page_start": 0,
+        "page_end": 0
+      },
+      "sources": [
+        {
+          "page_start": 0,
+          "page_end": 0
+        }
+      ],
+      "raw_block": null
+    }
+  ],
+  "quality": {
+    "validation_pass_rate": 1.0,
+    "check_count": 1,
+    "hard_check_count": 1,
+    "passed_count": 1,
+    "warning_count": 0,
+    "failed_count": 0,
+    "issue_count": 0,
+    "checks": [
+      {
+        "table": "dense_numeric_footnote_table",
+        "type": "table_presence",
+        "status": "pass",
+        "detail": "Table loaded successfully."
+      }
+    ],
+    "warnings": [],
+    "diagnostics": {
+      "risk_level": "low",
+      "table_count": 1,
+      "row_count": 3,
+      "raw_cell_count": 9,
+      "numeric_like_cell_count": 7,
+      "parsed_numeric_cell_count": 7,
+      "numeric_parse_coverage": 1.0,
+      "evidence_coverage": 1.0,
+      "financial_table_count": 1,
+      "recommended_actions": [],
+      "tables": [
+        {
+          "name": "dense_numeric_footnote_table",
+          "title": "Dense Numeric Footnote Table",
+          "table_type": "adversarial_financial_table",
+          "page_start": 0,
+          "page_end": 0,
+          "row_count": 3,
+          "raw_cell_count": 9,
+          "numeric_like_cell_count": 7,
+          "parsed_numeric_cell_count": 7,
+          "numeric_parse_coverage": 1.0,
+          "rows_with_evidence": 3,
+          "evidence_coverage": 1.0,
+          "has_periods": true,
+          "has_unit": true,
+          "financial_relevance": 1.0
+        }
+      ]
+    }
+  },
+  "trace_path": null,
+  "plan_path": null,
+  "result_path": "examples/adversarial_results/adversarial_dense_numeric_footnotes.json"
+}

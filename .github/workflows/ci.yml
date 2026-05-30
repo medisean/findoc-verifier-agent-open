@@ -1,0 +1,48 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Install dependencies
+        run: uv sync --extra dev
+
+      - name: Lint
+        run: UV_CACHE_DIR=.uv-cache uv run ruff check .
+
+      - name: Unit tests
+        run: UV_CACHE_DIR=.uv-cache uv run python -m pytest -q
+
+      - name: Stability smoke
+        run: UV_CACHE_DIR=.uv-cache uv run python scripts/run_stability_smoke.py --clean
+
+      - name: Build adversarial fixtures
+        run: UV_CACHE_DIR=.uv-cache uv run python scripts/build_adversarial_fixtures.py
+
+      - name: Adversarial evaluator
+        run: |
+          for task in \
+            adversarial_low_light_scan \
+            adversarial_cross_page_unit \
+            adversarial_dense_numeric_footnotes
+          do
+            UV_CACHE_DIR=.uv-cache uv run python -m app.agent.evaluator \
+              "examples/adversarial_results/$task.json" \
+              examples/adversarial_expectations.yaml \
+              --task-key "$task"
+          done

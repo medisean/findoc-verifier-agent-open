@@ -1,0 +1,104 @@
+[
+  {
+    "type": "paragraph_title",
+    "page_idx": 7,
+    "content": {
+      "title_content": "收入结构、盈利比率与现金流桥"
+    }
+  },
+  {
+    "type": "chart",
+    "page_idx": 7,
+    "bbox": [72, 118, 510, 360],
+    "content": {
+      "title": "图1 2025 年收入结构堆叠柱状图",
+      "chart_type": "stacked_bar",
+      "unit": "人民币百万元",
+      "periods": ["2024", "2025"],
+      "series": [
+        {
+          "name": "动力电池收入",
+          "values": {"2024": "180000", "2025": "216000"}
+        },
+        {
+          "name": "新能源汽车收入",
+          "values": {"2024": "120000", "2025": "144000"}
+        },
+        {
+          "name": "储能系统收入",
+          "values": {"2024": "60000", "2025": "70000"}
+        },
+        {
+          "name": "营业收入合计",
+          "values": {"2024": "360000", "2025": "430000"},
+          "components": ["动力电池收入", "新能源汽车收入", "储能系统收入"]
+        }
+      ],
+      "annotations": [
+        {
+          "label": "营业收入同比增幅",
+          "period": "2025",
+          "value": "19.4%",
+          "unit": "percent",
+          "text": "同比增长 19.4%"
+        }
+      ]
+    }
+  },
+  {
+    "type": "paragraph",
+    "page_idx": 8,
+    "content": {
+      "paragraph_content": "图1显示，2025年上述收入继续由动力电池和新能源汽车贡献；该增幅主要来自海外客户订单增加。"
+    }
+  },
+  {
+    "type": "chart",
+    "page_idx": 9,
+    "bbox": [64, 130, 520, 342],
+    "content": {
+      "title": "图2 综合毛利率趋势折线图",
+      "chart_type": "line_chart",
+      "unit": "percent",
+      "periods": ["2023", "2024", "2025"],
+      "series": [
+        {
+          "name": "综合毛利率",
+          "values": {"2023": "18.6%", "2024": "20.1%", "2025": "21.4%"}
+        }
+      ]
+    }
+  },
+  {
+    "type": "paragraph",
+    "page_idx": 10,
+    "content": {
+      "paragraph_content": "图2中的该比率已扣除一次性运费影响，管理层预计该比率在下一年度保持稳定。"
+    }
+  },
+  {
+    "type": "chart",
+    "page_idx": 11,
+    "bbox": [82, 116, 540, 356],
+    "content": {
+      "title": "图3 经营现金流瀑布图",
+      "chart_type": "waterfall",
+      "unit": "人民币百万元",
+      "periods": ["2025"],
+      "series": [
+        {"name": "期初经营现金流", "values": {"2025": "52000"}},
+        {"name": "净利润贡献", "values": {"2025": "68000"}},
+        {"name": "营运资本变动", "values": {"2025": "-21000"}},
+        {"name": "资本开支", "values": {"2025": "-16000"}},
+        {"name": "期末经营现金流", "values": {"2025": "83000"}}
+      ]
+    }
+  },
+  {
+    "type": "paragraph",
+    "page_idx": 12,
+    "content": {
+      "paragraph_content": "图3列示的该金额与现金流量表附注一致，上述现金流改善来自回款周期缩短。"
+    }
+  }
+]

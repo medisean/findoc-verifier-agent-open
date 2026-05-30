@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "description": "Deterministic edge-layout fixtures for handwritten annotation, multi-column layout, and nested headers.",
+  "samples": [
+    {
+      "task_name": "edge_handwritten_annotation_overlay",
+      "input": "examples/inputs/edge_layout/handwritten_annotation_overlay.pdf",
+      "result": "examples/edge_layout_results/edge_handwritten_annotation_overlay.json",
+      "challenge": "handwritten annotation overlay near financial cells"
+    },
+    {
+      "task_name": "edge_two_column_mixed_layout",
+      "input": "examples/inputs/edge_layout/two_column_mixed_layout.pdf",
+      "result": "examples/edge_layout_results/edge_two_column_mixed_layout.json",
+      "challenge": "two-column narrative and table separation"
+    },
+    {
+      "task_name": "edge_nested_multiline_header_table",
+      "input": "examples/inputs/edge_layout/nested_multiline_header_table.pdf",
+      "result": "examples/edge_layout_results/edge_nested_multiline_header_table.json",
+      "challenge": "nested multi-line headers and merged cells"
+    }
+  ]
+}

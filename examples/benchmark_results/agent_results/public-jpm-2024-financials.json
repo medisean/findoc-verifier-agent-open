@@ -1,0 +1,4511 @@
+{
+  "task_id": "public-jpm-2024-financials",
+  "status": "succeeded",
+  "document_type": "annual_report_pdf",
+  "summary": "Parsed 6 tables with 174 rows. Validation pass rate: 100.00%. Warnings: 5; failures: 0; repairs: 0.",
+  "tables": [
+    {
+      "name": "jpmorgan_chase_co_consolidated_statements_of_income",
+      "title": "JPMorgan Chase & Co. Consolidated statements of income",
+      "unit": "",
+      "table_type": "complex_table",
+      "table_nest_level": 1,
+      "footnote": "The Notes to Consolidated Financial Statements are an integral part of these statements.",
+      "image_source": {
+        "path": "images/fb296a7eb075680ffefda385691689a67e7b3eb4df464777313aab9d9d3309bc.jpg"
+      },
+      "periods": [
+        "2024",
+        "col_1",
+        "2023",
+        "2022"
+      ],
+      "rows": [
+        {
+          "item": "Revenue",
+          "raw_values": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "2024": null,
+            "col_1": null,
+            "2023": null,
+            "2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Investment banking fees",
+          "raw_values": [
+            "$ 8.910",
+            "$",
+            "6,519 $",
+            "6,686"
+          ],
+          "values": {
+            "2024": 8.91,
+            "col_1": null,
+            "2023": 6519.0,
+            "2022": 6686.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Principal transactions",
+          "raw_values": [
+            "24,787",
+            "",
+            "24,460",
+            "19.912"
+          ],
+          "values": {
+            "2024": 24787.0,
+            "col_1": null,
+            "2023": 24460.0,
+            "2022": 19.912
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Lending- and deposit-related fees",
+          "raw_values": [
+            "7,606",
+            "",
+            "7,413",
+            "7,098"
+          ],
+          "values": {
+            "2024": 7606.0,
+            "col_1": null,
+            "2023": 7413.0,
+            "2022": 7098.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Asset management fees",
+          "raw_values": [
+            "17,801",
+            "",
+            "15,220",
+            "14,096"
+          ],
+          "values": {
+            "2024": 17801.0,
+            "col_1": null,
+            "2023": 15220.0,
+            "2022": 14096.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Commissions and other fees",
+          "raw_values": [
+            "7,530",
+            "",
+            "6.836",
+            "6.581"
+          ],
+          "values": {
+            "2024": 7530.0,
+            "col_1": null,
+            "2023": 6.836,
+            "2022": 6.581
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Investment securities losses",
+          "raw_values": [
+            "",
+            "(1,021)",
+            "(3,180)",
+            "(2,380)"
+          ],
+          "values": {
+            "2024": null,
+            "col_1": -1021.0,
+            "2023": -3180.0,
+            "2022": -2380.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Mortgage fees and related income",
+          "raw_values": [
+            "1,401",
+            "",
+            "1,176",
+            "1,250"
+          ],
+          "values": {
+            "2024": 1401.0,
+            "col_1": null,
+            "2023": 1176.0,
+            "2022": 1250.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Card income",
+          "raw_values": [
+            "5,497",
+            "",
+            "4,784",
+            "4,420"
+          ],
+          "values": {
+            "2024": 5497.0,
+            "col_1": null,
+            "2023": 4784.0,
+            "2022": 4420.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other income",
+          "raw_values": [
+            "12,462",
+            "",
+            "5,609",
+            "4.322"
+          ],
+          "values": {
+            "2024": 12462.0,
+            "col_1": null,
+            "2023": 5609.0,
+            "2022": 4.322
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Noninterest revenue",
+          "raw_values": [
+            "84,973",
+            "",
+            "68,837",
+            "61,985"
+          ],
+          "values": {
+            "2024": 84973.0,
+            "col_1": null,
+            "2023": 68837.0,
+            "2022": 61985.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Interest income",
+          "raw_values": [
+            "193,933",
+            "",
+            "170,588",
+            "92.807"
+          ],
+          "values": {
+            "2024": 193933.0,
+            "col_1": null,
+            "2023": 170588.0,
+            "2022": 92.807
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Interest expense",
+          "raw_values": [
+            "101,350",
+            "",
+            "81321",
+            "26,097"
+          ],
+          "values": {
+            "2024": 101350.0,
+            "col_1": null,
+            "2023": 81321.0,
+            "2022": 26097.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net interest income",
+          "raw_values": [
+            "92,583",
+            "",
+            "89,267",
+            "66,710"
+          ],
+          "values": {
+            "2024": 92583.0,
+            "col_1": null,
+            "2023": 89267.0,
+            "2022": 66710.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total net revenue",
+          "raw_values": [
+            "177,556",
+            "",
+            "158,104",
+            "128.695"
+          ],
+          "values": {
+            "2024": 177556.0,
+            "col_1": null,
+            "2023": 158104.0,
+            "2022": 128.695
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Provision for credit losses",
+          "raw_values": [
+            "10,678",
+            "",
+            "9.320",
+            "6,389"
+          ],
+          "values": {
+            "2024": 10678.0,
+            "col_1": null,
+            "2023": 9.32,
+            "2022": 6389.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Noninterest expense",
+          "raw_values": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "2024": null,
+            "col_1": null,
+            "2023": null,
+            "2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Compensation expense",
+          "raw_values": [
+            "51,357",
+            "",
+            "46,465",
+            "41,636"
+          ],
+          "values": {
+            "2024": 51357.0,
+            "col_1": null,
+            "2023": 46465.0,
+            "2022": 41636.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Occupancy expense",
+          "raw_values": [
+            "5,026",
+            "",
+            "4.590",
+            "4,696"
+          ],
+          "values": {
+            "2024": 5026.0,
+            "col_1": null,
+            "2023": 4.59,
+            "2022": 4696.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Technology,communications and equipment expense",
+          "raw_values": [
+            "9,831",
+            "",
+            "9,246",
+            "9.358"
+          ],
+          "values": {
+            "2024": 9831.0,
+            "col_1": null,
+            "2023": 9246.0,
+            "2022": 9.358
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Professional and outside services",
+          "raw_values": [
+            "11,057",
+            "",
+            "10.235",
+            "10,174"
+          ],
+          "values": {
+            "2024": 11057.0,
+            "col_1": null,
+            "2023": 10.235,
+            "2022": 10174.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Marketing",
+          "raw_values": [
+            "4,974",
+            "",
+            "4,591",
+            "3.911"
+          ],
+          "values": {
+            "2024": 4974.0,
+            "col_1": null,
+            "2023": 4591.0,
+            "2022": 3.911
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other expense",
+          "raw_values": [
+            "9,552",
+            "",
+            "12.045",
+            "6,365"
+          ],
+          "values": {
+            "2024": 9552.0,
+            "col_1": null,
+            "2023": 12.045,
+            "2022": 6365.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total noninterest expense",
+          "raw_values": [
+            "91,797",
+            "",
+            "87,172",
+            "76,140"
+          ],
+          "values": {
+            "2024": 91797.0,
+            "col_1": null,
+            "2023": 87172.0,
+            "2022": 76140.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Income before income tax expense",
+          "raw_values": [
+            "75,081",
+            "",
+            "61,612",
+            "46,166"
+          ],
+          "values": {
+            "2024": 75081.0,
+            "col_1": null,
+            "2023": 61612.0,
+            "2022": 46166.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Income tax expense",
+          "raw_values": [
+            "16,610",
+            "",
+            "12,060",
+            "8,490"
+          ],
+          "values": {
+            "2024": 16610.0,
+            "col_1": null,
+            "2023": 12060.0,
+            "2022": 8490.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Netincome",
+          "raw_values": [
+            "$ 58,471",
+            "$",
+            "49,552 $",
+            "37,676"
+          ],
+          "values": {
+            "2024": 58471.0,
+            "col_1": null,
+            "2023": 49552.0,
+            "2022": 37676.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net income applicable to common stockholders",
+          "raw_values": [
+            "$ 56,868",
+            "$",
+            "47,760 $",
+            "35,892"
+          ],
+          "values": {
+            "2024": 56868.0,
+            "col_1": null,
+            "2023": 47760.0,
+            "2022": 35892.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net income per common share data",
+          "raw_values": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "2024": null,
+            "col_1": null,
+            "2023": null,
+            "2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Basic earnings per share",
+          "raw_values": [
+            "$ 19.79",
+            "$",
+            "16.25",
+            "12.10"
+          ],
+          "values": {
+            "2024": 19.79,
+            "col_1": null,
+            "2023": 16.25,
+            "2022": 12.1
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Diluted earnings per share",
+          "raw_values": [
+            "19.75",
+            "",
+            "16.23",
+            "12.09"
+          ],
+          "values": {
+            "2024": 19.75,
+            "col_1": null,
+            "2023": 16.23,
+            "2022": 12.09
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Weighted-average basic shares",
+          "raw_values": [
+            "2,873.9",
+            "2,873.9",
+            "2.938.6",
+            "2.965.8"
+          ],
+          "values": {
+            "2024": 2873.9,
+            "col_1": 2873.9,
+            "2023": null,
+            "2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Weighted-average diluted shares",
+          "raw_values": [
+            "2,879.0",
+            "2,879.0",
+            "2,943.1",
+            "2,970.0"
+          ],
+          "values": {
+            "2024": 2879.0,
+            "col_1": 2879.0,
+            "2023": 2943.1,
+            "2022": 2970.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              69,
+              919,
+              738
+            ],
+            "source": "html_table"
+          }
+        }
+      ],
+      "evidence": {
+        "page_start": 0,
+        "bbox": [
+          76,
+          69,
+          919,
+          738
+        ],
+        "page_end": 0
+      },
+      "raw_block": {
+        "type": "table",
+        "content": {
+          "image_source": {
+            "path": "images/fb296a7eb075680ffefda385691689a67e7b3eb4df464777313aab9d9d3309bc.jpg"
+          },
+          "table_caption": [],
+          "table_footnote": [
+            {
+              "type": "text",
+              "content": "The Notes to Consolidated Financial Statements are an integral part of these statements."
+            }
+          ],
+          "html": "<table><tr><td>Year ended December 31, (in millions,except per share data)</td><td>2024</td><td></td><td>2023</td><td>2022</td></tr><tr><td>Revenue</td><td></td><td></td><td></td><td></td></tr><tr><td>Investment banking fees</td><td>$ 8.910</td><td>$</td><td>6,519 $</td><td>6,686</td></tr><tr><td>Principal transactions</td><td>24,787</td><td></td><td>24,460</td><td>19.912</td></tr><tr><td>Lending- and deposit-related fees</td><td>7,606</td><td></td><td>7,413</td><td>7,098</td></tr><tr><td>Asset management fees</td><td>17,801</td><td></td><td>15,220</td><td>14,096</td></tr><tr><td>Commissions and other fees</td><td>7,530</td><td></td><td>6.836</td><td>6.581</td></tr><tr><td>Investment securities losses</td><td></td><td>(1,021)</td><td>(3,180)</td><td>(2,380)</td></tr><tr><td>Mortgage fees and related income</td><td>1,401</td><td></td><td>1,176</td><td>1,250</td></tr><tr><td>Card income</td><td>5,497</td><td></td><td>4,784</td><td>4,420</td></tr><tr><td>Other income</td><td>12,462</td><td></td><td>5,609</td><td>4.322</td></tr><tr><td>Noninterest revenue</td><td>84,973</td><td></td><td>68,837</td><td>61,985</td></tr><tr><td>Interest income</td><td>193,933</td><td></td><td>170,588</td><td>92.807</td></tr><tr><td>Interest expense</td><td>101,350</td><td></td><td>81321</td><td>26,097</td></tr><tr><td>Net interest income</td><td>92,583</td><td></td><td>89,267</td><td>66,710</td></tr><tr><td>Total net revenue</td><td>177,556</td><td></td><td>158,104</td><td>128.695</td></tr><tr><td>Provision for credit losses</td><td>10,678</td><td></td><td>9.320</td><td>6,389</td></tr><tr><td>Noninterest expense</td><td></td><td></td><td></td><td></td></tr><tr><td>Compensation expense</td><td>51,357</td><td></td><td>46,465</td><td>41,636</td></tr><tr><td>Occupancy expense</td><td>5,026</td><td></td><td>4.590</td><td>4,696</td></tr><tr><td>Technology,communications and equipment expense</td><td>9,831</td><td></td><td>9,246</td><td>9.358</td></tr><tr><td>Professional and outside services</td><td>11,057</td><td></td><td>10.235</td><td>10,174</td></tr><tr><td>Marketing</td><td>4,974</td><td></td><td>4,591</td><td>3.911</td></tr><tr><td>Other expense</td><td>9,552</td><td></td><td>12.045</td><td>6,365</td></tr><tr><td>Total noninterest expense</td><td>91,797</td><td></td><td>87,172</td><td>76,140</td></tr><tr><td> Income before income tax expense</td><td>75,081</td><td></td><td>61,612</td><td>46,166</td></tr><tr><td>Income tax expense</td><td>16,610</td><td></td><td>12,060</td><td>8,490</td></tr><tr><td>Netincome</td><td>$ 58,471</td><td>$</td><td>49,552 $</td><td>37,676</td></tr><tr><td>Net income applicable to common stockholders</td><td>$ 56,868</td><td>$</td><td>47,760 $</td><td>35,892</td></tr><tr><td>Net income per common share data</td><td></td><td></td><td></td><td></td></tr><tr><td>Basic earnings per share</td><td>$ 19.79</td><td>$</td><td>16.25</td><td>12.10</td></tr><tr><td> Diluted earnings per share</td><td>19.75</td><td></td><td>16.23</td><td>12.09</td></tr><tr><td> Weighted-average basic shares</td><td colspan=\"2\">2,873.9</td><td>2.938.6</td><td>2.965.8</td></tr><tr><td>Weighted-average diluted shares</td><td colspan=\"2\">2,879.0</td><td>2,943.1</td><td>2,970.0</td></tr></table>",
+          "table_type": "complex_table",
+          "table_nest_level": 1
+        },
+        "bbox": [
+          76,
+          69,
+          919,
+          738
+        ],
+        "page_idx": 0,
+        "source_input": {
+          "path": "examples/inputs/public_benchmark/jpm_2024.pdf",
+          "url": null,
+          "role": "primary",
+          "mime_type": null
+        },
+        "context_title": "JPMorgan Chase & Co. Consolidated statements of income"
+      },
+      "sources": [
+        {
+          "page_start": 0,
+          "bbox": [
+            76,
+            69,
+            919,
+            738
+          ]
+        }
+      ]
+    },
+    {
+      "name": "consolidated_statements_of_comprehensive_income",
+      "title": "Consolidated statements of comprehensive income",
+      "unit": "",
+      "table_type": "simple_table",
+      "table_nest_level": 1,
+      "footnote": "",
+      "image_source": {
+        "path": "images/daabbb39d4b115a89f29ef9969b1c35e44020fffca4de89d3ecb05e9e3802885.jpg"
+      },
+      "periods": [
+        "2024",
+        "2023",
+        "col_2",
+        "2022"
+      ],
+      "rows": [
+        {
+          "item": "Net income",
+          "raw_values": [
+            "$",
+            "58,471 $",
+            "49,552 $",
+            "37,676"
+          ],
+          "values": {
+            "2024": null,
+            "2023": 58471.0,
+            "col_2": 49552.0,
+            "2022": 37676.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              76,
+              54,
+              918,
+              265
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other comprehensive income/(loss), after-tax",
+          "raw_values": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "2024": null,
+            "2023": null,
+            "col_2": null,
+            "2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              76,
+              54,
+              918,
+              265
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Unrealized gains/(losses) on investment securities",
+          "raw_values": [
+            "",
+            "(87)",
+            "5,381",
+            "(11,764)"
+          ],
+          "values": {
+            "2024": null,
+            "2023": -87.0,
+            "col_2": 5381.0,
+            "2022": -11764.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              76,
+              54,
+              918,
+              265
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Translation adjustments, net of hedges",
+          "raw_values": [
+            "",
+            "(858)",
+            "329",
+            "(611)"
+          ],
+          "values": {
+            "2024": null,
+            "2023": -858.0,
+            "col_2": 329.0,
+            "2022": -611.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              76,
+              54,
+              918,
+              265
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Fair value hedges",
+          "raw_values": [
+            "",
+            "(87)",
+            "(101)",
+            "98"
+          ],
+          "values": {
+            "2024": null,
+            "2023": -87.0,
+            "col_2": -101.0,
+            "2022": 98.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              76,
+              54,
+              918,
+              265
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash flow hedges",
+          "raw_values": [
+            "",
+            "(882)",
+            "1,724",
+            "(5,360)"
+          ],
+          "values": {
+            "2024": null,
+            "2023": -882.0,
+            "col_2": 1724.0,
+            "2022": -5360.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              76,
+              54,
+              918,
+              265
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Defined benefit pension and OPEB plans",
+          "raw_values": [
+            "",
+            "(63)",
+            "373",
+            "(1,241)"
+          ],
+          "values": {
+            "2024": null,
+            "2023": -63.0,
+            "col_2": 373.0,
+            "2022": -1241.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              76,
+              54,
+              918,
+              265
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "DVA on fair value option elected liabilities",
+          "raw_values": [
+            "",
+            "(36)",
+            "(808)",
+            "1,621"
+          ],
+          "values": {
+            "2024": null,
+            "2023": -36.0,
+            "col_2": -808.0,
+            "2022": 1621.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              76,
+              54,
+              918,
+              265
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total other comprehensive income/(loss),ater-tax",
+          "raw_values": [
+            "(2,013)",
+            "",
+            "6,898",
+            "(17,257)"
+          ],
+          "values": {
+            "2024": -2013.0,
+            "2023": null,
+            "col_2": 6898.0,
+            "2022": -17257.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              76,
+              54,
+              918,
+              265
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Comprehensive income",
+          "raw_values": [
+            "$ 56,458",
+            "$",
+            "56,450 $",
+            "20,419"
+          ],
+          "values": {
+            "2024": 56458.0,
+            "2023": null,
+            "col_2": 56450.0,
+            "2022": 20419.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              76,
+              54,
+              918,
+              265
+            ],
+            "source": "html_table"
+          }
+        }
+      ],
+      "evidence": {
+        "page_start": 1,
+        "bbox": [
+          76,
+          54,
+          918,
+          265
+        ],
+        "page_end": 1
+      },
+      "raw_block": {
+        "type": "table",
+        "content": {
+          "image_source": {
+            "path": "images/daabbb39d4b115a89f29ef9969b1c35e44020fffca4de89d3ecb05e9e3802885.jpg"
+          },
+          "table_caption": [
+            {
+              "type": "text",
+              "content": "Consolidated statements of comprehensive income"
+            }
+          ],
+          "table_footnote": [],
+          "html": "<table><tr><td>Year ended December 31,(in millions)</td><td>2024</td><td>2023</td><td></td><td>2022</td></tr><tr><td> Net income</td><td>$</td><td>58,471 $</td><td>49,552 $</td><td>37,676</td></tr><tr><td>Other comprehensive income/(loss), after-tax</td><td></td><td></td><td></td><td></td></tr><tr><td>Unrealized gains/(losses) on investment securities</td><td></td><td>(87)</td><td>5,381</td><td>(11,764)</td></tr><tr><td>Translation adjustments, net of hedges</td><td></td><td>(858)</td><td>329</td><td>(611)</td></tr><tr><td>Fair value hedges</td><td></td><td>(87)</td><td>(101)</td><td>98</td></tr><tr><td>Cash flow hedges</td><td></td><td>(882)</td><td>1,724</td><td>(5,360)</td></tr><tr><td>Defined benefit pension and OPEB plans</td><td></td><td>(63)</td><td>373</td><td>(1,241)</td></tr><tr><td>DVA on fair value option elected liabilities</td><td></td><td>(36)</td><td>(808)</td><td>1,621</td></tr><tr><td>Total other comprehensive income/(loss),ater-tax</td><td>(2,013)</td><td></td><td>6,898</td><td>(17,257)</td></tr><tr><td>Comprehensive income</td><td>$ 56,458</td><td>$</td><td>56,450 $</td><td>20,419</td></tr></table>",
+          "table_type": "simple_table",
+          "table_nest_level": 1
+        },
+        "bbox": [
+          76,
+          54,
+          918,
+          265
+        ],
+        "page_idx": 1,
+        "source_input": {
+          "path": "examples/inputs/public_benchmark/jpm_2024.pdf",
+          "url": null,
+          "role": "primary",
+          "mime_type": null
+        },
+        "context_title": "JPMorgan Chase & Co."
+      },
+      "sources": [
+        {
+          "page_start": 1,
+          "bbox": [
+            76,
+            54,
+            918,
+            265
+          ]
+        }
+      ]
+    },
+    {
+      "name": "jpmorgan_chase_co_consolidated_balance_sheets",
+      "title": "JPMorgan Chase & Co. Consolidated balance sheets",
+      "unit": "",
+      "table_type": "simple_table",
+      "table_nest_level": 1,
+      "footnote": "",
+      "image_source": {
+        "path": "images/50ee1ebe3c69640398a3f42e8e411eae8470c0b970f94e0b441ecaf1a1786833.jpg"
+      },
+      "periods": [],
+      "rows": [
+        {
+          "item": "Assets",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash and due from banks $ 23,372 $ 29,066",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Deposits with banks 445,945 595,085",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Federal funds sold and securities purchased under resale agreements (included $286,771and $259,813 at fair value) 295,001 276,152",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Securities borrowed (included $83,962 and $7O,086 at fair value) 219,546 200,436",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Trading assets (included assets pledged of $136,070 and $128,994) 637,784 540,607",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Available-for-sale securities (amortized cost of $411,045 and $205,456; included assets pledged of $10,162",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "and $9,219) 406,852 201,704",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Held-to-maturity securities 274,468 369.848",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Investment securities, net of allowance for credit losses 681,320 571,552",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Loans (included $41,350 and $38,851 at fair value) 1,347,988 1,323,706",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Allowance for loan losses (24,345) (22,420)",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Loans, net of allowance for loan losses 1,323,643 1,301,286",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Accrued interest and accounts receivable 101,223 107,363",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Premises and equipment 32,223 30,157",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Goodwill, MSRs and other intangible assets 64,560 64,381",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other assets (included $15,122 and $12,306 at fair value and assets pledged of $6,288 and $6,764) 178,197 159,308",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total assets(a) $4,002,814 $3,875,393",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Liabilities",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Deposits (included $33,768 and $78,384 at fair value) $ 2,406,032 $ 2,400,688",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Federal funds purchased and securities loaned or sold under repurchase agreements (included $226,329 and $169,003at fair value) 296,835 216,535",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Short-term borrowings (included $26,521and $20,042 at fair value) 52,893 44,712",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Trading liabilities 192,883 180,428",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Accounts payable and other liabilities (included $5,893 and $5,637at fair value) 280,672 290,307",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Beneficial interests issued by consolidated VIEs (included $1and $1 at fair value) 27,323 23,020",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Long-term debt (included $100,780 and $87,924 at fair value) 401,418 391,825",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Totalliabilities(a) 3,658,056 3,547,515",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Commitments and contingencies (refer to Notes 28,29 and 30)",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Stockholders'equity",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Preferred stock ($1 par value; authorized 200,000,000 shares: issued 2,005,375 and 2,740,375 shares) 20,050 27,404",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Common stock ($1 par value; authorized 9,000,000,000 shares; issued 4,104,933,895 shares) 4,105 4,105",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Additional paid-in capital",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "90,911 90,128",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Retained earnings 376,166 332,901",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Accumulated other comprehensive losses (12,456) (10,443)",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Treasurystock,at cost (107,13,494 and1,228,275,01shares) (134,018) (116,217)",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total stockholders'equity 344,758 327,878",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Totalliabilities and stockholders'equity $4,002,814$3,875.393",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              54,
+              919,
+              683
+            ],
+            "source": "html_table"
+          }
+        }
+      ],
+      "evidence": {
+        "page_start": 2,
+        "bbox": [
+          78,
+          54,
+          919,
+          683
+        ],
+        "page_end": 2
+      },
+      "raw_block": {
+        "type": "table",
+        "content": {
+          "image_source": {
+            "path": "images/50ee1ebe3c69640398a3f42e8e411eae8470c0b970f94e0b441ecaf1a1786833.jpg"
+          },
+          "table_caption": [
+            {
+              "type": "text",
+              "content": "JPMorgan Chase & Co. Consolidated balance sheets"
+            }
+          ],
+          "table_footnote": [],
+          "html": "<table><tr><td>December 31,(inmillions, except share data) 2024 2023</td></tr><tr><td> Assets</td></tr><tr><td>Cash and due from banks $ 23,372 $ 29,066</td></tr><tr><td>Deposits with banks 445,945 595,085</td></tr><tr><td>Federal funds sold and securities purchased under resale agreements (included $286,771and $259,813 at fair value) 295,001 276,152</td></tr><tr><td>Securities borrowed (included $83,962 and $7O,086 at fair value) 219,546 200,436</td></tr><tr><td>Trading assets (included assets pledged of $136,070 and $128,994) 637,784 540,607</td></tr><tr><td>Available-for-sale securities (amortized cost of $411,045 and $205,456; included assets pledged of $10,162</td></tr><tr><td>and $9,219) 406,852 201,704</td></tr><tr><td>Held-to-maturity securities 274,468 369.848</td></tr><tr><td>Investment securities, net of allowance for credit losses 681,320 571,552</td></tr><tr><td>Loans (included $41,350 and $38,851 at fair value) 1,347,988 1,323,706</td></tr><tr><td>Allowance for loan losses (24,345) (22,420)</td></tr><tr><td>Loans, net of allowance for loan losses 1,323,643 1,301,286</td></tr><tr><td>Accrued interest and accounts receivable 101,223 107,363</td></tr><tr><td>Premises and equipment 32,223 30,157</td></tr><tr><td>Goodwill, MSRs and other intangible assets 64,560 64,381</td></tr><tr><td>Other assets (included $15,122 and $12,306 at fair value and assets pledged of $6,288 and $6,764) 178,197 159,308</td></tr><tr><td>Total assets(a) $4,002,814 $3,875,393</td></tr><tr><td>Liabilities</td></tr><tr><td>Deposits (included $33,768 and $78,384 at fair value) $ 2,406,032 $ 2,400,688</td></tr><tr><td>Federal funds purchased and securities loaned or sold under repurchase agreements (included $226,329 and $169,003at fair value) 296,835 216,535</td></tr><tr><td>Short-term borrowings (included $26,521and $20,042 at fair value) 52,893 44,712</td></tr><tr><td>Trading liabilities 192,883 180,428</td></tr><tr><td>Accounts payable and other liabilities (included $5,893 and $5,637at fair value) 280,672 290,307</td></tr><tr><td>Beneficial interests issued by consolidated VIEs (included $1and $1 at fair value) 27,323 23,020</td></tr><tr><td>Long-term debt (included $100,780 and $87,924 at fair value) 401,418 391,825</td></tr><tr><td>Totalliabilities(a) 3,658,056 3,547,515</td></tr><tr><td>Commitments and contingencies (refer to Notes 28,29 and 30)</td></tr><tr><td>Stockholders&#x27;equity</td></tr><tr><td>Preferred stock ($1 par value; authorized 200,000,000 shares: issued 2,005,375 and 2,740,375 shares) 20,050 27,404</td></tr><tr><td>Common stock ($1 par value; authorized 9,000,000,000 shares; issued 4,104,933,895 shares) 4,105 4,105</td></tr><tr><td>Additional paid-in capital</td></tr><tr><td>90,911 90,128</td></tr><tr><td>Retained earnings 376,166 332,901</td></tr><tr><td>Accumulated other comprehensive losses (12,456) (10,443)</td></tr><tr><td>Treasurystock,at cost (107,13,494 and1,228,275,01shares) (134,018) (116,217)</td></tr><tr><td>Total stockholders&#x27;equity 344,758 327,878</td></tr><tr><td>Totalliabilities and stockholders&#x27;equity $4,002,814$3,875.393</td></tr></table>",
+          "table_type": "simple_table",
+          "table_nest_level": 1
+        },
+        "bbox": [
+          78,
+          54,
+          919,
+          683
+        ],
+        "page_idx": 2,
+        "source_input": {
+          "path": "examples/inputs/public_benchmark/jpm_2024.pdf",
+          "url": null,
+          "role": "primary",
+          "mime_type": null
+        }
+      },
+      "sources": [
+        {
+          "page_start": 2,
+          "bbox": [
+            78,
+            54,
+            919,
+            683
+          ]
+        }
+      ]
+    },
+    {
+      "name": "table_2",
+      "title": "table_2",
+      "unit": "",
+      "table_type": "complex_table",
+      "table_nest_level": 1,
+      "footnote": "The Notes to Consolidated Financial Statements are an integral part of these statements.",
+      "image_source": {
+        "path": "images/75f9819877ac665ab5bd65179b4a4f6fddb7a0c88712caa8bb032cfdc0ae18f0.jpg"
+      },
+      "periods": [
+        "2024",
+        "2024",
+        "2023"
+      ],
+      "rows": [
+        {
+          "item": "Assets",
+          "raw_values": [
+            "$",
+            "",
+            ""
+          ],
+          "values": {
+            "2024": null,
+            "2023": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              76,
+              744,
+              919,
+              907
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Trading assets",
+          "raw_values": [
+            "",
+            "3,885",
+            "2,170"
+          ],
+          "values": {
+            "2024": 3885.0,
+            "2023": 2170.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              76,
+              744,
+              919,
+              907
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Loans",
+          "raw_values": [
+            "",
+            "36,510",
+            "37,611"
+          ],
+          "values": {
+            "2024": 36510.0,
+            "2023": 37611.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              76,
+              744,
+              919,
+              907
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "All other assets",
+          "raw_values": [
+            "",
+            "681",
+            "591"
+          ],
+          "values": {
+            "2024": 681.0,
+            "2023": 591.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              76,
+              744,
+              919,
+              907
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total assets",
+          "raw_values": [
+            "$",
+            "41,076",
+            "40,372"
+          ],
+          "values": {
+            "2024": 41076.0,
+            "2023": 40372.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              76,
+              744,
+              919,
+              907
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Liabilities",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "2024": null,
+            "2023": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              76,
+              744,
+              919,
+              907
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Beneficial interests issued by consolidated VIEs",
+          "raw_values": [
+            "$",
+            "27,323",
+            "23.020"
+          ],
+          "values": {
+            "2024": 27323.0,
+            "2023": 23.02
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              76,
+              744,
+              919,
+              907
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "All other liabilities",
+          "raw_values": [
+            "",
+            "454",
+            "263"
+          ],
+          "values": {
+            "2024": 454.0,
+            "2023": 263.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              76,
+              744,
+              919,
+              907
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total liabilities",
+          "raw_values": [
+            "$",
+            "27,777",
+            "23,283"
+          ],
+          "values": {
+            "2024": 27777.0,
+            "2023": 23283.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              76,
+              744,
+              919,
+              907
+            ],
+            "source": "html_table"
+          }
+        }
+      ],
+      "evidence": {
+        "page_start": 2,
+        "bbox": [
+          76,
+          744,
+          919,
+          907
+        ],
+        "page_end": 2
+      },
+      "raw_block": {
+        "type": "table",
+        "content": {
+          "image_source": {
+            "path": "images/75f9819877ac665ab5bd65179b4a4f6fddb7a0c88712caa8bb032cfdc0ae18f0.jpg"
+          },
+          "table_caption": [],
+          "table_footnote": [
+            {
+              "type": "text",
+              "content": "The Notes to Consolidated Financial Statements are an integral part of these statements."
+            }
+          ],
+          "html": "<table><tr><td>December 31,(in millions)</td><td colspan=\"2\">2024</td><td>2023</td></tr><tr><td> Assets</td><td>$</td><td></td><td></td></tr><tr><td>Trading assets</td><td></td><td>3,885</td><td>2,170</td></tr><tr><td>Loans</td><td></td><td>36,510</td><td>37,611</td></tr><tr><td>All other assets</td><td></td><td>681</td><td>591</td></tr><tr><td>Total assets</td><td>$</td><td>41,076</td><td>40,372</td></tr><tr><td>Liabilities</td><td></td><td></td><td></td></tr><tr><td>Beneficial interests issued by consolidated VIEs</td><td>$</td><td>27,323</td><td>23.020</td></tr><tr><td>All other liabilities</td><td></td><td>454</td><td>263</td></tr><tr><td>Total liabilities</td><td>$</td><td>27,777</td><td>23,283</td></tr></table>",
+          "table_type": "complex_table",
+          "table_nest_level": 1
+        },
+        "bbox": [
+          76,
+          744,
+          919,
+          907
+        ],
+        "page_idx": 2,
+        "source_input": {
+          "path": "examples/inputs/public_benchmark/jpm_2024.pdf",
+          "url": null,
+          "role": "primary",
+          "mime_type": null
+        }
+      },
+      "sources": [
+        {
+          "page_start": 2,
+          "bbox": [
+            76,
+            744,
+            919,
+            907
+          ]
+        }
+      ]
+    },
+    {
+      "name": "jpmorgan_chase_co_consolidated_statements_of_changes_in_stockholders_equity",
+      "title": "JPMorgan Chase & Co. Consolidated statements of changes in stockholders’ equity",
+      "unit": "",
+      "table_type": "simple_table",
+      "table_nest_level": 1,
+      "footnote": "",
+      "image_source": {
+        "path": "images/dfd13a0c76ec24c5c52b8f3f5c7aca89946c3db1f722693cfa2cca4ce1aa3d12.jpg"
+      },
+      "periods": [],
+      "rows": [
+        {
+          "item": "2024 2023 Preferred stock",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              78,
+              55,
+              919,
+              636
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Balance at January 1 $ 27,404 $ 27,404 $ 34,838",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              78,
+              55,
+              919,
+              636
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Issuance 2,496 1 1",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              78,
+              55,
+              919,
+              636
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Redemption (9,850) 二 (7,434)",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              78,
+              55,
+              919,
+              636
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Balance at December 31 20,050 27,404 27,404",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              78,
+              55,
+              919,
+              636
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Common stock",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              78,
+              55,
+              919,
+              636
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Balance at January1and December 31 4,105 4,105 4,105",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              78,
+              55,
+              919,
+              636
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Additional paid-in capital",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              78,
+              55,
+              919,
+              636
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Balance at January1 90,128 89,044 88,415",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              78,
+              55,
+              919,
+              636
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Shares issued and commitments to issue common stock for employee share-based compensation awards,andrelated taxeffects 768 1,084 629",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              78,
+              55,
+              919,
+              636
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other 15 二 二",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              78,
+              55,
+              919,
+              636
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Balance at December 31 90,911 90,128 89.044",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              78,
+              55,
+              919,
+              636
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Retained earnings",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              78,
+              55,
+              919,
+              636
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Balance at January 1 332,901 296,456 272,268",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              78,
+              55,
+              919,
+              636
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cumulative effect of change in accounting principles (161) 449 1",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              78,
+              55,
+              919,
+              636
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net income 58,471 49,552 37,676",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              78,
+              55,
+              919,
+              636
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Preferred stock dividends (1,259) (1,501) (1,595)",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              78,
+              55,
+              919,
+              636
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Common stock dividends ($4.80,$4.10 and $4.00 per share for 2024,2023 and 2022,respectively) (13,786) (12,055) (11,893)",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              78,
+              55,
+              919,
+              636
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Balance at December 31 376,166 332.901 296,456",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              78,
+              55,
+              919,
+              636
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Accumulated other comprehensive income/(loss)",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              78,
+              55,
+              919,
+              636
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Balance at January 1 (10,443) (17,341) (84)",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              78,
+              55,
+              919,
+              636
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other comprehensive income/(loss),after-tax (2,013) 6,898 (17,257)",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              78,
+              55,
+              919,
+              636
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Balance at December 31 (12,456) (10,443) (17,341)",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              78,
+              55,
+              919,
+              636
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Treasury stock, at cost",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              78,
+              55,
+              919,
+              636
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Balance at January 1 (116,217) (107,336) (105,415)",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              78,
+              55,
+              919,
+              636
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Repurchase",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              78,
+              55,
+              919,
+              636
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "(19,007) (9.980) (3,122)",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              78,
+              55,
+              919,
+              636
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Reissuance 1,206 1,099 1.201",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              78,
+              55,
+              919,
+              636
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Balance at December 31 (134,018) (116,217) (107,336) Total stockholders'equity $344,758 $327,878 $292,332",
+          "raw_values": [],
+          "values": {},
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              78,
+              55,
+              919,
+              636
+            ],
+            "source": "html_table"
+          }
+        }
+      ],
+      "evidence": {
+        "page_start": 3,
+        "bbox": [
+          78,
+          55,
+          919,
+          636
+        ],
+        "page_end": 3
+      },
+      "raw_block": {
+        "type": "table",
+        "content": {
+          "image_source": {
+            "path": "images/dfd13a0c76ec24c5c52b8f3f5c7aca89946c3db1f722693cfa2cca4ce1aa3d12.jpg"
+          },
+          "table_caption": [
+            {
+              "type": "text",
+              "content": "JPMorgan Chase & Co."
+            },
+            {
+              "type": "text",
+              "content": "Consolidated statements of changes in stockholders’ equity"
+            }
+          ],
+          "table_footnote": [],
+          "html": "<table><tr><td>Year ended December 31,(in millions, except per share data)</td></tr><tr><td>2024 2023 Preferred stock</td></tr><tr><td>Balance at January 1 $ 27,404 $ 27,404 $ 34,838</td></tr><tr><td>Issuance 2,496 1 1</td></tr><tr><td>Redemption (9,850) 二 (7,434)</td></tr><tr><td>Balance at December 31 20,050 27,404 27,404</td></tr><tr><td>Common stock</td></tr><tr><td>Balance at January1and December 31 4,105 4,105 4,105</td></tr><tr><td>Additional paid-in capital</td></tr><tr><td>Balance at January1 90,128 89,044 88,415</td></tr><tr><td>Shares issued and commitments to issue common stock for employee share-based compensation awards,andrelated taxeffects 768 1,084 629</td></tr><tr><td>Other 15 二 二</td></tr><tr><td>Balance at December 31 90,911 90,128 89.044</td></tr><tr><td> Retained earnings</td></tr><tr><td>Balance at January 1 332,901 296,456 272,268</td></tr><tr><td>Cumulative effect of change in accounting principles (161) 449 1</td></tr><tr><td>Net income 58,471 49,552 37,676</td></tr><tr><td>Preferred stock dividends (1,259) (1,501) (1,595)</td></tr><tr><td>Common stock dividends ($4.80,$4.10 and $4.00 per share for 2024,2023 and 2022,respectively) (13,786) (12,055) (11,893)</td></tr><tr><td>Balance at December 31 376,166 332.901 296,456</td></tr><tr><td>Accumulated other comprehensive income/(loss)</td></tr><tr><td>Balance at January 1 (10,443) (17,341) (84)</td></tr><tr><td>Other comprehensive income/(loss),after-tax (2,013) 6,898 (17,257)</td></tr><tr><td>Balance at December 31 (12,456) (10,443) (17,341)</td></tr><tr><td> Treasury stock, at cost</td></tr><tr><td>Balance at January 1 (116,217) (107,336) (105,415)</td></tr><tr><td>Repurchase</td></tr><tr><td>(19,007) (9.980) (3,122)</td></tr><tr><td>Reissuance 1,206 1,099 1.201</td></tr><tr><td>Balance at December 31 (134,018) (116,217) (107,336) Total stockholders&#x27;equity $344,758 $327,878 $292,332</td></tr></table>",
+          "table_type": "simple_table",
+          "table_nest_level": 1
+        },
+        "bbox": [
+          78,
+          55,
+          919,
+          636
+        ],
+        "page_idx": 3,
+        "source_input": {
+          "path": "examples/inputs/public_benchmark/jpm_2024.pdf",
+          "url": null,
+          "role": "primary",
+          "mime_type": null
+        }
+      },
+      "sources": [
+        {
+          "page_start": 3,
+          "bbox": [
+            78,
+            55,
+            919,
+            636
+          ]
+        }
+      ]
+    },
+    {
+      "name": "jpmorgan_chase_co_consolidated_statements_of_cash_flows",
+      "title": "JPMorgan Chase & Co. Consolidated statements of cash flows",
+      "unit": "",
+      "table_type": "simple_table",
+      "table_nest_level": 1,
+      "footnote": "The Notes to Consolidated Financial Statements are an integral part of these statements.",
+      "image_source": {
+        "path": "images/a69dce8c8bb134cadf103e1da33d912c36eae3cbbe81ac20491624adf28b044f.jpg"
+      },
+      "periods": [
+        "2024",
+        "2023",
+        "2022"
+      ],
+      "rows": [
+        {
+          "item": "Operating activities",
+          "raw_values": [
+            "$ 58,471",
+            "",
+            ""
+          ],
+          "values": {
+            "2024": 58471.0,
+            "2023": null,
+            "2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net income",
+          "raw_values": [
+            "",
+            "$49.552",
+            "$37,676"
+          ],
+          "values": {
+            "2024": null,
+            "2023": 49.552,
+            "2022": 37676.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Adjustments to reconcile net income to net cash provided by operating activities:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "2024": null,
+            "2023": null,
+            "2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Provision for credit losses",
+          "raw_values": [
+            "10,678",
+            "9.320",
+            "6,389"
+          ],
+          "values": {
+            "2024": 10678.0,
+            "2023": 9.32,
+            "2022": 6389.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Depreciation and amortization",
+          "raw_values": [
+            "7,938",
+            "7.512",
+            "7,051"
+          ],
+          "values": {
+            "2024": 7938.0,
+            "2023": 7.512,
+            "2022": 7051.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Deferred tax (benefit)/expense",
+          "raw_values": [
+            "2,004",
+            "(4,534)",
+            "(2,738)"
+          ],
+          "values": {
+            "2024": 2004.0,
+            "2023": -4534.0,
+            "2022": -2738.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Estimated bargain purchase gain associated with the First Republic acquisition",
+          "raw_values": [
+            "(103)",
+            "(2,775)",
+            "1"
+          ],
+          "values": {
+            "2024": -103.0,
+            "2023": -2775.0,
+            "2022": 1.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Initial gain on the Visa share exchange",
+          "raw_values": [
+            "(7,990)",
+            "",
+            ""
+          ],
+          "values": {
+            "2024": -7990.0,
+            "2023": null,
+            "2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other",
+          "raw_values": [
+            "1,985",
+            "4,301",
+            "5,174"
+          ],
+          "values": {
+            "2024": 1985.0,
+            "2023": 4301.0,
+            "2022": 5174.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Originations and purchases of loans held-for-sale",
+          "raw_values": [
+            "(212,238)",
+            "(115,245)",
+            "(149,167)"
+          ],
+          "values": {
+            "2024": -212238.0,
+            "2023": -115245.0,
+            "2022": -149167.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Proceeds from sales,securitizations and paydowns of loans held-for-sale",
+          "raw_values": [
+            "205,303",
+            "116,430",
+            "167,709"
+          ],
+          "values": {
+            "2024": 205303.0,
+            "2023": 116430.0,
+            "2022": 167709.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net change in:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "2024": null,
+            "2023": null,
+            "2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Trading assets",
+          "raw_values": [
+            "(95,729)",
+            "(74,091)",
+            "(31,449)"
+          ],
+          "values": {
+            "2024": -95729.0,
+            "2023": -74091.0,
+            "2022": -31449.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Securities borrowed",
+          "raw_values": [
+            "(18,762)",
+            "(14,902)",
+            "20,203"
+          ],
+          "values": {
+            "2024": -18762.0,
+            "2023": -14902.0,
+            "2022": 20203.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Accrued interest and accounts receivable",
+          "raw_values": [
+            "5,735",
+            "19.928",
+            "(22.970)"
+          ],
+          "values": {
+            "2024": 5735.0,
+            "2023": 19.928,
+            "2022": -22.97
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other assets",
+          "raw_values": [
+            "(7,650)",
+            "32,970",
+            "(2,882)"
+          ],
+          "values": {
+            "2024": -7650.0,
+            "2023": 32970.0,
+            "2022": -2882.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Trading liabilities",
+          "raw_values": [
+            "2,276",
+            "5,315",
+            "11,170"
+          ],
+          "values": {
+            "2024": 2276.0,
+            "2023": 5315.0,
+            "2022": 11170.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Accounts payable and other liabilities",
+          "raw_values": [
+            "(90)",
+            "(25,388)",
+            "58.614"
+          ],
+          "values": {
+            "2024": -90.0,
+            "2023": -25388.0,
+            "2022": 58.614
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other operating adjustments",
+          "raw_values": [
+            "6,160",
+            "4.581",
+            "2.339"
+          ],
+          "values": {
+            "2024": 6160.0,
+            "2023": 4.581,
+            "2022": 2.339
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Netcash(used in)/provided by operating activities",
+          "raw_values": [
+            "(42,012)",
+            "12.974",
+            "107,119"
+          ],
+          "values": {
+            "2024": -42012.0,
+            "2023": 12.974,
+            "2022": 107119.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Investing activities",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "2024": null,
+            "2023": null,
+            "2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net change in:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "2024": null,
+            "2023": null,
+            "2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Federalfunds sold and securities purchased under resale agreements",
+          "raw_values": [
+            "(18,706)",
+            "39.740",
+            "(54,278)"
+          ],
+          "values": {
+            "2024": -18706.0,
+            "2023": 39.74,
+            "2022": -54278.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Held-to-maturity securities:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "2024": null,
+            "2023": null,
+            "2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Proceeds from paydowns and maturities",
+          "raw_values": [
+            "99,363",
+            "53,056",
+            "48.626"
+          ],
+          "values": {
+            "2024": 99363.0,
+            "2023": 53056.0,
+            "2022": 48.626
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Purchases",
+          "raw_values": [
+            "(4,709)",
+            "(4,141)",
+            "(33,676)"
+          ],
+          "values": {
+            "2024": -4709.0,
+            "2023": -4141.0,
+            "2022": -33676.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Available-for-sale securities:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "2024": null,
+            "2023": null,
+            "2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Proceeds from paydowns and maturities",
+          "raw_values": [
+            "38,499",
+            "53,744",
+            "39,159"
+          ],
+          "values": {
+            "2024": 38499.0,
+            "2023": 53744.0,
+            "2022": 39159.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Proceeds from sales",
+          "raw_values": [
+            "104,625",
+            "108,434",
+            "84,616"
+          ],
+          "values": {
+            "2024": 104625.0,
+            "2023": 108434.0,
+            "2022": 84616.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Purchases",
+          "raw_values": [
+            "(352,712)",
+            "(115,499)",
+            "(126,258)"
+          ],
+          "values": {
+            "2024": -352712.0,
+            "2023": -115499.0,
+            "2022": -126258.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Proceeds from sales and securitizations of loans held-for-investment",
+          "raw_values": [
+            "57,921",
+            "47.312",
+            "44,892"
+          ],
+          "values": {
+            "2024": 57921.0,
+            "2023": 47.312,
+            "2022": 44892.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other changes in loans, net",
+          "raw_values": [
+            "(83,176)",
+            "(88,343)",
+            "(128,968)"
+          ],
+          "values": {
+            "2024": -83176.0,
+            "2023": -88343.0,
+            "2022": -128968.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net cash used in First Republic Acquisition",
+          "raw_values": [
+            "(2.362)",
+            "(9.920)",
+            ""
+          ],
+          "values": {
+            "2024": -2.362,
+            "2023": -9.92,
+            "2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "All other investing activities, net",
+          "raw_values": [
+            "(2,146)",
+            "(16.740)",
+            "1 (11.932)"
+          ],
+          "values": {
+            "2024": -2146.0,
+            "2023": -16.74,
+            "2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Netcash(used in)/provided by investing activities",
+          "raw_values": [
+            "(163,403)",
+            "67,643",
+            "（137,819)"
+          ],
+          "values": {
+            "2024": -163403.0,
+            "2023": 67643.0,
+            "2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Financing activities",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "2024": null,
+            "2023": null,
+            "2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net change in: Deposits",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "2024": null,
+            "2023": null,
+            "2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "",
+          "raw_values": [
+            "3,299",
+            "(32,196)",
+            "(136,895)"
+          ],
+          "values": {
+            "2024": 3299.0,
+            "2023": -32196.0,
+            "2022": -136895.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Federal funds purchased and securities loaned or sold under repurchase agreements",
+          "raw_values": [
+            "80,288",
+            "13.801",
+            "8,455"
+          ],
+          "values": {
+            "2024": 80288.0,
+            "2023": 13.801,
+            "2022": 8455.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Short-term borrowings Beneficialinterests issued by consolidated VIEs",
+          "raw_values": [
+            "7,439 1,543",
+            "(1,934)",
+            "(8,984)"
+          ],
+          "values": {
+            "2024": 74391543.0,
+            "2023": -1934.0,
+            "2022": -8984.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "",
+          "raw_values": [
+            "109,915",
+            "9,029",
+            "2,205"
+          ],
+          "values": {
+            "2024": 109915.0,
+            "2023": 9029.0,
+            "2022": 2205.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Proceeds from long-term borrowings",
+          "raw_values": [
+            "",
+            "75,417",
+            "78,442"
+          ],
+          "values": {
+            "2024": null,
+            "2023": 75417.0,
+            "2022": 78442.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Payments of long-term borrowings",
+          "raw_values": [
+            "(96,605)",
+            "(64,880)",
+            "(45,556)"
+          ],
+          "values": {
+            "2024": -96605.0,
+            "2023": -64880.0,
+            "2022": -45556.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Proceeds from issuance of preferred stock",
+          "raw_values": [
+            "2,500",
+            "1",
+            ""
+          ],
+          "values": {
+            "2024": 2500.0,
+            "2023": 1.0,
+            "2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Redemption of preferred stock",
+          "raw_values": [
+            "(9,850)",
+            "",
+            "(7,434)"
+          ],
+          "values": {
+            "2024": -9850.0,
+            "2023": null,
+            "2022": -7434.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Treasury stock repurchased",
+          "raw_values": [
+            "(18,830)",
+            "(9,824)",
+            "(3,162)"
+          ],
+          "values": {
+            "2024": -18830.0,
+            "2023": -9824.0,
+            "2022": -3162.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Dividends paid",
+          "raw_values": [
+            "(14,783)",
+            "(13,463)",
+            "(13,562)"
+          ],
+          "values": {
+            "2024": -14783.0,
+            "2023": -13463.0,
+            "2022": -13562.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Allotherfinancingactivities,et",
+          "raw_values": [
+            "(1,469)",
+            "(1.521)",
+            "234"
+          ],
+          "values": {
+            "2024": -1469.0,
+            "2023": -1.521,
+            "2022": 234.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net cash provided by/(used in) financing activities",
+          "raw_values": [
+            "63,447",
+            "(25,571)",
+            "(126,257)"
+          ],
+          "values": {
+            "2024": 63447.0,
+            "2023": -25571.0,
+            "2022": -126257.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Effect of exchange rate changes on cash and due from banks and deposits with banks",
+          "raw_values": [
+            "(12,866)",
+            "1871",
+            "(16.643)"
+          ],
+          "values": {
+            "2024": -12866.0,
+            "2023": 1871.0,
+            "2022": -16.643
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net increase/(decrease)in cash and due from banks and deposits with banks",
+          "raw_values": [
+            "(154,834)",
+            "56,917",
+            "(173,600)"
+          ],
+          "values": {
+            "2024": -154834.0,
+            "2023": 56917.0,
+            "2022": -173600.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash and due from banks and deposits with banks at the beginning of the period",
+          "raw_values": [
+            "624,151",
+            "567,234",
+            "740.834"
+          ],
+          "values": {
+            "2024": 624151.0,
+            "2023": 567234.0,
+            "2022": 740.834
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash and due from banks and deposits with banks at the end of the period",
+          "raw_values": [
+            "$469,317",
+            "$624,151",
+            "$567,234"
+          ],
+          "values": {
+            "2024": 469317.0,
+            "2023": 624151.0,
+            "2022": 567234.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash interest paid",
+          "raw_values": [
+            "$ 99,642",
+            "77,114",
+            "$23,143"
+          ],
+          "values": {
+            "2024": 99642.0,
+            "2023": 77114.0,
+            "2022": 23143.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash income taxes paid, net",
+          "raw_values": [
+            "11,715",
+            "$ 9.908",
+            "4,355"
+          ],
+          "values": {
+            "2024": 11715.0,
+            "2023": 9.908,
+            "2022": 4355.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              78,
+              54,
+              919,
+              906
+            ],
+            "source": "html_table"
+          }
+        }
+      ],
+      "evidence": {
+        "page_start": 4,
+        "bbox": [
+          78,
+          54,
+          919,
+          906
+        ],
+        "page_end": 4
+      },
+      "raw_block": {
+        "type": "table",
+        "content": {
+          "image_source": {
+            "path": "images/a69dce8c8bb134cadf103e1da33d912c36eae3cbbe81ac20491624adf28b044f.jpg"
+          },
+          "table_caption": [
+            {
+              "type": "text",
+              "content": "JPMorgan Chase & Co. Consolidated statements of cash flows"
+            }
+          ],
+          "table_footnote": [
+            {
+              "type": "text",
+              "content": "The Notes to Consolidated Financial Statements are an integral part of these statements."
+            }
+          ],
+          "html": "<table><tr><td>Year ended December 31, (inmillions)</td><td>2024</td><td>2023</td><td>2022</td></tr><tr><td>Operating activities</td><td>$ 58,471</td><td></td><td></td></tr><tr><td>Net income</td><td></td><td>$49.552</td><td>$37,676</td></tr><tr><td>Adjustments to reconcile net income to net cash provided by operating activities:</td><td></td><td></td><td></td></tr><tr><td>Provision for credit losses</td><td>10,678</td><td>9.320</td><td>6,389</td></tr><tr><td>Depreciation and amortization</td><td>7,938</td><td>7.512</td><td>7,051</td></tr><tr><td>Deferred tax (benefit)/expense</td><td>2,004</td><td>(4,534)</td><td>(2,738)</td></tr><tr><td>Estimated bargain purchase gain associated with the First Republic acquisition</td><td>(103)</td><td>(2,775)</td><td>1</td></tr><tr><td>Initial gain on the Visa share exchange</td><td>(7,990)</td><td></td><td></td></tr><tr><td>Other</td><td>1,985</td><td>4,301</td><td>5,174</td></tr><tr><td>Originations and purchases of loans held-for-sale</td><td>(212,238)</td><td>(115,245)</td><td>(149,167)</td></tr><tr><td>Proceeds from sales,securitizations and paydowns of loans held-for-sale</td><td>205,303</td><td>116,430</td><td>167,709</td></tr><tr><td>Net change in:</td><td></td><td></td><td></td></tr><tr><td> Trading assets</td><td>(95,729)</td><td>(74,091)</td><td>(31,449)</td></tr><tr><td>Securities borrowed</td><td>(18,762)</td><td>(14,902)</td><td>20,203</td></tr><tr><td>Accrued interest and accounts receivable</td><td>5,735</td><td>19.928</td><td>(22.970)</td></tr><tr><td> Other assets</td><td>(7,650)</td><td>32,970</td><td>(2,882)</td></tr><tr><td>Trading liabilities</td><td>2,276</td><td>5,315</td><td>11,170</td></tr><tr><td>Accounts payable and other liabilities</td><td>(90)</td><td>(25,388)</td><td>58.614</td></tr><tr><td>Other operating adjustments</td><td>6,160</td><td>4.581</td><td>2.339</td></tr><tr><td>Netcash(used in)/provided by operating activities</td><td>(42,012)</td><td>12.974</td><td>107,119</td></tr><tr><td>Investing activities</td><td></td><td></td><td></td></tr><tr><td>Net change in:</td><td></td><td></td><td></td></tr><tr><td>Federalfunds sold and securities purchased under resale agreements</td><td>(18,706)</td><td>39.740</td><td>(54,278)</td></tr><tr><td>Held-to-maturity securities:</td><td></td><td></td><td></td></tr><tr><td>Proceeds from paydowns and maturities</td><td>99,363</td><td>53,056</td><td>48.626</td></tr><tr><td>Purchases</td><td>(4,709)</td><td>(4,141)</td><td>(33,676)</td></tr><tr><td>Available-for-sale securities:</td><td></td><td></td><td></td></tr><tr><td>Proceeds from paydowns and maturities</td><td>38,499</td><td>53,744</td><td>39,159</td></tr><tr><td>Proceeds from sales</td><td>104,625</td><td>108,434</td><td>84,616</td></tr><tr><td>Purchases</td><td>(352,712)</td><td>(115,499)</td><td>(126,258)</td></tr><tr><td>Proceeds from sales and securitizations of loans held-for-investment</td><td>57,921</td><td>47.312</td><td>44,892</td></tr><tr><td>Other changes in loans, net</td><td>(83,176)</td><td>(88,343)</td><td>(128,968)</td></tr><tr><td>Net cash used in First Republic Acquisition</td><td>(2.362)</td><td>(9.920)</td><td></td></tr><tr><td>All other investing activities, net</td><td>(2,146)</td><td>(16.740)</td><td>1 (11.932)</td></tr><tr><td>Netcash(used in)/provided by investing activities</td><td>(163,403)</td><td>67,643</td><td>（137,819)</td></tr><tr><td>Financing activities</td><td></td><td></td><td></td></tr><tr><td>Net change in: Deposits</td><td></td><td></td><td></td></tr><tr><td></td><td>3,299</td><td>(32,196)</td><td>(136,895)</td></tr><tr><td>Federal funds purchased and securities loaned or sold under repurchase agreements</td><td>80,288</td><td>13.801</td><td>8,455</td></tr><tr><td>Short-term borrowings Beneficialinterests issued by consolidated VIEs</td><td>7,439 1,543</td><td>(1,934)</td><td>(8,984)</td></tr><tr><td></td><td>109,915</td><td>9,029</td><td>2,205</td></tr><tr><td>Proceeds from long-term borrowings</td><td></td><td>75,417</td><td>78,442</td></tr><tr><td>Payments of long-term borrowings</td><td>(96,605)</td><td>(64,880)</td><td>(45,556)</td></tr><tr><td>Proceeds from issuance of preferred stock</td><td>2,500</td><td>1</td><td></td></tr><tr><td>Redemption of preferred stock</td><td>(9,850)</td><td></td><td>(7,434)</td></tr><tr><td>Treasury stock repurchased</td><td>(18,830)</td><td>(9,824)</td><td>(3,162)</td></tr><tr><td>Dividends paid</td><td>(14,783)</td><td>(13,463)</td><td>(13,562)</td></tr><tr><td>Allotherfinancingactivities,et</td><td>(1,469)</td><td>(1.521)</td><td>234</td></tr><tr><td>Net cash provided by/(used in) financing activities</td><td>63,447</td><td>(25,571)</td><td>(126,257)</td></tr><tr><td>Effect of exchange rate changes on cash and due from banks and deposits with banks</td><td>(12,866)</td><td>1871</td><td>(16.643)</td></tr><tr><td>Net increase/(decrease)in cash and due from banks and deposits with banks</td><td>(154,834)</td><td>56,917</td><td>(173,600)</td></tr><tr><td>Cash and due from banks and deposits with banks at the beginning of the period</td><td>624,151</td><td>567,234</td><td>740.834</td></tr><tr><td>Cash and due from banks and deposits with banks at the end of the period</td><td>$469,317</td><td>$624,151</td><td>$567,234</td></tr><tr><td>Cash interest paid</td><td>$ 99,642</td><td>77,114</td><td>$23,143</td></tr><tr><td>Cash income taxes paid, net</td><td>11,715</td><td>$ 9.908</td><td>4,355</td></tr></table>",
+          "table_type": "simple_table",
+          "table_nest_level": 1
+        },
+        "bbox": [
+          78,
+          54,
+          919,
+          906
+        ],
+        "page_idx": 4,
+        "source_input": {
+          "path": "examples/inputs/public_benchmark/jpm_2024.pdf",
+          "url": null,
+          "role": "primary",
+          "mime_type": null
+        }
+      },
+      "sources": [
+        {
+          "page_start": 4,
+          "bbox": [
+            78,
+            54,
+            919,
+            906
+          ]
+        }
+      ]
+    }
+  ],
+  "quality": {
+    "validation_pass_rate": 1.0,
+    "check_count": 7,
+    "hard_check_count": 4,
+    "passed_count": 4,
+    "warning_count": 5,
+    "failed_count": 0,
+    "issue_count": 5,
+    "checks": [
+      {
+        "table": "jpmorgan_chase_co_consolidated_statements_of_income",
+        "type": "numeric_parse",
+        "row": "Weighted-average basic shares",
+        "status": "warn",
+        "detail": "Numeric-looking cells could not be parsed.",
+        "cells": [
+          "2.938.6",
+          "2.965.8"
+        ]
+      },
+      {
+        "table": "consolidated_statements_of_comprehensive_income",
+        "type": "table_presence",
+        "status": "pass",
+        "detail": "Table loaded successfully."
+      },
+      {
+        "table": "jpmorgan_chase_co_consolidated_balance_sheets",
+        "type": "table_presence",
+        "status": "pass",
+        "detail": "Table loaded successfully."
+      },
+      {
+        "table": "table_2",
+        "type": "table_presence",
+        "status": "pass",
+        "detail": "Table loaded successfully."
+      },
+      {
+        "table": "jpmorgan_chase_co_consolidated_statements_of_changes_in_stockholders_equity",
+        "type": "table_presence",
+        "status": "pass",
+        "detail": "Table loaded successfully."
+      },
+      {
+        "table": "jpmorgan_chase_co_consolidated_statements_of_cash_flows",
+        "type": "numeric_parse",
+        "row": "All other investing activities, net",
+        "status": "warn",
+        "detail": "Numeric-looking cells could not be parsed.",
+        "cells": [
+          "1 (11.932)"
+        ]
+      },
+      {
+        "table": "jpmorgan_chase_co_consolidated_statements_of_cash_flows",
+        "type": "numeric_parse",
+        "row": "Netcash(used in)/provided by investing activities",
+        "status": "warn",
+        "detail": "Numeric-looking cells could not be parsed.",
+        "cells": [
+          "（137,819)"
+        ]
+      }
+    ],
+    "warnings": [
+      "At least one table is missing explicit period headers.",
+      "At least one table is missing an explicit unit or scale."
+    ],
+    "diagnostics": {
+      "risk_level": "medium",
+      "table_count": 6,
+      "row_count": 174,
+      "raw_cell_count": 275,
+      "numeric_like_cell_count": 265,
+      "parsed_numeric_cell_count": 261,
+      "numeric_parse_coverage": 0.9849,
+      "evidence_coverage": 1.0,
+      "financial_table_count": 6,
+      "recommended_actions": [
+        "Apply numeric repair for OCR-confused digits and footnote markers.",
+        "Infer or confirm units from nearby paragraphs and table footnotes.",
+        "Infer or confirm period headers from multi-level table headers."
+      ],
+      "tables": [
+        {
+          "name": "jpmorgan_chase_co_consolidated_statements_of_income",
+          "title": "JPMorgan Chase & Co. Consolidated statements of income",
+          "table_type": "complex_table",
+          "row_count": 33,
+          "raw_cell_count": 96,
+          "numeric_like_cell_count": 92,
+          "parsed_numeric_cell_count": 90,
+          "numeric_parse_coverage": 0.9783,
+          "rows_with_evidence": 33,
+          "evidence_coverage": 1.0,
+          "has_periods": true,
+          "has_unit": false,
+          "financial_relevance": 1.0
+        },
+        {
+          "name": "consolidated_statements_of_comprehensive_income",
+          "title": "Consolidated statements of comprehensive income",
+          "table_type": "simple_table",
+          "row_count": 10,
+          "raw_cell_count": 29,
+          "numeric_like_cell_count": 27,
+          "parsed_numeric_cell_count": 27,
+          "numeric_parse_coverage": 1.0,
+          "rows_with_evidence": 10,
+          "evidence_coverage": 1.0,
+          "has_periods": true,
+          "has_unit": false,
+          "financial_relevance": 1.0
+        },
+        {
+          "name": "jpmorgan_chase_co_consolidated_balance_sheets",
+          "title": "JPMorgan Chase & Co. Consolidated balance sheets",
+          "table_type": "simple_table",
+          "row_count": 38,
+          "raw_cell_count": 0,
+          "numeric_like_cell_count": 0,
+          "parsed_numeric_cell_count": 0,
+          "numeric_parse_coverage": 1.0,
+          "rows_with_evidence": 38,
+          "evidence_coverage": 1.0,
+          "has_periods": false,
+          "has_unit": false,
+          "financial_relevance": 1.0
+        },
+        {
+          "name": "table_2",
+          "title": "table_2",
+          "table_type": "complex_table",
+          "row_count": 9,
+          "raw_cell_count": 18,
+          "numeric_like_cell_count": 14,
+          "parsed_numeric_cell_count": 14,
+          "numeric_parse_coverage": 1.0,
+          "rows_with_evidence": 9,
+          "evidence_coverage": 1.0,
+          "has_periods": true,
+          "has_unit": false,
+          "financial_relevance": 0.5
+        },
+        {
+          "name": "jpmorgan_chase_co_consolidated_statements_of_changes_in_stockholders_equity",
+          "title": "JPMorgan Chase & Co. Consolidated statements of changes in stockholders’ equity",
+          "table_type": "simple_table",
+          "row_count": 29,
+          "raw_cell_count": 0,
+          "numeric_like_cell_count": 0,
+          "parsed_numeric_cell_count": 0,
+          "numeric_parse_coverage": 1.0,
+          "rows_with_evidence": 29,
+          "evidence_coverage": 1.0,
+          "has_periods": false,
+          "has_unit": false,
+          "financial_relevance": 1.0
+        },
+        {
+          "name": "jpmorgan_chase_co_consolidated_statements_of_cash_flows",
+          "title": "JPMorgan Chase & Co. Consolidated statements of cash flows",
+          "table_type": "simple_table",
+          "row_count": 55,
+          "raw_cell_count": 132,
+          "numeric_like_cell_count": 132,
+          "parsed_numeric_cell_count": 130,
+          "numeric_parse_coverage": 0.9848,
+          "rows_with_evidence": 55,
+          "evidence_coverage": 1.0,
+          "has_periods": true,
+          "has_unit": false,
+          "financial_relevance": 1.0
+        }
+      ]
+    },
+    "repairs": {
+      "applied": false,
+      "repair_count": 0,
+      "repairs": [],
+      "truncated": false,
+      "input_warning_count": 5
+    }
+  },
+  "trace_path": "runs/public-jpm-2024-financials/trace.jsonl",
+  "result_path": "runs/public-jpm-2024-financials/result.json"
+}

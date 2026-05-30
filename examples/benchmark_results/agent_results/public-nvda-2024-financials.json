@@ -1,0 +1,4099 @@
+{
+  "task_id": "public-nvda-2024-financials",
+  "status": "succeeded",
+  "document_type": "annual_report_pdf",
+  "summary": "Parsed 5 tables with 134 rows. Validation pass rate: 100.00%. Warnings: 16; failures: 0; repairs: 0.",
+  "tables": [
+    {
+      "name": "nvidia_corporation_and_subsidiaries_consolidated_statements_of_income_in_millions_except_per_share_data",
+      "title": "NVIDIA Corporation and Subsidiaries Consolidated Statements of Income (In millions, except per share data)",
+      "unit": "",
+      "table_type": "complex_table",
+      "table_nest_level": 1,
+      "footnote": "See accompanying notes to the consolidated financial statements.",
+      "image_source": {
+        "path": "images/abff6817e318a02ac7c869d760e77cc3e37221621ac1e39bfd3e50a8b77d9ff0.jpg"
+      },
+      "periods": [
+        "Year Ended Jan 28,2024Jan29,2023Jan30,2022",
+        "Year Ended Jan 28,2024Jan29,2023Jan30,2022",
+        "Year Ended Jan 28,2024Jan29,2023Jan30,2022"
+      ],
+      "rows": [
+        {
+          "item": "Revenue",
+          "raw_values": [
+            "$ 60,922",
+            "$ 26,974",
+            "$ 26,914"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": 26914.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              72,
+              83,
+              925,
+              569
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cost of revenue",
+          "raw_values": [
+            "16,621",
+            "11,618",
+            "9,439"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": 9439.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              72,
+              83,
+              925,
+              569
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Gross profit",
+          "raw_values": [
+            "44,301 15,356",
+            "44,301 15,356",
+            "17,475"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": 17475.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              72,
+              83,
+              925,
+              569
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Operating expenses",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              72,
+              83,
+              925,
+              569
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Research and development",
+          "raw_values": [
+            "8.675",
+            "7,339",
+            "5,268"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": 5268.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              72,
+              83,
+              925,
+              569
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Sales, general and administrative",
+          "raw_values": [
+            "2.654",
+            "2.440",
+            "2,166"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": 2166.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              72,
+              83,
+              925,
+              569
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Acquisition termination cost",
+          "raw_values": [
+            "",
+            "1.353",
+            "1"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": 1.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              72,
+              83,
+              925,
+              569
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total operating expenses",
+          "raw_values": [
+            "11,329",
+            "11,132",
+            "7,434"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": 7434.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              72,
+              83,
+              925,
+              569
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Operating income",
+          "raw_values": [
+            "32,972",
+            "4,224",
+            "10.041"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": 10.041
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              72,
+              83,
+              925,
+              569
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Interest income",
+          "raw_values": [
+            "866",
+            "267",
+            "29"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": 29.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              72,
+              83,
+              925,
+              569
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Interest expense",
+          "raw_values": [
+            "(257)",
+            "(262)",
+            "(236)"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": -236.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              72,
+              83,
+              925,
+              569
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other, net",
+          "raw_values": [
+            "237",
+            "（48）",
+            "107"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": 107.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              72,
+              83,
+              925,
+              569
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other income (expense), net",
+          "raw_values": [
+            "846",
+            "（43）",
+            "(100)"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": -100.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              72,
+              83,
+              925,
+              569
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Income before income tax",
+          "raw_values": [
+            "33,818",
+            "4,181",
+            "9,941"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": 9941.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              72,
+              83,
+              925,
+              569
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Income tax expense (benefit)",
+          "raw_values": [
+            "4,058",
+            "(187)",
+            "189"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": 189.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              72,
+              83,
+              925,
+              569
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net income",
+          "raw_values": [
+            "$ 29.760",
+            "$ 4.368",
+            "$ 9.752"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": 9.752
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              72,
+              83,
+              925,
+              569
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net income per share:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              72,
+              83,
+              925,
+              569
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Basic",
+          "raw_values": [
+            "$ 12.05",
+            "$ 1.76",
+            "$ 3.91"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": 3.91
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              72,
+              83,
+              925,
+              569
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Diluted",
+          "raw_values": [
+            "$ 11.93",
+            "$ 1.74",
+            "S 3.85"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              72,
+              83,
+              925,
+              569
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Weighted average shares used in per share computation:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              72,
+              83,
+              925,
+              569
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "BasicDiluted",
+          "raw_values": [
+            "2,469",
+            "2,487",
+            "2,496"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": 2496.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              72,
+              83,
+              925,
+              569
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "BasicDiluted",
+          "raw_values": [
+            "2.494",
+            "2.507",
+            "2.535"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": 2.535
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              72,
+              83,
+              925,
+              569
+            ],
+            "source": "html_table"
+          }
+        }
+      ],
+      "evidence": {
+        "page_start": 0,
+        "bbox": [
+          72,
+          83,
+          925,
+          569
+        ],
+        "page_end": 0
+      },
+      "raw_block": {
+        "type": "table",
+        "content": {
+          "image_source": {
+            "path": "images/abff6817e318a02ac7c869d760e77cc3e37221621ac1e39bfd3e50a8b77d9ff0.jpg"
+          },
+          "table_caption": [
+            {
+              "type": "text",
+              "content": "NVIDIA Corporation and Subsidiaries Consolidated Statements of Income (In millions, except per share data)"
+            }
+          ],
+          "table_footnote": [
+            {
+              "type": "text",
+              "content": "See accompanying notes to the consolidated financial statements."
+            }
+          ],
+          "html": "<table><tr><td rowspan=1 colspan=4>Year Ended</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=3>Jan 28,2024Jan29,2023Jan30,2022</td></tr><tr><td rowspan=1 colspan=1>Revenue</td><td rowspan=1 colspan=1>$    60,922</td><td rowspan=1 colspan=1>$    26,974</td><td rowspan=1 colspan=1>$    26,914</td></tr><tr><td rowspan=1 colspan=1>Cost of revenue</td><td rowspan=1 colspan=1>16,621</td><td rowspan=1 colspan=1>11,618</td><td rowspan=1 colspan=1>9,439</td></tr><tr><td rowspan=1 colspan=1>Gross profit</td><td rowspan=1 colspan=2>44,301         15,356</td><td rowspan=1 colspan=1>17,475</td></tr><tr><td rowspan=1 colspan=1> Operating expenses</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1> Research and development</td><td rowspan=1 colspan=1>8.675</td><td rowspan=1 colspan=1>7,339</td><td rowspan=1 colspan=1>5,268</td></tr><tr><td rowspan=1 colspan=1> Sales, general and administrative</td><td rowspan=1 colspan=1>2.654</td><td rowspan=1 colspan=1>2.440</td><td rowspan=1 colspan=1>2,166</td></tr><tr><td rowspan=1 colspan=1> Acquisition termination cost</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>1.353</td><td rowspan=1 colspan=1>1</td></tr><tr><td rowspan=1 colspan=1> Total operating expenses</td><td rowspan=1 colspan=1>11,329</td><td rowspan=1 colspan=1>11,132</td><td rowspan=1 colspan=1>7,434</td></tr><tr><td rowspan=1 colspan=1> Operating income</td><td rowspan=1 colspan=1>32,972</td><td rowspan=1 colspan=1>4,224</td><td rowspan=1 colspan=1>10.041</td></tr><tr><td rowspan=1 colspan=1> Interest income</td><td rowspan=1 colspan=1>866</td><td rowspan=1 colspan=1>267</td><td rowspan=1 colspan=1>29</td></tr><tr><td rowspan=1 colspan=1> Interest expense</td><td rowspan=1 colspan=1>(257)</td><td rowspan=1 colspan=1>(262)</td><td rowspan=1 colspan=1>(236)</td></tr><tr><td rowspan=1 colspan=1> Other, net</td><td rowspan=1 colspan=1>237</td><td rowspan=1 colspan=1>（48）</td><td rowspan=1 colspan=1>107</td></tr><tr><td rowspan=1 colspan=1> Other income (expense), net</td><td rowspan=1 colspan=1>846</td><td rowspan=1 colspan=1>（43）</td><td rowspan=1 colspan=1>(100)</td></tr><tr><td rowspan=1 colspan=1> Income before income tax</td><td rowspan=1 colspan=1>33,818</td><td rowspan=1 colspan=1>4,181</td><td rowspan=1 colspan=1>9,941</td></tr><tr><td rowspan=1 colspan=1>Income tax expense (benefit)</td><td rowspan=1 colspan=1>4,058</td><td rowspan=1 colspan=1>(187)</td><td rowspan=1 colspan=1>189</td></tr><tr><td rowspan=1 colspan=1>Net income</td><td rowspan=1 colspan=1>$    29.760</td><td rowspan=1 colspan=1>$     4.368</td><td rowspan=1 colspan=1>$     9.752</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1> Net income per share:</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Basic</td><td rowspan=1 colspan=1>$      12.05</td><td rowspan=1 colspan=1>$        1.76</td><td rowspan=1 colspan=1>$       3.91</td></tr><tr><td rowspan=1 colspan=1>Diluted</td><td rowspan=1 colspan=1>$      11.93</td><td rowspan=1 colspan=1>$       1.74</td><td rowspan=1 colspan=1>S       3.85</td></tr><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>Weighted average shares used in per share computation:</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=2 colspan=1>BasicDiluted</td><td rowspan=1 colspan=1>2,469</td><td rowspan=1 colspan=1>2,487</td><td rowspan=1 colspan=1>2,496</td></tr><tr><td rowspan=1 colspan=1>2.494</td><td rowspan=1 colspan=1>2.507</td><td rowspan=1 colspan=1>2.535</td></tr></table>",
+          "table_type": "complex_table",
+          "table_nest_level": 1
+        },
+        "bbox": [
+          72,
+          83,
+          925,
+          569
+        ],
+        "page_idx": 0,
+        "source_input": {
+          "path": "examples/inputs/public_benchmark/nvda_2024.pdf",
+          "url": null,
+          "role": "primary",
+          "mime_type": null
+        }
+      },
+      "sources": [
+        {
+          "page_start": 0,
+          "bbox": [
+            72,
+            83,
+            925,
+            569
+          ]
+        }
+      ]
+    },
+    {
+      "name": "nvidia_corporation_and_subsidiaries_consolidated_statements_of_comprehensive_income_in_millions",
+      "title": "NVIDIA Corporation and Subsidiaries Consolidated Statements of Comprehensive Income (In millions)",
+      "unit": "",
+      "table_type": "complex_table",
+      "table_nest_level": 1,
+      "footnote": "See accompanying notes to the consolidated financial statements.",
+      "image_source": {
+        "path": "images/31fecabbdf8c08c967378afc8d38554134a23fe54e826f1735de669c42391e34.jpg"
+      },
+      "periods": [
+        "Year Ended",
+        "Year Ended",
+        "Year Ended Jan 28,2024Jan29,2023Jan30,2022"
+      ],
+      "rows": [
+        {
+          "item": "Net income",
+          "raw_values": [
+            "$ 29,760$",
+            "",
+            "4,368$ 9.752"
+          ],
+          "values": {
+            "Year Ended": null,
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": 43689.752
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              65,
+              82,
+              932,
+              387
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other comprehensive income (loss), net of tax",
+          "raw_values": [
+            "Other comprehensive income (loss), net of tax",
+            "Other comprehensive income (loss), net of tax",
+            "Other comprehensive income (loss), net of tax"
+          ],
+          "values": {
+            "Year Ended": null,
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              65,
+              82,
+              932,
+              387
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Available-for-sale securities:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Year Ended": null,
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              65,
+              82,
+              932,
+              387
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net change in unrealized gain (loss)",
+          "raw_values": [
+            "80",
+            "(31)",
+            "(16)"
+          ],
+          "values": {
+            "Year Ended": -31.0,
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": -16.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              65,
+              82,
+              932,
+              387
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Reclassification adjustments for net realized gain included in net income",
+          "raw_values": [
+            "二",
+            "1",
+            "二"
+          ],
+          "values": {
+            "Year Ended": 1.0,
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              65,
+              82,
+              932,
+              387
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net change in unrealized gain (loss)",
+          "raw_values": [
+            "80",
+            "（30",
+            "(16)"
+          ],
+          "values": {
+            "Year Ended": null,
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": -16.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              65,
+              82,
+              932,
+              387
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash flow hedges:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Year Ended": null,
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              65,
+              82,
+              932,
+              387
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net change in unrealized gain (loss)",
+          "raw_values": [
+            "38",
+            "",
+            "47 (43)"
+          ],
+          "values": {
+            "Year Ended": null,
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              65,
+              82,
+              932,
+              387
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Reclassification adjustments for net realized gain (oss) included in netincome",
+          "raw_values": [
+            "（48)",
+            "",
+            ""
+          ],
+          "values": {
+            "Year Ended": null,
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              65,
+              82,
+              932,
+              387
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net change in unrealized loss",
+          "raw_values": [
+            "(10)",
+            "(49) (2)",
+            "29 (14)"
+          ],
+          "values": {
+            "Year Ended": null,
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              65,
+              82,
+              932,
+              387
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other comprehensive income (loss), net of tax",
+          "raw_values": [
+            "70",
+            "(32)",
+            "(30)"
+          ],
+          "values": {
+            "Year Ended": -32.0,
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": -30.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              65,
+              82,
+              932,
+              387
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total comprehensive income",
+          "raw_values": [
+            "$ 29,830",
+            "$ 4.336$",
+            "9,722"
+          ],
+          "values": {
+            "Year Ended": 4.336,
+            "Year Ended Jan 28,2024Jan29,2023Jan30,2022": 9722.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              65,
+              82,
+              932,
+              387
+            ],
+            "source": "html_table"
+          }
+        }
+      ],
+      "evidence": {
+        "page_start": 1,
+        "bbox": [
+          65,
+          82,
+          932,
+          387
+        ],
+        "page_end": 1
+      },
+      "raw_block": {
+        "type": "table",
+        "content": {
+          "image_source": {
+            "path": "images/31fecabbdf8c08c967378afc8d38554134a23fe54e826f1735de669c42391e34.jpg"
+          },
+          "table_caption": [
+            {
+              "type": "text",
+              "content": "NVIDIA Corporation and Subsidiaries Consolidated Statements of Comprehensive Income (In millions)"
+            }
+          ],
+          "table_footnote": [
+            {
+              "type": "text",
+              "content": "See accompanying notes to the consolidated financial statements."
+            }
+          ],
+          "html": "<table><tr><td colspan=\"4\">Year Ended</td></tr><tr><td></td><td></td><td></td><td>Jan 28,2024Jan29,2023Jan30,2022</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>Net income</td><td>$ 29,760$</td><td></td><td>4,368$ 9.752</td></tr><tr><td colspan=\"4\"> Other comprehensive income (loss), net of tax</td></tr><tr><td> Available-for-sale securities:</td><td></td><td></td><td></td></tr><tr><td> Net change in unrealized gain (loss)</td><td>80</td><td>(31)</td><td>(16)</td></tr><tr><td>Reclassification adjustments for net realized gain included in net income</td><td>二</td><td>1</td><td>二</td></tr><tr><td> Net change in unrealized gain (loss)</td><td>80</td><td>（30</td><td>(16)</td></tr><tr><td>Cash flow hedges:</td><td></td><td></td><td></td></tr><tr><td> Net change in unrealized gain (loss)</td><td>38</td><td></td><td>47 (43)</td></tr><tr><td>Reclassification adjustments for net realized gain (oss) included in netincome</td><td>（48)</td><td></td><td></td></tr><tr><td> Net change in unrealized loss</td><td>(10)</td><td>(49) (2)</td><td>29 (14)</td></tr><tr><td>Other comprehensive income (loss), net of tax</td><td>70</td><td>(32)</td><td>(30)</td></tr><tr><td>Total comprehensive income</td><td>$ 29,830</td><td>$ 4.336$</td><td>9,722</td></tr></table>",
+          "table_type": "complex_table",
+          "table_nest_level": 1
+        },
+        "bbox": [
+          65,
+          82,
+          932,
+          387
+        ],
+        "page_idx": 1,
+        "source_input": {
+          "path": "examples/inputs/public_benchmark/nvda_2024.pdf",
+          "url": null,
+          "role": "primary",
+          "mime_type": null
+        }
+      },
+      "sources": [
+        {
+          "page_start": 1,
+          "bbox": [
+            65,
+            82,
+            932,
+            387
+          ]
+        }
+      ]
+    },
+    {
+      "name": "nvidia_corporation_and_subsidiaries_consolidated_balance_sheets_in_millions_except_par_value",
+      "title": "NVIDIA Corporation and Subsidiaries Consolidated Balance Sheets (In millions, except par value)",
+      "unit": "",
+      "table_type": "simple_table",
+      "table_nest_level": 1,
+      "footnote": "See accompanying notes to the consolidated financial statements.",
+      "image_source": {
+        "path": "images/4b70a447e80a66a8b6a247d3cdac9dee7e14eaa18898992a6075d5d9054f9658.jpg"
+      },
+      "periods": [
+        "col_0",
+        "Jan 28,2024Jan 29,2023"
+      ],
+      "rows": [
+        {
+          "item": "Cash and cash equivalents",
+          "raw_values": [
+            "$ 7,280",
+            "$ 3.389"
+          ],
+          "values": {
+            "col_0": 7280.0,
+            "Jan 28,2024Jan 29,2023": 3.389
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Marketable securities",
+          "raw_values": [
+            "18,704",
+            "9.907"
+          ],
+          "values": {
+            "col_0": 18704.0,
+            "Jan 28,2024Jan 29,2023": 9.907
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Accounts receivable, net",
+          "raw_values": [
+            "9.999",
+            "3.827"
+          ],
+          "values": {
+            "col_0": 9.999,
+            "Jan 28,2024Jan 29,2023": 3.827
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Inventories",
+          "raw_values": [
+            "5,282",
+            "5,159"
+          ],
+          "values": {
+            "col_0": 5282.0,
+            "Jan 28,2024Jan 29,2023": 5159.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Prepaid expenses and other current assets",
+          "raw_values": [
+            "3,080",
+            "791"
+          ],
+          "values": {
+            "col_0": 3080.0,
+            "Jan 28,2024Jan 29,2023": 791.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total current assets",
+          "raw_values": [
+            "44,345",
+            "23.073"
+          ],
+          "values": {
+            "col_0": 44345.0,
+            "Jan 28,2024Jan 29,2023": 23.073
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Property and equipment, net",
+          "raw_values": [
+            "3.914",
+            "3.807"
+          ],
+          "values": {
+            "col_0": 3.914,
+            "Jan 28,2024Jan 29,2023": 3.807
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Operating lease assets",
+          "raw_values": [
+            "1.346",
+            "1,038"
+          ],
+          "values": {
+            "col_0": 1.346,
+            "Jan 28,2024Jan 29,2023": 1038.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Goodwill",
+          "raw_values": [
+            "4,430",
+            "4,372"
+          ],
+          "values": {
+            "col_0": 4430.0,
+            "Jan 28,2024Jan 29,2023": 4372.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Intangible assets, net",
+          "raw_values": [
+            "1,112",
+            "1,676"
+          ],
+          "values": {
+            "col_0": 1112.0,
+            "Jan 28,2024Jan 29,2023": 1676.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Deferred income tax assets",
+          "raw_values": [
+            "6.081",
+            "3.396"
+          ],
+          "values": {
+            "col_0": 6.081,
+            "Jan 28,2024Jan 29,2023": 3.396
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other assets",
+          "raw_values": [
+            "",
+            ""
+          ],
+          "values": {
+            "col_0": null,
+            "Jan 28,2024Jan 29,2023": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total assets",
+          "raw_values": [
+            "4.500 65.728$",
+            "3.820 41,182"
+          ],
+          "values": {
+            "col_0": null,
+            "Jan 28,2024Jan 29,2023": 3.82041182
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "",
+          "raw_values": [
+            "$",
+            ""
+          ],
+          "values": {
+            "col_0": null,
+            "Jan 28,2024Jan 29,2023": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Liabilities and Shareholders' Equity",
+          "raw_values": [
+            "",
+            ""
+          ],
+          "values": {
+            "col_0": null,
+            "Jan 28,2024Jan 29,2023": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Current liabilites:",
+          "raw_values": [
+            "",
+            ""
+          ],
+          "values": {
+            "col_0": null,
+            "Jan 28,2024Jan 29,2023": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Accounts payable",
+          "raw_values": [
+            "$ 2.699",
+            "$ 1,193"
+          ],
+          "values": {
+            "col_0": 2.699,
+            "Jan 28,2024Jan 29,2023": 1193.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Accrued and other current liabilities",
+          "raw_values": [
+            "6.682",
+            "4,120"
+          ],
+          "values": {
+            "col_0": 6.682,
+            "Jan 28,2024Jan 29,2023": 4120.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Short-term debt",
+          "raw_values": [
+            "1,250",
+            "1.250"
+          ],
+          "values": {
+            "col_0": 1250.0,
+            "Jan 28,2024Jan 29,2023": 1.25
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total current liabilities",
+          "raw_values": [
+            "10.631",
+            "6.563"
+          ],
+          "values": {
+            "col_0": 10.631,
+            "Jan 28,2024Jan 29,2023": 6.563
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Long-term debt",
+          "raw_values": [
+            "8.459",
+            "9,703"
+          ],
+          "values": {
+            "col_0": 8.459,
+            "Jan 28,2024Jan 29,2023": 9703.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Long-term operating lease liabilities",
+          "raw_values": [
+            "",
+            ""
+          ],
+          "values": {
+            "col_0": null,
+            "Jan 28,2024Jan 29,2023": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other long-term liabilities",
+          "raw_values": [
+            "1,119",
+            "902"
+          ],
+          "values": {
+            "col_0": 1119.0,
+            "Jan 28,2024Jan 29,2023": 902.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total liabilities",
+          "raw_values": [
+            "2.541",
+            "1,913"
+          ],
+          "values": {
+            "col_0": 2.541,
+            "Jan 28,2024Jan 29,2023": 1913.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Commitments and contingencies - see Note 13",
+          "raw_values": [
+            "22,750",
+            "19.081"
+          ],
+          "values": {
+            "col_0": 22750.0,
+            "Jan 28,2024Jan 29,2023": 19.081
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Shareholders'equity:",
+          "raw_values": [
+            "",
+            ""
+          ],
+          "values": {
+            "col_0": null,
+            "Jan 28,2024Jan 29,2023": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Preferred stock, $0.001 par value; 2 shares authorized; none issued",
+          "raw_values": [
+            "",
+            ""
+          ],
+          "values": {
+            "col_0": null,
+            "Jan 28,2024Jan 29,2023": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Common stock, $0.001 par value; 8,000 shares authorized; 2,464 shares issued and outstandingas of January 28, 2024;2,466 shares issued and",
+          "raw_values": [
+            "",
+            ""
+          ],
+          "values": {
+            "col_0": null,
+            "Jan 28,2024Jan 29,2023": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "outstanding as of January 29, 2023",
+          "raw_values": [
+            "2",
+            "2"
+          ],
+          "values": {
+            "col_0": 2.0,
+            "Jan 28,2024Jan 29,2023": 2.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Additional paid-in capital",
+          "raw_values": [
+            "13,132",
+            "11,971"
+          ],
+          "values": {
+            "col_0": 13132.0,
+            "Jan 28,2024Jan 29,2023": 11971.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Accumulated other comprehensive income (loss)",
+          "raw_values": [
+            "27",
+            "(43)"
+          ],
+          "values": {
+            "col_0": 27.0,
+            "Jan 28,2024Jan 29,2023": -43.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Retained earnings",
+          "raw_values": [
+            "29.817",
+            "10.171"
+          ],
+          "values": {
+            "col_0": 29.817,
+            "Jan 28,2024Jan 29,2023": 10.171
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total shareholders'equity Total liabilities and shareholders' equity",
+          "raw_values": [
+            "42.978 $ 65,728$",
+            "22.101 41,182"
+          ],
+          "values": {
+            "col_0": 42.97865728,
+            "Jan 28,2024Jan 29,2023": 22.10141182
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              67,
+              85,
+              930,
+              776
+            ],
+            "source": "html_table"
+          }
+        }
+      ],
+      "evidence": {
+        "page_start": 2,
+        "bbox": [
+          67,
+          85,
+          930,
+          776
+        ],
+        "page_end": 2
+      },
+      "raw_block": {
+        "type": "table",
+        "content": {
+          "image_source": {
+            "path": "images/4b70a447e80a66a8b6a247d3cdac9dee7e14eaa18898992a6075d5d9054f9658.jpg"
+          },
+          "table_caption": [
+            {
+              "type": "text",
+              "content": "NVIDIA Corporation and Subsidiaries Consolidated Balance Sheets (In millions, except par value)"
+            }
+          ],
+          "table_footnote": [
+            {
+              "type": "text",
+              "content": "See accompanying notes to the consolidated financial statements."
+            }
+          ],
+          "html": "<table><tr><td></td><td></td><td>Jan 28,2024Jan 29,2023</td></tr><tr><td> Assets</td><td></td><td></td></tr><tr><td>Current assets:</td><td></td><td></td></tr><tr><td> Cash and cash equivalents</td><td>$ 7,280</td><td>$ 3.389</td></tr><tr><td> Marketable securities</td><td>18,704</td><td>9.907</td></tr><tr><td> Accounts receivable, net</td><td>9.999</td><td>3.827</td></tr><tr><td>Inventories</td><td>5,282</td><td>5,159</td></tr><tr><td> Prepaid expenses and other current assets</td><td>3,080</td><td>791</td></tr><tr><td>Total current assets</td><td>44,345</td><td>23.073</td></tr><tr><td> Property and equipment, net</td><td>3.914</td><td>3.807</td></tr><tr><td> Operating lease assets</td><td>1.346</td><td>1,038</td></tr><tr><td>Goodwill</td><td>4,430</td><td> 4,372</td></tr><tr><td> Intangible assets, net</td><td>1,112</td><td>1,676</td></tr><tr><td> Deferred income tax assets</td><td>6.081</td><td>3.396</td></tr><tr><td> Other assets</td><td></td><td></td></tr><tr><td> Total assets</td><td>4.500 65.728$</td><td>3.820 41,182</td></tr><tr><td></td><td>$</td><td></td></tr><tr><td> Liabilities and Shareholders&#x27; Equity</td><td></td><td></td></tr><tr><td>Current liabilites:</td><td></td><td></td></tr><tr><td> Accounts payable</td><td>$ 2.699</td><td>$ 1,193</td></tr><tr><td> Accrued and other current liabilities</td><td>6.682</td><td>4,120</td></tr><tr><td> Short-term debt</td><td>1,250</td><td>1.250</td></tr><tr><td>Total current liabilities</td><td>10.631</td><td>6.563</td></tr><tr><td> Long-term debt</td><td>8.459</td><td>9,703</td></tr><tr><td>Long-term operating lease liabilities</td><td></td><td></td></tr><tr><td> Other long-term liabilities</td><td>1,119</td><td>902</td></tr><tr><td>Total liabilities</td><td>2.541</td><td>1,913</td></tr><tr><td> Commitments and contingencies - see Note 13</td><td>22,750</td><td>19.081</td></tr><tr><td>Shareholders&#x27;equity:</td><td></td><td></td></tr><tr><td> Preferred stock, $0.001 par value; 2 shares authorized; none issued</td><td></td><td></td></tr><tr><td>Common stock, $0.001 par value; 8,000 shares authorized; 2,464 shares issued and outstandingas of January 28, 2024;2,466 shares issued and</td><td></td><td></td></tr><tr><td>outstanding as of January 29, 2023</td><td>2</td><td>2</td></tr><tr><td> Additional paid-in capital</td><td>13,132</td><td>11,971</td></tr><tr><td>Accumulated other comprehensive income (loss)</td><td>27</td><td>(43)</td></tr><tr><td> Retained earnings</td><td>29.817</td><td>10.171</td></tr><tr><td>Total shareholders&#x27;equity Total liabilities and shareholders&#x27; equity</td><td>42.978 $ 65,728$</td><td>22.101 41,182</td></tr></table>",
+          "table_type": "simple_table",
+          "table_nest_level": 1
+        },
+        "bbox": [
+          67,
+          85,
+          930,
+          776
+        ],
+        "page_idx": 2,
+        "source_input": {
+          "path": "examples/inputs/public_benchmark/nvda_2024.pdf",
+          "url": null,
+          "role": "primary",
+          "mime_type": null
+        }
+      },
+      "sources": [
+        {
+          "page_start": 2,
+          "bbox": [
+            67,
+            85,
+            930,
+            776
+          ]
+        }
+      ]
+    },
+    {
+      "name": "nvidia_corporation_and_subsidiaries_consolidated_statements_of_shareholders_equity",
+      "title": "NVIDIA Corporation and Subsidiaries Consolidated Statements of Shareholders' Equity",
+      "unit": "",
+      "table_type": "complex_table",
+      "table_nest_level": 1,
+      "footnote": "See accompanying notes to the consolidated financial statements.",
+      "image_source": {
+        "path": "images/e56c91ec91d1b9cafd3d31555f5069021e5f01f451c8a6a05bc8ad855d444705.jpg"
+      },
+      "periods": [
+        "Common Stock COmtstanding Shares Amount (In millions, except per share data)",
+        "(In millions, except per share data)",
+        "Additional Paid-inal Capital (In millions, except per share data)",
+        "Additional Treasury Stock (In millions, except per share data)",
+        "Additional Other Comprehensive Income (Loss) (In millions, except per share data)",
+        "Additional Retained Earnings (In millions, except per share data)",
+        "Additional Total Shareholders' Equity (In millions, except per share data)"
+      ],
+      "rows": [
+        {
+          "item": "Balances,Jan 31,2021",
+          "raw_values": [
+            "2,479$",
+            "",
+            "",
+            "8.719 $ (10,756) $",
+            "",
+            "19 $ 18.908 $",
+            "16.893"
+          ],
+          "values": {
+            "Common Stock COmtstanding Shares Amount (In millions, except per share data)": 2479.0,
+            "(In millions, except per share data)": null,
+            "Additional Paid-inal Capital (In millions, except per share data)": null,
+            "Additional Treasury Stock (In millions, except per share data)": null,
+            "Additional Other Comprehensive Income (Loss) (In millions, except per share data)": null,
+            "Additional Retained Earnings (In millions, except per share data)": 1918.908,
+            "Additional Total Shareholders' Equity (In millions, except per share data)": 16.893
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              52,
+              79,
+              945,
+              730
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net income",
+          "raw_values": [
+            "",
+            "",
+            "3$",
+            "",
+            "",
+            "9,752",
+            "9,752"
+          ],
+          "values": {
+            "Common Stock COmtstanding Shares Amount (In millions, except per share data)": null,
+            "(In millions, except per share data)": null,
+            "Additional Paid-inal Capital (In millions, except per share data)": 3.0,
+            "Additional Treasury Stock (In millions, except per share data)": null,
+            "Additional Other Comprehensive Income (Loss) (In millions, except per share data)": null,
+            "Additional Retained Earnings (In millions, except per share data)": 9752.0,
+            "Additional Total Shareholders' Equity (In millions, except per share data)": 9752.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              52,
+              79,
+              945,
+              730
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other comprehensive loss",
+          "raw_values": [
+            "二",
+            "",
+            "",
+            "",
+            "(30)",
+            "1",
+            "(30)"
+          ],
+          "values": {
+            "Common Stock COmtstanding Shares Amount (In millions, except per share data)": null,
+            "(In millions, except per share data)": null,
+            "Additional Paid-inal Capital (In millions, except per share data)": null,
+            "Additional Treasury Stock (In millions, except per share data)": null,
+            "Additional Other Comprehensive Income (Loss) (In millions, except per share data)": -30.0,
+            "Additional Retained Earnings (In millions, except per share data)": 1.0,
+            "Additional Total Shareholders' Equity (In millions, except per share data)": -30.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              52,
+              79,
+              945,
+              730
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Issuance ofcommon stock from stock plans",
+          "raw_values": [
+            "35",
+            "",
+            "281",
+            "",
+            "",
+            "",
+            "281"
+          ],
+          "values": {
+            "Common Stock COmtstanding Shares Amount (In millions, except per share data)": 35.0,
+            "(In millions, except per share data)": null,
+            "Additional Paid-inal Capital (In millions, except per share data)": 281.0,
+            "Additional Treasury Stock (In millions, except per share data)": null,
+            "Additional Other Comprehensive Income (Loss) (In millions, except per share data)": null,
+            "Additional Retained Earnings (In millions, except per share data)": null,
+            "Additional Total Shareholders' Equity (In millions, except per share data)": 281.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              52,
+              79,
+              945,
+              730
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Tax witholding related to vesting of restricted stock units",
+          "raw_values": [
+            "（8）",
+            "",
+            "",
+            "",
+            "1",
+            "1",
+            "(1,904)"
+          ],
+          "values": {
+            "Common Stock COmtstanding Shares Amount (In millions, except per share data)": -8.0,
+            "(In millions, except per share data)": null,
+            "Additional Paid-inal Capital (In millions, except per share data)": null,
+            "Additional Treasury Stock (In millions, except per share data)": null,
+            "Additional Other Comprehensive Income (Loss) (In millions, except per share data)": 1.0,
+            "Additional Retained Earnings (In millions, except per share data)": 1.0,
+            "Additional Total Shareholders' Equity (In millions, except per share data)": -1904.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              52,
+              79,
+              945,
+              730
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash dividends declared and paid ($0.16 per common share)",
+          "raw_values": [
+            "",
+            "",
+            "(614)",
+            "(1,290)",
+            "",
+            "(399)",
+            "(399)"
+          ],
+          "values": {
+            "Common Stock COmtstanding Shares Amount (In millions, except per share data)": null,
+            "(In millions, except per share data)": null,
+            "Additional Paid-inal Capital (In millions, except per share data)": -614.0,
+            "Additional Treasury Stock (In millions, except per share data)": -1290.0,
+            "Additional Other Comprehensive Income (Loss) (In millions, except per share data)": null,
+            "Additional Retained Earnings (In millions, except per share data)": -399.0,
+            "Additional Total Shareholders' Equity (In millions, except per share data)": -399.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              52,
+              79,
+              945,
+              730
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Fair value of partially vested equity awards assumed in connection with acquisitions",
+          "raw_values": [
+            "",
+            "",
+            "1 18",
+            "",
+            "",
+            "",
+            "18"
+          ],
+          "values": {
+            "Common Stock COmtstanding Shares Amount (In millions, except per share data)": null,
+            "(In millions, except per share data)": null,
+            "Additional Paid-inal Capital (In millions, except per share data)": 118.0,
+            "Additional Treasury Stock (In millions, except per share data)": null,
+            "Additional Other Comprehensive Income (Loss) (In millions, except per share data)": null,
+            "Additional Retained Earnings (In millions, except per share data)": null,
+            "Additional Total Shareholders' Equity (In millions, except per share data)": 18.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              52,
+              79,
+              945,
+              730
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Stock-based compensation",
+          "raw_values": [
+            "1",
+            "",
+            "2.001",
+            "",
+            "",
+            "",
+            "2.001"
+          ],
+          "values": {
+            "Common Stock COmtstanding Shares Amount (In millions, except per share data)": 1.0,
+            "(In millions, except per share data)": null,
+            "Additional Paid-inal Capital (In millions, except per share data)": 2.001,
+            "Additional Treasury Stock (In millions, except per share data)": null,
+            "Additional Other Comprehensive Income (Loss) (In millions, except per share data)": null,
+            "Additional Retained Earnings (In millions, except per share data)": null,
+            "Additional Total Shareholders' Equity (In millions, except per share data)": 2.001
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              52,
+              79,
+              945,
+              730
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Retirement of Treasury Stock",
+          "raw_values": [
+            "二",
+            "",
+            "（20）",
+            "1",
+            "",
+            "1 (12.026)",
+            "三"
+          ],
+          "values": {
+            "Common Stock COmtstanding Shares Amount (In millions, except per share data)": null,
+            "(In millions, except per share data)": null,
+            "Additional Paid-inal Capital (In millions, except per share data)": -20.0,
+            "Additional Treasury Stock (In millions, except per share data)": 1.0,
+            "Additional Other Comprehensive Income (Loss) (In millions, except per share data)": null,
+            "Additional Retained Earnings (In millions, except per share data)": null,
+            "Additional Total Shareholders' Equity (In millions, except per share data)": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              52,
+              79,
+              945,
+              730
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Balances, Jan 30,2022",
+          "raw_values": [
+            "2,506",
+            "",
+            "10.385",
+            "12.046",
+            "二",
+            "",
+            "26,612"
+          ],
+          "values": {
+            "Common Stock COmtstanding Shares Amount (In millions, except per share data)": 2506.0,
+            "(In millions, except per share data)": null,
+            "Additional Paid-inal Capital (In millions, except per share data)": 10.385,
+            "Additional Treasury Stock (In millions, except per share data)": 12.046,
+            "Additional Other Comprehensive Income (Loss) (In millions, except per share data)": null,
+            "Additional Retained Earnings (In millions, except per share data)": null,
+            "Additional Total Shareholders' Equity (In millions, except per share data)": 26612.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              52,
+              79,
+              945,
+              730
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net income",
+          "raw_values": [
+            "1",
+            "",
+            "",
+            "1",
+            "(11)",
+            "16,235 4.368",
+            "4,368"
+          ],
+          "values": {
+            "Common Stock COmtstanding Shares Amount (In millions, except per share data)": 1.0,
+            "(In millions, except per share data)": null,
+            "Additional Paid-inal Capital (In millions, except per share data)": null,
+            "Additional Treasury Stock (In millions, except per share data)": 1.0,
+            "Additional Other Comprehensive Income (Loss) (In millions, except per share data)": -11.0,
+            "Additional Retained Earnings (In millions, except per share data)": 162354.368,
+            "Additional Total Shareholders' Equity (In millions, except per share data)": 4368.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              52,
+              79,
+              945,
+              730
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other comprehensive loss",
+          "raw_values": [
+            "",
+            "",
+            "1",
+            "1",
+            "1",
+            "",
+            ""
+          ],
+          "values": {
+            "Common Stock COmtstanding Shares Amount (In millions, except per share data)": null,
+            "(In millions, except per share data)": null,
+            "Additional Paid-inal Capital (In millions, except per share data)": 1.0,
+            "Additional Treasury Stock (In millions, except per share data)": 1.0,
+            "Additional Other Comprehensive Income (Loss) (In millions, except per share data)": 1.0,
+            "Additional Retained Earnings (In millions, except per share data)": null,
+            "Additional Total Shareholders' Equity (In millions, except per share data)": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              52,
+              79,
+              945,
+              730
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Issuance of common stock from stock plans",
+          "raw_values": [
+            "1 31",
+            "",
+            "1 355",
+            "1",
+            "(32) 1",
+            "1 1",
+            "(32) 355"
+          ],
+          "values": {
+            "Common Stock COmtstanding Shares Amount (In millions, except per share data)": 131.0,
+            "(In millions, except per share data)": null,
+            "Additional Paid-inal Capital (In millions, except per share data)": 1355.0,
+            "Additional Treasury Stock (In millions, except per share data)": 1.0,
+            "Additional Other Comprehensive Income (Loss) (In millions, except per share data)": null,
+            "Additional Retained Earnings (In millions, except per share data)": 11.0,
+            "Additional Total Shareholders' Equity (In millions, except per share data)": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              52,
+              79,
+              945,
+              730
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Tax withholding related to vesting of restricted stock units",
+          "raw_values": [
+            "(8)",
+            "",
+            "(1,475)",
+            "1",
+            "一",
+            "",
+            "(1,475)"
+          ],
+          "values": {
+            "Common Stock COmtstanding Shares Amount (In millions, except per share data)": -8.0,
+            "(In millions, except per share data)": null,
+            "Additional Paid-inal Capital (In millions, except per share data)": -1475.0,
+            "Additional Treasury Stock (In millions, except per share data)": 1.0,
+            "Additional Other Comprehensive Income (Loss) (In millions, except per share data)": null,
+            "Additional Retained Earnings (In millions, except per share data)": null,
+            "Additional Total Shareholders' Equity (In millions, except per share data)": -1475.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              52,
+              79,
+              945,
+              730
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Shares repurchased",
+          "raw_values": [
+            "(63）",
+            "",
+            "（4",
+            "",
+            "",
+            "(10.034)",
+            "(10.039)"
+          ],
+          "values": {
+            "Common Stock COmtstanding Shares Amount (In millions, except per share data)": null,
+            "(In millions, except per share data)": null,
+            "Additional Paid-inal Capital (In millions, except per share data)": null,
+            "Additional Treasury Stock (In millions, except per share data)": null,
+            "Additional Other Comprehensive Income (Loss) (In millions, except per share data)": null,
+            "Additional Retained Earnings (In millions, except per share data)": -10.034,
+            "Additional Total Shareholders' Equity (In millions, except per share data)": -10.039
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              52,
+              79,
+              945,
+              730
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash dividends declaredand paid ($0.16percommon share)",
+          "raw_values": [
+            "1",
+            "(1)",
+            "",
+            "",
+            "1",
+            "(398)",
+            "(398)"
+          ],
+          "values": {
+            "Common Stock COmtstanding Shares Amount (In millions, except per share data)": 1.0,
+            "(In millions, except per share data)": -1.0,
+            "Additional Paid-inal Capital (In millions, except per share data)": null,
+            "Additional Treasury Stock (In millions, except per share data)": null,
+            "Additional Other Comprehensive Income (Loss) (In millions, except per share data)": 1.0,
+            "Additional Retained Earnings (In millions, except per share data)": -398.0,
+            "Additional Total Shareholders' Equity (In millions, except per share data)": -398.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              52,
+              79,
+              945,
+              730
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Stock-based compensation",
+          "raw_values": [
+            "二",
+            "1 二",
+            "1 2.710",
+            "",
+            "二",
+            "二",
+            "2.710"
+          ],
+          "values": {
+            "Common Stock COmtstanding Shares Amount (In millions, except per share data)": null,
+            "(In millions, except per share data)": null,
+            "Additional Paid-inal Capital (In millions, except per share data)": 12.71,
+            "Additional Treasury Stock (In millions, except per share data)": null,
+            "Additional Other Comprehensive Income (Loss) (In millions, except per share data)": null,
+            "Additional Retained Earnings (In millions, except per share data)": null,
+            "Additional Total Shareholders' Equity (In millions, except per share data)": 2.71
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              52,
+              79,
+              945,
+              730
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Balances, Jan 29, 2023",
+          "raw_values": [
+            "2,466",
+            "2",
+            "11,971",
+            "",
+            "（43)",
+            "10.171",
+            "22,101"
+          ],
+          "values": {
+            "Common Stock COmtstanding Shares Amount (In millions, except per share data)": 2466.0,
+            "(In millions, except per share data)": 2.0,
+            "Additional Paid-inal Capital (In millions, except per share data)": 11971.0,
+            "Additional Treasury Stock (In millions, except per share data)": null,
+            "Additional Other Comprehensive Income (Loss) (In millions, except per share data)": null,
+            "Additional Retained Earnings (In millions, except per share data)": 10.171,
+            "Additional Total Shareholders' Equity (In millions, except per share data)": 22101.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              52,
+              79,
+              945,
+              730
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net income",
+          "raw_values": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Common Stock COmtstanding Shares Amount (In millions, except per share data)": null,
+            "(In millions, except per share data)": null,
+            "Additional Paid-inal Capital (In millions, except per share data)": null,
+            "Additional Treasury Stock (In millions, except per share data)": null,
+            "Additional Other Comprehensive Income (Loss) (In millions, except per share data)": null,
+            "Additional Retained Earnings (In millions, except per share data)": null,
+            "Additional Total Shareholders' Equity (In millions, except per share data)": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              52,
+              79,
+              945,
+              730
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other comprehensive income",
+          "raw_values": [
+            "1",
+            "",
+            "1",
+            "",
+            "1 70",
+            "29,760",
+            "29,760"
+          ],
+          "values": {
+            "Common Stock COmtstanding Shares Amount (In millions, except per share data)": 1.0,
+            "(In millions, except per share data)": null,
+            "Additional Paid-inal Capital (In millions, except per share data)": 1.0,
+            "Additional Treasury Stock (In millions, except per share data)": null,
+            "Additional Other Comprehensive Income (Loss) (In millions, except per share data)": 170.0,
+            "Additional Retained Earnings (In millions, except per share data)": 29760.0,
+            "Additional Total Shareholders' Equity (In millions, except per share data)": 29760.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              52,
+              79,
+              945,
+              730
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Issuance of common stock from stock plans",
+          "raw_values": [
+            "1 26",
+            "",
+            "1 403",
+            "",
+            "1",
+            "",
+            "70 403"
+          ],
+          "values": {
+            "Common Stock COmtstanding Shares Amount (In millions, except per share data)": 126.0,
+            "(In millions, except per share data)": null,
+            "Additional Paid-inal Capital (In millions, except per share data)": 1403.0,
+            "Additional Treasury Stock (In millions, except per share data)": null,
+            "Additional Other Comprehensive Income (Loss) (In millions, except per share data)": 1.0,
+            "Additional Retained Earnings (In millions, except per share data)": null,
+            "Additional Total Shareholders' Equity (In millions, except per share data)": 70403.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              52,
+              79,
+              945,
+              730
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Tax withholding related to vesting of restricted stock units",
+          "raw_values": [
+            "(7)",
+            "",
+            "(2,783)",
+            "",
+            "",
+            "1",
+            "(2.783)"
+          ],
+          "values": {
+            "Common Stock COmtstanding Shares Amount (In millions, except per share data)": -7.0,
+            "(In millions, except per share data)": null,
+            "Additional Paid-inal Capital (In millions, except per share data)": -2783.0,
+            "Additional Treasury Stock (In millions, except per share data)": null,
+            "Additional Other Comprehensive Income (Loss) (In millions, except per share data)": null,
+            "Additional Retained Earnings (In millions, except per share data)": 1.0,
+            "Additional Total Shareholders' Equity (In millions, except per share data)": -2.783
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              52,
+              79,
+              945,
+              730
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Shares repurchased",
+          "raw_values": [
+            "(21)",
+            "",
+            "(27)",
+            "",
+            "",
+            "(9.719)",
+            "(9.746)"
+          ],
+          "values": {
+            "Common Stock COmtstanding Shares Amount (In millions, except per share data)": -21.0,
+            "(In millions, except per share data)": null,
+            "Additional Paid-inal Capital (In millions, except per share data)": -27.0,
+            "Additional Treasury Stock (In millions, except per share data)": null,
+            "Additional Other Comprehensive Income (Loss) (In millions, except per share data)": null,
+            "Additional Retained Earnings (In millions, except per share data)": -9.719,
+            "Additional Total Shareholders' Equity (In millions, except per share data)": -9.746
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              52,
+              79,
+              945,
+              730
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash dividends declaredandpaid ($0.16percommonshare)",
+          "raw_values": [
+            "1",
+            "",
+            "1",
+            "",
+            "",
+            "(395)",
+            "(395)"
+          ],
+          "values": {
+            "Common Stock COmtstanding Shares Amount (In millions, except per share data)": 1.0,
+            "(In millions, except per share data)": null,
+            "Additional Paid-inal Capital (In millions, except per share data)": 1.0,
+            "Additional Treasury Stock (In millions, except per share data)": null,
+            "Additional Other Comprehensive Income (Loss) (In millions, except per share data)": null,
+            "Additional Retained Earnings (In millions, except per share data)": -395.0,
+            "Additional Total Shareholders' Equity (In millions, except per share data)": -395.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              52,
+              79,
+              945,
+              730
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "",
+          "raw_values": [
+            "二",
+            "",
+            "3.568",
+            "",
+            "1",
+            "二",
+            "3.568"
+          ],
+          "values": {
+            "Common Stock COmtstanding Shares Amount (In millions, except per share data)": null,
+            "(In millions, except per share data)": null,
+            "Additional Paid-inal Capital (In millions, except per share data)": 3.568,
+            "Additional Treasury Stock (In millions, except per share data)": null,
+            "Additional Other Comprehensive Income (Loss) (In millions, except per share data)": 1.0,
+            "Additional Retained Earnings (In millions, except per share data)": null,
+            "Additional Total Shareholders' Equity (In millions, except per share data)": 3.568
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              52,
+              79,
+              945,
+              730
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Stock-based compensation Balances, Jan 28,2024",
+          "raw_values": [
+            "2.464$",
+            "二 2$",
+            "13,132$",
+            "$",
+            "27$",
+            "29.817$",
+            "42.978"
+          ],
+          "values": {
+            "Common Stock COmtstanding Shares Amount (In millions, except per share data)": 2.464,
+            "(In millions, except per share data)": null,
+            "Additional Paid-inal Capital (In millions, except per share data)": 13132.0,
+            "Additional Treasury Stock (In millions, except per share data)": null,
+            "Additional Other Comprehensive Income (Loss) (In millions, except per share data)": 27.0,
+            "Additional Retained Earnings (In millions, except per share data)": 29.817,
+            "Additional Total Shareholders' Equity (In millions, except per share data)": 42.978
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              52,
+              79,
+              945,
+              730
+            ],
+            "source": "html_table"
+          }
+        }
+      ],
+      "evidence": {
+        "page_start": 3,
+        "bbox": [
+          52,
+          79,
+          945,
+          730
+        ],
+        "page_end": 3
+      },
+      "raw_block": {
+        "type": "table",
+        "content": {
+          "image_source": {
+            "path": "images/e56c91ec91d1b9cafd3d31555f5069021e5f01f451c8a6a05bc8ad855d444705.jpg"
+          },
+          "table_caption": [
+            {
+              "type": "text",
+              "content": "NVIDIA Corporation and Subsidiaries Consolidated Statements of Shareholders' Equity"
+            }
+          ],
+          "table_footnote": [
+            {
+              "type": "text",
+              "content": "See accompanying notes to the consolidated financial statements."
+            }
+          ],
+          "html": "<table><tr><td rowspan=\"2\"></td><td rowspan=\"2\">Common Stock COmtstanding Shares Amount</td><td rowspan=\"2\"></td><td colspan=\"5\">Additional</td></tr><tr><td>Paid-inal Capital</td><td>Treasury Stock</td><td>Other Comprehensive Income (Loss)</td><td>Retained Earnings</td><td>Total Shareholders&#x27; Equity</td></tr><tr><td colspan=\"8\">(In millions, except per share data)</td></tr><tr><td>Balances,Jan 31,2021</td><td>2,479$</td><td></td><td></td><td>8.719 $ (10,756) $</td><td></td><td>19 $ 18.908 $</td><td>16.893</td></tr><tr><td>Net income</td><td></td><td></td><td>3$</td><td></td><td></td><td>9,752</td><td>9,752</td></tr><tr><td>Other comprehensive loss</td><td>二</td><td></td><td></td><td></td><td>(30)</td><td>1</td><td>(30)</td></tr><tr><td>Issuance ofcommon stock from stock plans</td><td>35</td><td></td><td>281</td><td></td><td></td><td></td><td>281</td></tr><tr><td>Tax witholding related to vesting of restricted stock units</td><td>（8）</td><td></td><td></td><td></td><td>1</td><td>1</td><td>(1,904)</td></tr><tr><td>Cash dividends declared and paid ($0.16 per common share)</td><td></td><td></td><td>(614)</td><td>(1,290)</td><td></td><td>(399)</td><td>(399)</td></tr><tr><td>Fair value of partially vested equity awards assumed in connection with acquisitions</td><td></td><td></td><td>1 18</td><td></td><td></td><td></td><td>18</td></tr><tr><td> Stock-based compensation</td><td>1</td><td></td><td>2.001</td><td></td><td></td><td></td><td>2.001</td></tr><tr><td>Retirement of Treasury Stock</td><td>二</td><td></td><td>（20）</td><td>1</td><td></td><td>1 (12.026)</td><td>三</td></tr><tr><td>Balances, Jan 30,2022</td><td>2,506</td><td></td><td>10.385</td><td>12.046</td><td>二</td><td></td><td>26,612</td></tr><tr><td>Net income</td><td>1</td><td></td><td></td><td>1</td><td>(11)</td><td>16,235 4.368</td><td>4,368</td></tr><tr><td>Other comprehensive loss</td><td></td><td></td><td>1</td><td>1</td><td>1</td><td></td><td></td></tr><tr><td> Issuance of common stock from stock plans</td><td>1 31</td><td></td><td>1 355</td><td>1</td><td>(32) 1</td><td>1 1</td><td>(32) 355</td></tr><tr><td>Tax withholding related to vesting of restricted stock units</td><td>(8)</td><td></td><td>(1,475)</td><td>1</td><td>一</td><td></td><td>(1,475)</td></tr><tr><td> Shares repurchased</td><td>(63）</td><td></td><td>（4</td><td></td><td></td><td>(10.034)</td><td>(10.039)</td></tr><tr><td>Cash dividends declaredand paid ($0.16percommon share)</td><td>1</td><td>(1)</td><td></td><td></td><td>1</td><td>(398)</td><td>(398)</td></tr><tr><td> Stock-based compensation</td><td>二</td><td>1 二</td><td>1 2.710</td><td></td><td>二</td><td>二</td><td>2.710</td></tr><tr><td>Balances, Jan 29, 2023</td><td>2,466</td><td>2</td><td>11,971</td><td></td><td>（43)</td><td>10.171</td><td>22,101</td></tr><tr><td>Net income</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Other comprehensive income</td><td>1</td><td></td><td>1</td><td></td><td>1 70</td><td>29,760</td><td>29,760</td></tr><tr><td> Issuance of common stock from stock plans</td><td>1 26</td><td></td><td>1 403</td><td></td><td>1</td><td></td><td>70 403</td></tr><tr><td>Tax withholding related to vesting of restricted stock units</td><td>(7)</td><td></td><td>(2,783)</td><td></td><td></td><td>1</td><td>(2.783)</td></tr><tr><td> Shares repurchased</td><td>(21)</td><td></td><td>(27)</td><td></td><td></td><td>(9.719)</td><td>(9.746)</td></tr><tr><td>Cash dividends declaredandpaid ($0.16percommonshare)</td><td>1</td><td></td><td>1</td><td></td><td></td><td>(395)</td><td>(395)</td></tr><tr><td></td><td>二</td><td></td><td>3.568</td><td></td><td>1</td><td>二</td><td>3.568</td></tr><tr><td>Stock-based compensation Balances, Jan 28,2024</td><td>2.464$</td><td>二 2$</td><td>13,132$</td><td>$</td><td>27$</td><td>29.817$</td><td>42.978</td></tr></table>",
+          "table_type": "complex_table",
+          "table_nest_level": 1
+        },
+        "bbox": [
+          52,
+          79,
+          945,
+          730
+        ],
+        "page_idx": 3,
+        "source_input": {
+          "path": "examples/inputs/public_benchmark/nvda_2024.pdf",
+          "url": null,
+          "role": "primary",
+          "mime_type": null
+        }
+      },
+      "sources": [
+        {
+          "page_start": 3,
+          "bbox": [
+            52,
+            79,
+            945,
+            730
+          ]
+        }
+      ]
+    },
+    {
+      "name": "nvidia_corporation_and_subsidiaries_consolidated_statements_of_cash_flows_in_millions",
+      "title": "NVIDIA Corporation and Subsidiaries Consolidated Statements of Cash Flows (In millions)",
+      "unit": "",
+      "table_type": "complex_table",
+      "table_nest_level": 1,
+      "footnote": "See accompanying notes to the consolidated financial statements.",
+      "image_source": {
+        "path": "images/c58586cfca816de3c3f2074b72aef75fb884a6161a8ea95811532654efca44d3.jpg"
+      },
+      "periods": [
+        "Year Ended Jan 28,2024",
+        "Year Ended Jan29,2023Jan30,2022",
+        "Year Ended"
+      ],
+      "rows": [
+        {
+          "item": "Net income",
+          "raw_values": [
+            "$ 29,760$",
+            "4,368 $",
+            "9.752"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": 29760.0,
+            "Year Ended Jan29,2023Jan30,2022": 4368.0,
+            "Year Ended": 9.752
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Adjustments to reconcile net income to net cash provided by operating activities:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": null,
+            "Year Ended Jan29,2023Jan30,2022": null,
+            "Year Ended": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Stock-based compensation expense",
+          "raw_values": [
+            "3,549",
+            "2.709",
+            "2.004"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": 3549.0,
+            "Year Ended Jan29,2023Jan30,2022": 2.709,
+            "Year Ended": 2.004
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Depreciation and amortization",
+          "raw_values": [
+            "1,508",
+            "1,544",
+            "1,174"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": 1508.0,
+            "Year Ended Jan29,2023Jan30,2022": 1544.0,
+            "Year Ended": 1174.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Deferred income taxes",
+          "raw_values": [
+            "(2,489)",
+            "(2,164)",
+            "(406)"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": -2489.0,
+            "Year Ended Jan29,2023Jan30,2022": -2164.0,
+            "Year Ended": -406.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "(Gains) losses on investments in non-afiliated entities, net",
+          "raw_values": [
+            "(238)",
+            "45",
+            "(100)"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": -238.0,
+            "Year Ended Jan29,2023Jan30,2022": 45.0,
+            "Year Ended": -100.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Acquisition termination cost",
+          "raw_values": [
+            "1",
+            "1,353",
+            "二"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": 1.0,
+            "Year Ended Jan29,2023Jan30,2022": 1353.0,
+            "Year Ended": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other",
+          "raw_values": [
+            "(278)",
+            "(7)",
+            "47"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": -278.0,
+            "Year Ended Jan29,2023Jan30,2022": -7.0,
+            "Year Ended": 47.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Changes in operating assets and liabilities, net of acquisitions:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": null,
+            "Year Ended Jan29,2023Jan30,2022": null,
+            "Year Ended": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Accounts receivable",
+          "raw_values": [
+            "(6,172)",
+            "822",
+            "(2.215)"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": -6172.0,
+            "Year Ended Jan29,2023Jan30,2022": 822.0,
+            "Year Ended": -2.215
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Inventories",
+          "raw_values": [
+            "（98）",
+            "(2.554)",
+            "(774)"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": -98.0,
+            "Year Ended Jan29,2023Jan30,2022": -2.554,
+            "Year Ended": -774.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Prepaid expenses and other assets",
+          "raw_values": [
+            "(1,522)",
+            "(1,517)",
+            "(1,715)"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": -1522.0,
+            "Year Ended Jan29,2023Jan30,2022": -1517.0,
+            "Year Ended": -1715.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Accounts payable",
+          "raw_values": [
+            "1.531",
+            "(551)",
+            "568"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": 1.531,
+            "Year Ended Jan29,2023Jan30,2022": -551.0,
+            "Year Ended": 568.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Accrued and other currentliabilities",
+          "raw_values": [
+            "2.025",
+            "1.341",
+            "581"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": 2.025,
+            "Year Ended Jan29,2023Jan30,2022": 1.341,
+            "Year Ended": 581.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other long-term liabilities",
+          "raw_values": [
+            "514",
+            "252",
+            "192"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": 514.0,
+            "Year Ended Jan29,2023Jan30,2022": 252.0,
+            "Year Ended": 192.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net cash provided by operating activities",
+          "raw_values": [
+            "28.090",
+            "5.641",
+            "9,108"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": 28.09,
+            "Year Ended Jan29,2023Jan30,2022": 5.641,
+            "Year Ended": 9108.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash flows from investing activities:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": null,
+            "Year Ended Jan29,2023Jan30,2022": null,
+            "Year Ended": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Proceeds from maturities of marketable securities",
+          "raw_values": [
+            "9,732",
+            "19,425",
+            "15,197"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": 9732.0,
+            "Year Ended Jan29,2023Jan30,2022": 19425.0,
+            "Year Ended": 15197.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Proceeds from sales of marketable securities",
+          "raw_values": [
+            "50",
+            "1.806",
+            "1.023"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": 50.0,
+            "Year Ended Jan29,2023Jan30,2022": 1.806,
+            "Year Ended": 1.023
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Purchases of marketable securities",
+          "raw_values": [
+            "(18,211)",
+            "(11,897)",
+            "(24,787)"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": -18211.0,
+            "Year Ended Jan29,2023Jan30,2022": -11897.0,
+            "Year Ended": -24787.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Purchases related to propertyandequipment andintangible assets",
+          "raw_values": [
+            "(1,069)",
+            "(1,833)",
+            "(976)"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": -1069.0,
+            "Year Ended Jan29,2023Jan30,2022": -1833.0,
+            "Year Ended": -976.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Acquisitions, net of cash acquired",
+          "raw_values": [
+            "(83)",
+            "(49)",
+            "(263)"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": -83.0,
+            "Year Ended Jan29,2023Jan30,2022": -49.0,
+            "Year Ended": -263.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Investments in non-afiliated entities and other, net",
+          "raw_values": [
+            "（985)",
+            "（77",
+            "(24)"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": null,
+            "Year Ended Jan29,2023Jan30,2022": null,
+            "Year Ended": -24.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net cash provided by (used in) investing activities",
+          "raw_values": [
+            "(10.566)",
+            "7.375",
+            "（9.830)"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": -10.566,
+            "Year Ended Jan29,2023Jan30,2022": 7.375,
+            "Year Ended": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash flows from financing activities:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": null,
+            "Year Ended Jan29,2023Jan30,2022": null,
+            "Year Ended": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Proceeds related to employee stock plans",
+          "raw_values": [
+            "403",
+            "355",
+            "281"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": 403.0,
+            "Year Ended Jan29,2023Jan30,2022": 355.0,
+            "Year Ended": 281.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Payments related to repurchases of common stock",
+          "raw_values": [
+            "(9.533)",
+            "(10,039)",
+            "二"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": -9.533,
+            "Year Ended Jan29,2023Jan30,2022": -10039.0,
+            "Year Ended": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Payments related to tax on restricted stock units",
+          "raw_values": [
+            "(2.783)",
+            "(1,475)",
+            "(1,904)"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": -2.783,
+            "Year Ended Jan29,2023Jan30,2022": -1475.0,
+            "Year Ended": -1904.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Repayment of debt",
+          "raw_values": [
+            "(1,250)",
+            "1",
+            "(1,000)"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": -1250.0,
+            "Year Ended Jan29,2023Jan30,2022": 1.0,
+            "Year Ended": -1000.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Dividends paid",
+          "raw_values": [
+            "(395)",
+            "(398)",
+            "(399)"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": -395.0,
+            "Year Ended Jan29,2023Jan30,2022": -398.0,
+            "Year Ended": -399.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Principal payments on property and equipment and intangible assets",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": null,
+            "Year Ended Jan29,2023Jan30,2022": null,
+            "Year Ended": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Issuance of debt, net of issuance costs",
+          "raw_values": [
+            "（74)",
+            "(58) 1",
+            "(83)"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": null,
+            "Year Ended Jan29,2023Jan30,2022": null,
+            "Year Ended": -83.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other",
+          "raw_values": [
+            "1 1",
+            "（2)",
+            "4.977 (7"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": 11.0,
+            "Year Ended Jan29,2023Jan30,2022": null,
+            "Year Ended": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net cash provided by (used in) financing activities",
+          "raw_values": [
+            "(13.633)",
+            "(11.617)",
+            "1,865"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": -13.633,
+            "Year Ended Jan29,2023Jan30,2022": -11.617,
+            "Year Ended": 1865.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Change in cash and cash equivalents",
+          "raw_values": [
+            "",
+            "1,399",
+            ""
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": null,
+            "Year Ended Jan29,2023Jan30,2022": 1399.0,
+            "Year Ended": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash and cash equivalents at beginning of period",
+          "raw_values": [
+            "3.891",
+            "",
+            "1,143"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": 3.891,
+            "Year Ended Jan29,2023Jan30,2022": null,
+            "Year Ended": 1143.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "",
+          "raw_values": [
+            "3.389",
+            "1,990",
+            "847"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": 3.389,
+            "Year Ended Jan29,2023Jan30,2022": 1990.0,
+            "Year Ended": 847.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash and cash equivalents at end of period",
+          "raw_values": [
+            "$ 7.280$",
+            "3.389$",
+            "1.990"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": 7.28,
+            "Year Ended Jan29,2023Jan30,2022": 3.389,
+            "Year Ended": 1.99
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Supplemental disclosures of cash flow information:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": null,
+            "Year Ended Jan29,2023Jan30,2022": null,
+            "Year Ended": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash paid for income taxes, net",
+          "raw_values": [
+            "$ 6.549$",
+            "1,404$",
+            "396"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": 6.549,
+            "Year Ended Jan29,2023Jan30,2022": 1404.0,
+            "Year Ended": 396.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash paid for interest",
+          "raw_values": [
+            "$ 252 $",
+            "254$",
+            "246"
+          ],
+          "values": {
+            "Year Ended Jan 28,2024": 252.0,
+            "Year Ended Jan29,2023Jan30,2022": 254.0,
+            "Year Ended": 246.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              65,
+              85,
+              932,
+              912
+            ],
+            "source": "html_table"
+          }
+        }
+      ],
+      "evidence": {
+        "page_start": 4,
+        "bbox": [
+          65,
+          85,
+          932,
+          912
+        ],
+        "page_end": 4
+      },
+      "raw_block": {
+        "type": "table",
+        "content": {
+          "image_source": {
+            "path": "images/c58586cfca816de3c3f2074b72aef75fb884a6161a8ea95811532654efca44d3.jpg"
+          },
+          "table_caption": [
+            {
+              "type": "text",
+              "content": "NVIDIA Corporation and Subsidiaries Consolidated Statements of Cash Flows (In millions)"
+            }
+          ],
+          "table_footnote": [
+            {
+              "type": "text",
+              "content": "See accompanying notes to the consolidated financial statements."
+            }
+          ],
+          "html": "<table><tr><td></td><td colspan=\"3\">Year Ended</td></tr><tr><td></td><td>Jan 28,2024</td><td>Jan29,2023Jan30,2022</td><td></td></tr><tr><td>Cash flows from operating activities:</td><td></td><td></td><td></td></tr><tr><td>Net income</td><td>$ 29,760$</td><td>4,368 $</td><td>9.752</td></tr><tr><td>Adjustments to reconcile net income to net cash provided by operating activities:</td><td></td><td></td><td></td></tr><tr><td> Stock-based compensation expense</td><td>3,549</td><td>2.709</td><td>2.004</td></tr><tr><td> Depreciation and amortization</td><td>1,508</td><td>1,544</td><td>1,174</td></tr><tr><td>Deferred income taxes</td><td>(2,489)</td><td>(2,164)</td><td>(406)</td></tr><tr><td> (Gains) losses on investments in non-afiliated entities, net</td><td>(238)</td><td>45</td><td>(100)</td></tr><tr><td> Acquisition termination cost</td><td>1</td><td>1,353</td><td>二</td></tr><tr><td> Other</td><td>(278)</td><td>(7)</td><td>47</td></tr><tr><td> Changes in operating assets and liabilities, net of acquisitions:</td><td></td><td></td><td></td></tr><tr><td> Accounts receivable</td><td>(6,172)</td><td>822</td><td>(2.215)</td></tr><tr><td> Inventories</td><td>（98）</td><td>(2.554)</td><td>(774)</td></tr><tr><td> Prepaid expenses and other assets</td><td>(1,522)</td><td>(1,517)</td><td>(1,715)</td></tr><tr><td> Accounts payable</td><td>1.531</td><td>(551)</td><td>568</td></tr><tr><td> Accrued and other currentliabilities</td><td>2.025</td><td>1.341</td><td>581</td></tr><tr><td> Other long-term liabilities</td><td>514</td><td>252</td><td>192</td></tr><tr><td>Net cash provided by operating activities</td><td>28.090</td><td>5.641</td><td>9,108</td></tr><tr><td>Cash flows from investing activities:</td><td></td><td></td><td></td></tr><tr><td> Proceeds from maturities of marketable securities</td><td>9,732</td><td>19,425</td><td>15,197</td></tr><tr><td> Proceeds from sales of marketable securities</td><td>50</td><td>1.806</td><td>1.023</td></tr><tr><td> Purchases of marketable securities</td><td>(18,211)</td><td>(11,897)</td><td>(24,787)</td></tr><tr><td>Purchases related to propertyandequipment andintangible assets</td><td>(1,069)</td><td>(1,833)</td><td>(976)</td></tr><tr><td> Acquisitions, net of cash acquired</td><td>(83)</td><td>(49)</td><td>(263)</td></tr><tr><td>Investments in non-afiliated entities and other, net</td><td>（985)</td><td>（77</td><td>(24)</td></tr><tr><td>Net cash provided by (used in) investing activities</td><td>(10.566)</td><td>7.375</td><td>（9.830)</td></tr><tr><td>Cash flows from financing activities:</td><td></td><td></td><td></td></tr><tr><td> Proceeds related to employee stock plans</td><td>403</td><td>355</td><td>281</td></tr><tr><td> Payments related to repurchases of common stock</td><td>(9.533)</td><td>(10,039)</td><td>二</td></tr><tr><td> Payments related to tax on restricted stock units</td><td>(2.783)</td><td>(1,475)</td><td>(1,904)</td></tr><tr><td> Repayment of debt</td><td>(1,250)</td><td>1</td><td>(1,000)</td></tr><tr><td> Dividends paid</td><td>(395)</td><td>(398)</td><td>(399)</td></tr><tr><td>Principal payments on property and equipment and intangible assets</td><td></td><td></td><td></td></tr><tr><td> Issuance of debt, net of issuance costs</td><td>（74)</td><td>(58) 1</td><td>(83)</td></tr><tr><td>Other</td><td>1 1</td><td>（2)</td><td>4.977 (7</td></tr><tr><td>Net cash provided by (used in) financing activities</td><td>(13.633)</td><td>(11.617)</td><td>1,865</td></tr><tr><td> Change in cash and cash equivalents</td><td></td><td>1,399</td><td></td></tr><tr><td>Cash and cash equivalents at beginning of period</td><td>3.891</td><td></td><td>1,143</td></tr><tr><td></td><td>3.389</td><td>1,990</td><td>847</td></tr><tr><td>Cash and cash equivalents at end of period</td><td>$ 7.280$</td><td>3.389$</td><td>1.990</td></tr><tr><td> Supplemental disclosures of cash flow information:</td><td></td><td></td><td></td></tr><tr><td> Cash paid for income taxes, net</td><td>$ 6.549$</td><td>1,404$</td><td>396</td></tr><tr><td>Cash paid for interest</td><td>$ 252 $</td><td>254$</td><td>246</td></tr></table>",
+          "table_type": "complex_table",
+          "table_nest_level": 1
+        },
+        "bbox": [
+          65,
+          85,
+          932,
+          912
+        ],
+        "page_idx": 4,
+        "source_input": {
+          "path": "examples/inputs/public_benchmark/nvda_2024.pdf",
+          "url": null,
+          "role": "primary",
+          "mime_type": null
+        }
+      },
+      "sources": [
+        {
+          "page_start": 4,
+          "bbox": [
+            65,
+            85,
+            932,
+            912
+          ]
+        }
+      ]
+    }
+  ],
+  "quality": {
+    "validation_pass_rate": 1.0,
+    "check_count": 16,
+    "hard_check_count": 1,
+    "passed_count": 1,
+    "warning_count": 16,
+    "failed_count": 0,
+    "issue_count": 16,
+    "checks": [
+      {
+        "table": "nvidia_corporation_and_subsidiaries_consolidated_statements_of_income_in_millions_except_per_share_data",
+        "type": "table_presence",
+        "status": "pass",
+        "detail": "Table loaded successfully."
+      },
+      {
+        "table": "nvidia_corporation_and_subsidiaries_consolidated_statements_of_comprehensive_income_in_millions",
+        "type": "numeric_parse",
+        "row": "Net change in unrealized gain (loss)",
+        "status": "warn",
+        "detail": "Numeric-looking cells could not be parsed.",
+        "cells": [
+          "（30"
+        ]
+      },
+      {
+        "table": "nvidia_corporation_and_subsidiaries_consolidated_statements_of_comprehensive_income_in_millions",
+        "type": "numeric_parse",
+        "row": "Net change in unrealized gain (loss)",
+        "status": "warn",
+        "detail": "Numeric-looking cells could not be parsed.",
+        "cells": [
+          "47 (43)"
+        ]
+      },
+      {
+        "table": "nvidia_corporation_and_subsidiaries_consolidated_statements_of_comprehensive_income_in_millions",
+        "type": "numeric_parse",
+        "row": "Reclassification adjustments for net realized gain (oss) included in netincome",
+        "status": "warn",
+        "detail": "Numeric-looking cells could not be parsed.",
+        "cells": [
+          "（48)"
+        ]
+      },
+      {
+        "table": "nvidia_corporation_and_subsidiaries_consolidated_statements_of_comprehensive_income_in_millions",
+        "type": "numeric_parse",
+        "row": "Net change in unrealized loss",
+        "status": "warn",
+        "detail": "Numeric-looking cells could not be parsed.",
+        "cells": [
+          "(49) (2)",
+          "29 (14)"
+        ]
+      },
+      {
+        "table": "nvidia_corporation_and_subsidiaries_consolidated_balance_sheets_in_millions_except_par_value",
+        "type": "numeric_parse",
+        "row": "Total assets",
+        "status": "warn",
+        "detail": "Numeric-looking cells could not be parsed.",
+        "cells": [
+          "4.500 65.728$"
+        ]
+      },
+      {
+        "table": "nvidia_corporation_and_subsidiaries_consolidated_statements_of_shareholders_equity",
+        "type": "numeric_parse",
+        "row": "Balances,Jan 31,2021",
+        "status": "warn",
+        "detail": "Numeric-looking cells could not be parsed.",
+        "cells": [
+          "8.719 $ (10,756) $"
+        ]
+      },
+      {
+        "table": "nvidia_corporation_and_subsidiaries_consolidated_statements_of_shareholders_equity",
+        "type": "numeric_parse",
+        "row": "Retirement of Treasury Stock",
+        "status": "warn",
+        "detail": "Numeric-looking cells could not be parsed.",
+        "cells": [
+          "1 (12.026)"
+        ]
+      },
+      {
+        "table": "nvidia_corporation_and_subsidiaries_consolidated_statements_of_shareholders_equity",
+        "type": "numeric_parse",
+        "row": "Issuance of common stock from stock plans",
+        "status": "warn",
+        "detail": "Numeric-looking cells could not be parsed.",
+        "cells": [
+          "(32) 1",
+          "(32) 355"
+        ]
+      },
+      {
+        "table": "nvidia_corporation_and_subsidiaries_consolidated_statements_of_shareholders_equity",
+        "type": "numeric_parse",
+        "row": "Shares repurchased",
+        "status": "warn",
+        "detail": "Numeric-looking cells could not be parsed.",
+        "cells": [
+          "(63）",
+          "（4"
+        ]
+      },
+      {
+        "table": "nvidia_corporation_and_subsidiaries_consolidated_statements_of_shareholders_equity",
+        "type": "numeric_parse",
+        "row": "Balances, Jan 29, 2023",
+        "status": "warn",
+        "detail": "Numeric-looking cells could not be parsed.",
+        "cells": [
+          "（43)"
+        ]
+      },
+      {
+        "table": "nvidia_corporation_and_subsidiaries_consolidated_statements_of_shareholders_equity",
+        "type": "numeric_parse",
+        "row": "Stock-based compensation Balances, Jan 28,2024",
+        "status": "warn",
+        "detail": "Numeric-looking cells could not be parsed.",
+        "cells": [
+          "二 2$"
+        ]
+      },
+      {
+        "table": "nvidia_corporation_and_subsidiaries_consolidated_statements_of_cash_flows_in_millions",
+        "type": "numeric_parse",
+        "row": "Investments in non-afiliated entities and other, net",
+        "status": "warn",
+        "detail": "Numeric-looking cells could not be parsed.",
+        "cells": [
+          "（985)",
+          "（77"
+        ]
+      },
+      {
+        "table": "nvidia_corporation_and_subsidiaries_consolidated_statements_of_cash_flows_in_millions",
+        "type": "numeric_parse",
+        "row": "Net cash provided by (used in) investing activities",
+        "status": "warn",
+        "detail": "Numeric-looking cells could not be parsed.",
+        "cells": [
+          "（9.830)"
+        ]
+      },
+      {
+        "table": "nvidia_corporation_and_subsidiaries_consolidated_statements_of_cash_flows_in_millions",
+        "type": "numeric_parse",
+        "row": "Issuance of debt, net of issuance costs",
+        "status": "warn",
+        "detail": "Numeric-looking cells could not be parsed.",
+        "cells": [
+          "（74)",
+          "(58) 1"
+        ]
+      },
+      {
+        "table": "nvidia_corporation_and_subsidiaries_consolidated_statements_of_cash_flows_in_millions",
+        "type": "numeric_parse",
+        "row": "Other",
+        "status": "warn",
+        "detail": "Numeric-looking cells could not be parsed.",
+        "cells": [
+          "（2)",
+          "4.977 (7"
+        ]
+      }
+    ],
+    "warnings": [
+      "At least one table is missing an explicit unit or scale."
+    ],
+    "diagnostics": {
+      "risk_level": "medium",
+      "table_count": 5,
+      "row_count": 134,
+      "raw_cell_count": 345,
+      "numeric_like_cell_count": 324,
+      "parsed_numeric_cell_count": 303,
+      "numeric_parse_coverage": 0.9352,
+      "evidence_coverage": 1.0,
+      "financial_table_count": 5,
+      "recommended_actions": [
+        "Apply numeric repair for OCR-confused digits and footnote markers.",
+        "Infer or confirm units from nearby paragraphs and table footnotes."
+      ],
+      "tables": [
+        {
+          "name": "nvidia_corporation_and_subsidiaries_consolidated_statements_of_income_in_millions_except_per_share_data",
+          "title": "NVIDIA Corporation and Subsidiaries Consolidated Statements of Income (In millions, except per share data)",
+          "table_type": "complex_table",
+          "row_count": 22,
+          "raw_cell_count": 56,
+          "numeric_like_cell_count": 55,
+          "parsed_numeric_cell_count": 55,
+          "numeric_parse_coverage": 1.0,
+          "rows_with_evidence": 22,
+          "evidence_coverage": 1.0,
+          "has_periods": true,
+          "has_unit": false,
+          "financial_relevance": 1.0
+        },
+        {
+          "name": "nvidia_corporation_and_subsidiaries_consolidated_statements_of_comprehensive_income_in_millions",
+          "title": "NVIDIA Corporation and Subsidiaries Consolidated Statements of Comprehensive Income (In millions)",
+          "table_type": "complex_table",
+          "row_count": 12,
+          "raw_cell_count": 26,
+          "numeric_like_cell_count": 21,
+          "parsed_numeric_cell_count": 16,
+          "numeric_parse_coverage": 0.7619,
+          "rows_with_evidence": 12,
+          "evidence_coverage": 1.0,
+          "has_periods": true,
+          "has_unit": false,
+          "financial_relevance": 0.75
+        },
+        {
+          "name": "nvidia_corporation_and_subsidiaries_consolidated_balance_sheets_in_millions_except_par_value",
+          "title": "NVIDIA Corporation and Subsidiaries Consolidated Balance Sheets (In millions, except par value)",
+          "table_type": "simple_table",
+          "row_count": 33,
+          "raw_cell_count": 51,
+          "numeric_like_cell_count": 50,
+          "parsed_numeric_cell_count": 49,
+          "numeric_parse_coverage": 0.98,
+          "rows_with_evidence": 33,
+          "evidence_coverage": 1.0,
+          "has_periods": true,
+          "has_unit": false,
+          "financial_relevance": 1.0
+        },
+        {
+          "name": "nvidia_corporation_and_subsidiaries_consolidated_statements_of_shareholders_equity",
+          "title": "NVIDIA Corporation and Subsidiaries Consolidated Statements of Shareholders' Equity",
+          "table_type": "complex_table",
+          "row_count": 26,
+          "raw_cell_count": 110,
+          "numeric_like_cell_count": 98,
+          "parsed_numeric_cell_count": 90,
+          "numeric_parse_coverage": 0.9184,
+          "rows_with_evidence": 26,
+          "evidence_coverage": 1.0,
+          "has_periods": true,
+          "has_unit": false,
+          "financial_relevance": 1.0
+        },
+        {
+          "name": "nvidia_corporation_and_subsidiaries_consolidated_statements_of_cash_flows_in_millions",
+          "title": "NVIDIA Corporation and Subsidiaries Consolidated Statements of Cash Flows (In millions)",
+          "table_type": "complex_table",
+          "row_count": 41,
+          "raw_cell_count": 102,
+          "numeric_like_cell_count": 100,
+          "parsed_numeric_cell_count": 93,
+          "numeric_parse_coverage": 0.93,
+          "rows_with_evidence": 41,
+          "evidence_coverage": 1.0,
+          "has_periods": true,
+          "has_unit": false,
+          "financial_relevance": 1.0
+        }
+      ]
+    },
+    "repairs": {
+      "applied": false,
+      "repair_count": 0,
+      "repairs": [],
+      "truncated": false,
+      "input_warning_count": 16
+    }
+  },
+  "trace_path": "runs/public-nvda-2024-financials/trace.jsonl",
+  "result_path": "runs/public-nvda-2024-financials/result.json"
+}

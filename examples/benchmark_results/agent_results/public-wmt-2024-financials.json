@@ -1,0 +1,4487 @@
+{
+  "task_id": "public-wmt-2024-financials",
+  "status": "succeeded",
+  "document_type": "annual_report_pdf",
+  "summary": "Parsed 5 tables with 154 rows. Validation pass rate: 100.00%. Warnings: 5; failures: 0; repairs: 0.",
+  "tables": [
+    {
+      "name": "walmart_inc_consolidated_statements_of_income",
+      "title": "Walmart Inc. Consolidated Statements of Income",
+      "unit": "",
+      "table_type": "complex_table",
+      "table_nest_level": 1,
+      "footnote": "",
+      "image_source": {
+        "path": "images/04603cad873e3d94ca570ff46b16e5aa1c658a0ff77a12d00479ffc6b849b335.jpg"
+      },
+      "periods": [
+        "Fiscal YearsEnded January 31,",
+        "Fiscal YearsEnded January 31,",
+        "Fiscal YearsEnded January 31,",
+        "col_3"
+      ],
+      "rows": [
+        {
+          "item": "(Amounts in milions, except per share data)",
+          "raw_values": [
+            "2024",
+            "2023",
+            "2022"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": 2022.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              87,
+              921,
+              540
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Revenues:",
+          "raw_values": [
+            "$",
+            "",
+            ""
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              87,
+              921,
+              540
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net sales",
+          "raw_values": [
+            "642,637",
+            "605,881$",
+            "567,762"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": 567762.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              87,
+              921,
+              540
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Membership and other income",
+          "raw_values": [
+            "5,488",
+            "5,408",
+            "4,992"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": 4992.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              87,
+              921,
+              540
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total revenues",
+          "raw_values": [
+            "648,125",
+            "611,289",
+            "572,754"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": 572754.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              87,
+              921,
+              540
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Costs and expenses:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              87,
+              921,
+              540
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cost of sales",
+          "raw_values": [
+            "490,142",
+            "463,721",
+            "429.000"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": 429.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              87,
+              921,
+              540
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Operating, selling, general and administrative expenses",
+          "raw_values": [
+            "130,971",
+            "127,140",
+            "117,812"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": 117812.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              87,
+              921,
+              540
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Operating income",
+          "raw_values": [
+            "27,012",
+            "20,428",
+            "25,942"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": 25942.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              87,
+              921,
+              540
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Interest:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              87,
+              921,
+              540
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Debt",
+          "raw_values": [
+            "2.259",
+            "1,787",
+            "1,674"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": 1674.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              87,
+              921,
+              540
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Finance lease",
+          "raw_values": [
+            "424",
+            "341",
+            "320"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": 320.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              87,
+              921,
+              540
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Interest income",
+          "raw_values": [
+            "(546)",
+            "(254)",
+            "(158)"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": -158.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              87,
+              921,
+              540
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Interest, net",
+          "raw_values": [
+            "2,137",
+            "1,874",
+            "1,836"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": 1836.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              87,
+              921,
+              540
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Loss on extinguishment of debt",
+          "raw_values": [
+            "",
+            "二",
+            "2,410"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": 2410.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              87,
+              921,
+              540
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other (gains) and losses",
+          "raw_values": [
+            "3.027",
+            "1,538",
+            "3.000"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": 3.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              87,
+              921,
+              540
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Income before income taxes",
+          "raw_values": [
+            "21,848",
+            "17,016",
+            "18.696"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": 18.696
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              87,
+              921,
+              540
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Provision for income taxes",
+          "raw_values": [
+            "5,578",
+            "5,724",
+            "4,756"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": 4756.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              87,
+              921,
+              540
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Consolidated net income",
+          "raw_values": [
+            "16,270",
+            "11,292",
+            "13,940"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": 13940.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              87,
+              921,
+              540
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Consolidated net (income) loss attributable to noncontrolling interest",
+          "raw_values": [
+            "(759)",
+            "388",
+            "(267)"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": -267.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              87,
+              921,
+              540
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Consolidated net income attributable to Walmart",
+          "raw_values": [
+            "15.511",
+            "11,680",
+            "S 13.673"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              87,
+              921,
+              540
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net income per common share:",
+          "raw_values": [
+            "",
+            "1.92 $",
+            ""
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              87,
+              921,
+              540
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Basic net income per common share attributable to Walmart Diluted net income per common share attributable to Walmart",
+          "raw_values": [
+            "",
+            "",
+            "1.43 $"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": 1.43
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              87,
+              921,
+              540
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "",
+          "raw_values": [
+            "1.91",
+            "",
+            "1.42"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": 1.42
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              87,
+              921,
+              540
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Weighted-average common shares outstanding:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              87,
+              921,
+              540
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Basic Diluted",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              87,
+              921,
+              540
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "",
+          "raw_values": [
+            "8,077",
+            "",
+            "8,171"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": 8171.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              87,
+              921,
+              540
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "",
+          "raw_values": [
+            "8,108",
+            "",
+            "8,202"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": 8202.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              87,
+              921,
+              540
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Dividends declared per common share",
+          "raw_values": [
+            "0.7600$",
+            "",
+            "0.7467$",
+            "8,415 0.7333"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": 0.7467,
+            "col_3": 84150.7333
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              76,
+              87,
+              921,
+              540
+            ],
+            "source": "html_table"
+          }
+        }
+      ],
+      "evidence": {
+        "page_start": 0,
+        "bbox": [
+          76,
+          87,
+          921,
+          540
+        ],
+        "page_end": 0
+      },
+      "raw_block": {
+        "type": "table",
+        "content": {
+          "image_source": {
+            "path": "images/04603cad873e3d94ca570ff46b16e5aa1c658a0ff77a12d00479ffc6b849b335.jpg"
+          },
+          "table_caption": [
+            {
+              "type": "text",
+              "content": "Walmart Inc. Consolidated Statements of Income"
+            }
+          ],
+          "table_footnote": [],
+          "html": "<table><tr><td rowspan=\"2\">(Amounts in milions, except per share data)</td><td colspan=\"3\">Fiscal YearsEnded January 31,</td></tr><tr><td>2024</td><td>2023</td><td>2022</td></tr><tr><td> Revenues:</td><td>$</td><td></td><td></td></tr><tr><td> Net sales</td><td>642,637</td><td>605,881$</td><td>567,762</td></tr><tr><td> Membership and other income</td><td>5,488</td><td>5,408</td><td>4,992</td></tr><tr><td> Total revenues</td><td>648,125</td><td>611,289</td><td>572,754</td></tr><tr><td>Costs and expenses:</td><td></td><td></td><td></td></tr><tr><td>Cost of sales</td><td>490,142</td><td>463,721</td><td>429.000</td></tr><tr><td> Operating, selling, general and administrative expenses</td><td>130,971</td><td>127,140</td><td>117,812</td></tr><tr><td> Operating income</td><td>27,012</td><td>20,428</td><td>25,942</td></tr><tr><td>Interest:</td><td></td><td></td><td></td></tr><tr><td>Debt</td><td>2.259</td><td>1,787</td><td>1,674</td></tr><tr><td> Finance lease</td><td>424</td><td>341</td><td>320</td></tr><tr><td> Interest income</td><td>(546)</td><td>(254)</td><td>(158)</td></tr><tr><td> Interest, net</td><td>2,137</td><td>1,874</td><td>1,836</td></tr><tr><td> Loss on extinguishment of debt</td><td></td><td>二</td><td>2,410</td></tr><tr><td>Other (gains) and losses</td><td>3.027</td><td>1,538</td><td>3.000</td></tr><tr><td> Income before income taxes</td><td>21,848</td><td>17,016</td><td>18.696</td></tr><tr><td>Provision for income taxes</td><td>5,578</td><td>5,724</td><td>4,756</td></tr><tr><td> Consolidated net income</td><td>16,270</td><td>11,292</td><td>13,940</td></tr><tr><td>Consolidated net (income) loss attributable to noncontrolling interest</td><td>(759)</td><td>388</td><td>(267)</td></tr><tr><td> Consolidated net income attributable to Walmart</td><td>15.511</td><td>11,680</td><td>S 13.673</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td> Net income per common share:</td><td></td><td>1.92 $</td><td></td></tr><tr><td>Basic net income per common share attributable to Walmart Diluted net income per common share attributable to Walmart</td><td></td><td></td><td>1.43 $</td></tr><tr><td></td><td>1.91</td><td></td><td>1.42</td></tr><tr><td> Weighted-average common shares outstanding:</td><td></td><td></td><td></td></tr><tr><td>Basic Diluted</td><td></td><td></td><td></td></tr><tr><td></td><td>8,077</td><td></td><td>8,171</td></tr><tr><td></td><td>8,108</td><td></td><td>8,202</td></tr><tr><td>Dividends declared per common share</td><td>0.7600$</td><td></td><td>0.7467$</td><td>8,415 0.7333</td></tr></table>",
+          "table_type": "complex_table",
+          "table_nest_level": 1
+        },
+        "bbox": [
+          76,
+          87,
+          921,
+          540
+        ],
+        "page_idx": 0,
+        "source_input": {
+          "path": "examples/inputs/public_benchmark/wmt_2024.pdf",
+          "url": null,
+          "role": "primary",
+          "mime_type": null
+        }
+      },
+      "sources": [
+        {
+          "page_start": 0,
+          "bbox": [
+            76,
+            87,
+            921,
+            540
+          ]
+        }
+      ]
+    },
+    {
+      "name": "walmart_inc_consolidated_statements_of_comprehensive_income",
+      "title": "Walmart Inc. Consolidated Statements of Comprehensive Income",
+      "unit": "",
+      "table_type": "complex_table",
+      "table_nest_level": 1,
+      "footnote": "See accompanying notes.",
+      "image_source": {
+        "path": "images/8a19446e465d8b57490149f3950f3d3f89b691645e17ae33beff44961d10faf1.jpg"
+      },
+      "periods": [
+        "Fiscal YearsEnded January 31,",
+        "Fiscal YearsEnded January 31,",
+        "Fiscal YearsEnded January 31,"
+      ],
+      "rows": [
+        {
+          "item": "(Amounts in millions)",
+          "raw_values": [
+            "2024 $",
+            "2023",
+            "2022"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": 2022.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              76,
+              85,
+              921,
+              342
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Consolidated net income",
+          "raw_values": [
+            "16,270$",
+            "11,292$",
+            "13,940"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": 13940.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              76,
+              85,
+              921,
+              342
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Consolidated net (income) loss attributable to noncontrolling interest",
+          "raw_values": [
+            "(759)",
+            "388",
+            "(267)"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": -267.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              76,
+              85,
+              921,
+              342
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Consolidated net income attributable to Walmart",
+          "raw_values": [
+            "15,511",
+            "11,680",
+            "13.673"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": 13.673
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              76,
+              85,
+              921,
+              342
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other comprehensive income (loss), net of income taxes",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              76,
+              85,
+              921,
+              342
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Currency translation and other",
+          "raw_values": [
+            "899",
+            "(1,858)",
+            "2,442"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": 2442.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              76,
+              85,
+              921,
+              342
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net investment hedges",
+          "raw_values": [
+            "",
+            "",
+            "(1,202)"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": -1202.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              76,
+              85,
+              921,
+              342
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash flow hedges",
+          "raw_values": [
+            "56",
+            "(203)",
+            "(444)"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": -444.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              76,
+              85,
+              921,
+              342
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Minimum pension liability",
+          "raw_values": [
+            "(11)",
+            "5",
+            "1,974"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": 1974.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              76,
+              85,
+              921,
+              342
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other comprehensive income (loss), net of income taxes",
+          "raw_values": [
+            "944",
+            "(2.056)",
+            "2,770"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": 2770.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              76,
+              85,
+              921,
+              342
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other comprehensive (income) loss attributable to noncontrolling interest",
+          "raw_values": [
+            "(566)",
+            "404",
+            "230"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": 230.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              76,
+              85,
+              921,
+              342
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other comprehensive income (loss) attributable to Walmart",
+          "raw_values": [
+            "378",
+            "(1,652)",
+            "3.000"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": 3.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              76,
+              85,
+              921,
+              342
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Comprehensive income, net of income taxes",
+          "raw_values": [
+            "17,214",
+            "9,236",
+            "16,710"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": 16710.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              76,
+              85,
+              921,
+              342
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Comprehensive (income) loss attributable to noncontrolling interest",
+          "raw_values": [
+            "(1,325)",
+            "792",
+            "(37)"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": -37.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              76,
+              85,
+              921,
+              342
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Comprehensive income attributable to Walmart",
+          "raw_values": [
+            "15,889 S",
+            "10,028",
+            "S 16.673"
+          ],
+          "values": {
+            "Fiscal YearsEnded January 31,": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              76,
+              85,
+              921,
+              342
+            ],
+            "source": "html_table"
+          }
+        }
+      ],
+      "evidence": {
+        "page_start": 1,
+        "bbox": [
+          76,
+          85,
+          921,
+          342
+        ],
+        "page_end": 1
+      },
+      "raw_block": {
+        "type": "table",
+        "content": {
+          "image_source": {
+            "path": "images/8a19446e465d8b57490149f3950f3d3f89b691645e17ae33beff44961d10faf1.jpg"
+          },
+          "table_caption": [
+            {
+              "type": "text",
+              "content": "Walmart Inc. Consolidated Statements of Comprehensive Income"
+            }
+          ],
+          "table_footnote": [
+            {
+              "type": "text",
+              "content": "See accompanying notes."
+            }
+          ],
+          "html": "<table><tr><td rowspan=\"2\">(Amounts in millions)</td><td colspan=\"3\">Fiscal YearsEnded January 31,</td></tr><tr><td>2024 $</td><td>2023</td><td>2022</td></tr><tr><td>Consolidated net income</td><td>16,270$</td><td>11,292$</td><td>13,940</td></tr><tr><td> Consolidated net (income) loss attributable to noncontrolling interest</td><td>(759)</td><td>388</td><td>(267)</td></tr><tr><td> Consolidated net income attributable to Walmart</td><td>15,511</td><td>11,680</td><td>13.673</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>Other comprehensive income (loss), net of income taxes</td><td></td><td></td><td></td></tr><tr><td> Currency translation and other</td><td>899</td><td>(1,858)</td><td>2,442</td></tr><tr><td> Net investment hedges</td><td></td><td></td><td> (1,202)</td></tr><tr><td> Cash flow hedges</td><td>56</td><td>(203)</td><td>(444)</td></tr><tr><td> Minimum pension liability</td><td>(11)</td><td>5</td><td>1,974</td></tr><tr><td> Other comprehensive income (loss), net of income taxes</td><td>944</td><td>(2.056)</td><td>2,770</td></tr><tr><td> Other comprehensive (income) loss attributable to noncontrolling interest</td><td>(566)</td><td>404</td><td>230</td></tr><tr><td> Other comprehensive income (loss) attributable to Walmart</td><td>378</td><td>(1,652)</td><td>3.000</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td> Comprehensive income, net of income taxes</td><td>17,214</td><td>9,236</td><td>16,710</td></tr><tr><td> Comprehensive (income) loss attributable to noncontrolling interest</td><td>(1,325)</td><td>792</td><td>(37)</td></tr><tr><td> Comprehensive income attributable to Walmart</td><td>15,889 S</td><td>10,028</td><td>S 16.673</td></tr></table>",
+          "table_type": "complex_table",
+          "table_nest_level": 1
+        },
+        "bbox": [
+          76,
+          85,
+          921,
+          342
+        ],
+        "page_idx": 1,
+        "source_input": {
+          "path": "examples/inputs/public_benchmark/wmt_2024.pdf",
+          "url": null,
+          "role": "primary",
+          "mime_type": null
+        }
+      },
+      "sources": [
+        {
+          "page_start": 1,
+          "bbox": [
+            76,
+            85,
+            921,
+            342
+          ]
+        }
+      ]
+    },
+    {
+      "name": "walmart_inc_consolidated_balance_sheets",
+      "title": "Walmart Inc. Consolidated Balance Sheets",
+      "unit": "",
+      "table_type": "complex_table",
+      "table_nest_level": 1,
+      "footnote": "",
+      "image_source": {
+        "path": "images/d00c905d62308955df482a5ac98859a242910513c7d26051093983bf618a218e.jpg"
+      },
+      "periods": [
+        "As of January 31,",
+        "As of January 31,"
+      ],
+      "rows": [
+        {
+          "item": "(Amounts in millions)",
+          "raw_values": [
+            "2024",
+            "2023"
+          ],
+          "values": {
+            "As of January 31,": 2023.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              76,
+              104,
+              919,
+              348
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "ASSETS",
+          "raw_values": [
+            "",
+            ""
+          ],
+          "values": {
+            "As of January 31,": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              76,
+              104,
+              919,
+              348
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Current assets: $",
+          "raw_values": [
+            "",
+            ""
+          ],
+          "values": {
+            "As of January 31,": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              76,
+              104,
+              919,
+              348
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash and cash equivalents",
+          "raw_values": [
+            "9.867",
+            "$ 8.625"
+          ],
+          "values": {
+            "As of January 31,": 8.625
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              76,
+              104,
+              919,
+              348
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Receivables, net",
+          "raw_values": [
+            "8,796",
+            "7,933"
+          ],
+          "values": {
+            "As of January 31,": 7933.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              76,
+              104,
+              919,
+              348
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Inventories",
+          "raw_values": [
+            "54,892",
+            "56.576"
+          ],
+          "values": {
+            "As of January 31,": 56.576
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              76,
+              104,
+              919,
+              348
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Prepaid expenses and other",
+          "raw_values": [
+            "3,322",
+            "2.521"
+          ],
+          "values": {
+            "As of January 31,": 2.521
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              76,
+              104,
+              919,
+              348
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total current assets",
+          "raw_values": [
+            "76.877",
+            "75.655"
+          ],
+          "values": {
+            "As of January 31,": 75.655
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              76,
+              104,
+              919,
+              348
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Property and equipment, net",
+          "raw_values": [
+            "110,810",
+            "100,760"
+          ],
+          "values": {
+            "As of January 31,": 100760.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              76,
+              104,
+              919,
+              348
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Operating lease right-of-use assets",
+          "raw_values": [
+            "13.673",
+            "13,555"
+          ],
+          "values": {
+            "As of January 31,": 13555.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              76,
+              104,
+              919,
+              348
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Finance lease right-of-use assets,net",
+          "raw_values": [
+            "5,855",
+            "4,919"
+          ],
+          "values": {
+            "As of January 31,": 4919.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              76,
+              104,
+              919,
+              348
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Goodwill",
+          "raw_values": [
+            "28,113",
+            "28,174"
+          ],
+          "values": {
+            "As of January 31,": 28174.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              76,
+              104,
+              919,
+              348
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other long-term assets",
+          "raw_values": [
+            "17.071",
+            "20,134"
+          ],
+          "values": {
+            "As of January 31,": 20134.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              76,
+              104,
+              919,
+              348
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total assets",
+          "raw_values": [
+            "$ 252.399",
+            "$ 243,197"
+          ],
+          "values": {
+            "As of January 31,": 243197.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              76,
+              104,
+              919,
+              348
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Short-term borrowings",
+          "raw_values": [
+            "$ 878$",
+            "372"
+          ],
+          "values": {
+            "Current liabilities:": 372.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              372,
+              921,
+              801
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Accounts payable",
+          "raw_values": [
+            "56.812",
+            "53,742"
+          ],
+          "values": {
+            "Current liabilities:": 53742.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              372,
+              921,
+              801
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Accrued liabilities",
+          "raw_values": [
+            "28,759",
+            "31,126"
+          ],
+          "values": {
+            "Current liabilities:": 31126.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              372,
+              921,
+              801
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Accrued income taxes",
+          "raw_values": [
+            "307",
+            "727"
+          ],
+          "values": {
+            "Current liabilities:": 727.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              372,
+              921,
+              801
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Long-term debt due within one year",
+          "raw_values": [
+            "3,447",
+            "4,191"
+          ],
+          "values": {
+            "Current liabilities:": 4191.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              372,
+              921,
+              801
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Operating lease obligations due within one year",
+          "raw_values": [
+            "1,487",
+            "1,473"
+          ],
+          "values": {
+            "Current liabilities:": 1473.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              372,
+              921,
+              801
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Finance lease obligations due within one year",
+          "raw_values": [
+            "725",
+            "567"
+          ],
+          "values": {
+            "Current liabilities:": 567.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              372,
+              921,
+              801
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total current liabilities",
+          "raw_values": [
+            "92,415",
+            "92,198"
+          ],
+          "values": {
+            "Current liabilities:": 92198.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              372,
+              921,
+              801
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Long-term debt",
+          "raw_values": [
+            "36,132",
+            "34,649"
+          ],
+          "values": {
+            "Current liabilities:": 34649.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              372,
+              921,
+              801
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Long-term operating lease obligations",
+          "raw_values": [
+            "12.943",
+            "12,828"
+          ],
+          "values": {
+            "Current liabilities:": 12828.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              372,
+              921,
+              801
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Long-term finance lease obligations",
+          "raw_values": [
+            "5,709",
+            "4.843"
+          ],
+          "values": {
+            "Current liabilities:": 4.843
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              372,
+              921,
+              801
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Deferred income taxes and other",
+          "raw_values": [
+            "14,629",
+            "14,688"
+          ],
+          "values": {
+            "Current liabilities:": 14688.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              372,
+              921,
+              801
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Commitments and contingencies",
+          "raw_values": [
+            "Commitments and contingencies",
+            ""
+          ],
+          "values": {
+            "Current liabilities:": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              372,
+              921,
+              801
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Redeemable noncontrolling interest",
+          "raw_values": [
+            "Redeemable noncontrolling interest",
+            "Redeemable noncontrolling interest"
+          ],
+          "values": {
+            "Current liabilities:": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              372,
+              921,
+              801
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "",
+          "raw_values": [
+            "",
+            "222 237"
+          ],
+          "values": {
+            "Current liabilities:": 222237.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              372,
+              921,
+              801
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Equity:",
+          "raw_values": [
+            "Equity:",
+            "Equity:"
+          ],
+          "values": {
+            "Current liabilities:": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              372,
+              921,
+              801
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Common stock",
+          "raw_values": [
+            "Common stock",
+            "805 808 4,430"
+          ],
+          "values": {
+            "Current liabilities:": 8058084430.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              372,
+              921,
+              801
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Capital in excess of par value",
+          "raw_values": [
+            "Capital in excess of par value",
+            "4,544 89,814"
+          ],
+          "values": {
+            "Current liabilities:": 454489814.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              372,
+              921,
+              801
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Retained earnings",
+          "raw_values": [
+            "Retained earnings",
+            "83,135 (11,302) (11,680)"
+          ],
+          "values": {
+            "Current liabilities:": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              372,
+              921,
+              801
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Accumulated other comprehensive loss",
+          "raw_values": [
+            "Accumulated other comprehensive loss",
+            "83,861 76,693"
+          ],
+          "values": {
+            "Current liabilities:": 8386176693.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              372,
+              921,
+              801
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total Walmart shareholders' equity",
+          "raw_values": [
+            "Total Walmart shareholders' equity",
+            "6488 7.061"
+          ],
+          "values": {
+            "Current liabilities:": 64887.061
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              372,
+              921,
+              801
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Noncontrolling interest",
+          "raw_values": [
+            "Noncontrolling interest",
+            "90,349 83,754"
+          ],
+          "values": {
+            "Current liabilities:": 9034983754.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              372,
+              921,
+              801
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total equity Total liabilities,redeemable noncontrolling interest, and equity $",
+          "raw_values": [
+            "Total equity Total liabilities,redeemable noncontrolling interest, and equity $",
+            "252.399 $ 243.197"
+          ],
+          "values": {
+            "Current liabilities:": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              78,
+              372,
+              921,
+              801
+            ],
+            "source": "html_table"
+          }
+        }
+      ],
+      "evidence": {
+        "page_start": 2,
+        "bbox": [
+          76,
+          104,
+          919,
+          348
+        ],
+        "page_end": 2
+      },
+      "raw_block": {
+        "type": "table",
+        "content": {
+          "image_source": {
+            "path": "images/d00c905d62308955df482a5ac98859a242910513c7d26051093983bf618a218e.jpg"
+          },
+          "table_caption": [],
+          "table_footnote": [],
+          "html": "<table><tr><td rowspan=\"2\">(Amounts in millions)</td><td colspan=\"2\">As of January 31,</td></tr><tr><td>2024</td><td>2023</td></tr><tr><td>ASSETS</td><td></td><td></td></tr><tr><td>Current assets: $</td><td></td><td></td></tr><tr><td> Cash and cash equivalents</td><td>9.867</td><td>$ 8.625</td></tr><tr><td> Receivables, net</td><td>8,796</td><td>7,933</td></tr><tr><td>Inventories</td><td> 54,892</td><td>56.576</td></tr><tr><td> Prepaid expenses and other</td><td>3,322</td><td>2.521</td></tr><tr><td> Total current assets</td><td>76.877</td><td>75.655</td></tr><tr><td></td><td></td><td></td></tr><tr><td> Property and equipment, net</td><td>110,810</td><td>100,760</td></tr><tr><td> Operating lease right-of-use assets</td><td>13.673</td><td>13,555</td></tr><tr><td>Finance lease right-of-use assets,net</td><td>5,855</td><td>4,919</td></tr><tr><td>Goodwill</td><td>28,113</td><td>28,174</td></tr><tr><td>Other long-term assets</td><td>17.071</td><td>20,134</td></tr><tr><td> Total assets</td><td>$ 252.399</td><td>$ 243,197</td></tr></table>",
+          "table_type": "complex_table",
+          "table_nest_level": 1
+        },
+        "bbox": [
+          76,
+          104,
+          919,
+          348
+        ],
+        "page_idx": 2,
+        "source_input": {
+          "path": "examples/inputs/public_benchmark/wmt_2024.pdf",
+          "url": null,
+          "role": "primary",
+          "mime_type": null
+        },
+        "context_title": "Walmart Inc. Consolidated Balance Sheets"
+      },
+      "sources": [
+        {
+          "page_start": 2,
+          "bbox": [
+            76,
+            104,
+            919,
+            348
+          ]
+        },
+        {
+          "page_start": 2,
+          "bbox": [
+            78,
+            372,
+            921,
+            801
+          ]
+        }
+      ]
+    },
+    {
+      "name": "consolidated_statements_of_shareholders_equity",
+      "title": "Consolidated Statements of Shareholders' Equity",
+      "unit": "",
+      "table_type": "complex_table",
+      "table_nest_level": 1,
+      "footnote": "See accompanying notes.",
+      "image_source": {
+        "path": "images/410bb809adb89354108a5bb2dcaafc6dfb24a64cd30c6ccc5cd3739dc6e065df.jpg"
+      },
+      "periods": [
+        "Common Stock Shares",
+        "Common Stock Amount",
+        "Capital in Par Value",
+        "Accumulated Excess of Income (Loss)",
+        "Accumulated Retained",
+        "Accumulated Other Comprehensive Shareholders' Equity",
+        "Total Walmart",
+        "Total Noncontrolling Interest",
+        "Total Total Equity",
+        "col_9",
+        "col_10"
+      ],
+      "rows": [
+        {
+          "item": "Balances as of February 1, 2021",
+          "raw_values": [
+            "8,464$",
+            "846$",
+            "3,082",
+            "Earnings $88,763",
+            "$",
+            "(11,766) $",
+            "80,925$",
+            "Noncontrolling Interest",
+            "Total Equity",
+            "6,606$",
+            "87,531"
+          ],
+          "values": {
+            "Common Stock Shares": 8464.0,
+            "Common Stock Amount": 846.0,
+            "Capital in Par Value": 3082.0,
+            "Accumulated Excess of Income (Loss)": null,
+            "Accumulated Retained": null,
+            "Accumulated Other Comprehensive Shareholders' Equity": null,
+            "Total Walmart": 80925.0,
+            "Total Noncontrolling Interest": null,
+            "Total Total Equity": null,
+            "col_9": 6606.0,
+            "col_10": 87531.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              81,
+              103,
+              916,
+              689
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Consolidated net income",
+          "raw_values": [
+            "",
+            "",
+            "",
+            "13,673",
+            "",
+            "13,673",
+            "",
+            "267",
+            "13,940"
+          ],
+          "values": {
+            "Common Stock Shares": null,
+            "Common Stock Amount": null,
+            "Capital in Par Value": null,
+            "Accumulated Excess of Income (Loss)": 13673.0,
+            "Accumulated Retained": null,
+            "Accumulated Other Comprehensive Shareholders' Equity": 13673.0,
+            "Total Walmart": null,
+            "Total Noncontrolling Interest": 267.0,
+            "Total Total Equity": 13940.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              81,
+              103,
+              916,
+              689
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other comprehensive income (loss),et fie",
+          "raw_values": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "3,000",
+            "3,000",
+            "(230)",
+            "2,770"
+          ],
+          "values": {
+            "Common Stock Shares": null,
+            "Common Stock Amount": null,
+            "Capital in Par Value": null,
+            "Accumulated Excess of Income (Loss)": null,
+            "Accumulated Retained": null,
+            "Accumulated Other Comprehensive Shareholders' Equity": 3000.0,
+            "Total Walmart": 3000.0,
+            "Total Noncontrolling Interest": -230.0,
+            "Total Total Equity": 2770.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              81,
+              103,
+              916,
+              689
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash dividends declared ($0.7333 per share)",
+          "raw_values": [
+            "",
+            "",
+            "",
+            "(6,152)",
+            "",
+            "",
+            "(6,152)",
+            "",
+            "(6,152)"
+          ],
+          "values": {
+            "Common Stock Shares": null,
+            "Common Stock Amount": null,
+            "Capital in Par Value": null,
+            "Accumulated Excess of Income (Loss)": -6152.0,
+            "Accumulated Retained": null,
+            "Accumulated Other Comprehensive Shareholders' Equity": null,
+            "Total Walmart": -6152.0,
+            "Total Noncontrolling Interest": null,
+            "Total Total Equity": -6152.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              81,
+              103,
+              916,
+              689
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Purchase of Company stock",
+          "raw_values": [
+            "(210)",
+            "(21)",
+            "(412)",
+            "",
+            "(9,375)",
+            "",
+            "(9,808)",
+            "",
+            "(9,808)"
+          ],
+          "values": {
+            "Common Stock Shares": -210.0,
+            "Common Stock Amount": -21.0,
+            "Capital in Par Value": -412.0,
+            "Accumulated Excess of Income (Loss)": null,
+            "Accumulated Retained": -9375.0,
+            "Accumulated Other Comprehensive Shareholders' Equity": null,
+            "Total Walmart": -9808.0,
+            "Total Noncontrolling Interest": null,
+            "Total Total Equity": -9808.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              81,
+              103,
+              916,
+              689
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash dividend declared to noncontrolling interest",
+          "raw_values": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "(416)",
+            "(416)"
+          ],
+          "values": {
+            "Common Stock Shares": null,
+            "Common Stock Amount": null,
+            "Capital in Par Value": null,
+            "Accumulated Excess of Income (Loss)": null,
+            "Accumulated Retained": null,
+            "Accumulated Other Comprehensive Shareholders' Equity": null,
+            "Total Walmart": null,
+            "Total Noncontrolling Interest": -416.0,
+            "Total Total Equity": -416.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              81,
+              103,
+              916,
+              689
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Sale of subsidiary stock",
+          "raw_values": [
+            "",
+            "",
+            "",
+            "952",
+            "",
+            "",
+            "952",
+            "2,287",
+            "3,239"
+          ],
+          "values": {
+            "Common Stock Shares": null,
+            "Common Stock Amount": null,
+            "Capital in Par Value": null,
+            "Accumulated Excess of Income (Loss)": 952.0,
+            "Accumulated Retained": null,
+            "Accumulated Other Comprehensive Shareholders' Equity": null,
+            "Total Walmart": 952.0,
+            "Total Noncontrolling Interest": 2287.0,
+            "Total Total Equity": 3239.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              81,
+              103,
+              916,
+              689
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other",
+          "raw_values": [
+            "30",
+            "3",
+            "",
+            "665",
+            "⑤",
+            "",
+            "663",
+            "124",
+            "787"
+          ],
+          "values": {
+            "Common Stock Shares": 30.0,
+            "Common Stock Amount": 3.0,
+            "Capital in Par Value": null,
+            "Accumulated Excess of Income (Loss)": 665.0,
+            "Accumulated Retained": null,
+            "Accumulated Other Comprehensive Shareholders' Equity": null,
+            "Total Walmart": 663.0,
+            "Total Noncontrolling Interest": 124.0,
+            "Total Total Equity": 787.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              81,
+              103,
+              916,
+              689
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Balances as of January 31, 2022",
+          "raw_values": [
+            "8,284",
+            "828",
+            "4,287",
+            "",
+            "86,904",
+            "(8,766)",
+            "83,253",
+            "8,638",
+            "91,891"
+          ],
+          "values": {
+            "Common Stock Shares": 8284.0,
+            "Common Stock Amount": 828.0,
+            "Capital in Par Value": 4287.0,
+            "Accumulated Excess of Income (Loss)": null,
+            "Accumulated Retained": 86904.0,
+            "Accumulated Other Comprehensive Shareholders' Equity": -8766.0,
+            "Total Walmart": 83253.0,
+            "Total Noncontrolling Interest": 8638.0,
+            "Total Total Equity": 91891.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              81,
+              103,
+              916,
+              689
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Consolidated net income",
+          "raw_values": [
+            "",
+            "",
+            "",
+            "",
+            "11,680",
+            "",
+            "11,680",
+            "(388)",
+            "11,292"
+          ],
+          "values": {
+            "Common Stock Shares": null,
+            "Common Stock Amount": null,
+            "Capital in Par Value": null,
+            "Accumulated Excess of Income (Loss)": null,
+            "Accumulated Retained": 11680.0,
+            "Accumulated Other Comprehensive Shareholders' Equity": null,
+            "Total Walmart": 11680.0,
+            "Total Noncontrolling Interest": -388.0,
+            "Total Total Equity": 11292.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              81,
+              103,
+              916,
+              689
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other comprehensive (loss), net of income taxes",
+          "raw_values": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "(1,652)",
+            "(1,652)",
+            "(404)",
+            "(2.056)"
+          ],
+          "values": {
+            "Common Stock Shares": null,
+            "Common Stock Amount": null,
+            "Capital in Par Value": null,
+            "Accumulated Excess of Income (Loss)": null,
+            "Accumulated Retained": null,
+            "Accumulated Other Comprehensive Shareholders' Equity": -1652.0,
+            "Total Walmart": -1652.0,
+            "Total Noncontrolling Interest": -404.0,
+            "Total Total Equity": -2.056
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              81,
+              103,
+              916,
+              689
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash dividends declared ($0.7467 per share)",
+          "raw_values": [
+            "",
+            "",
+            "",
+            "",
+            "(6,114)",
+            "",
+            "(6,114)",
+            "",
+            "(6,14)"
+          ],
+          "values": {
+            "Common Stock Shares": null,
+            "Common Stock Amount": null,
+            "Capital in Par Value": null,
+            "Accumulated Excess of Income (Loss)": null,
+            "Accumulated Retained": -6114.0,
+            "Accumulated Other Comprehensive Shareholders' Equity": null,
+            "Total Walmart": -6114.0,
+            "Total Noncontrolling Interest": null,
+            "Total Total Equity": -614.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              81,
+              103,
+              916,
+              689
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Purchase of Company stock",
+          "raw_values": [
+            "(221)",
+            "(22)",
+            "(518)",
+            "",
+            "(9,326)",
+            "",
+            "(9,866)",
+            "",
+            "(9,866)"
+          ],
+          "values": {
+            "Common Stock Shares": -221.0,
+            "Common Stock Amount": -22.0,
+            "Capital in Par Value": -518.0,
+            "Accumulated Excess of Income (Loss)": null,
+            "Accumulated Retained": -9326.0,
+            "Accumulated Other Comprehensive Shareholders' Equity": null,
+            "Total Walmart": -9866.0,
+            "Total Noncontrolling Interest": null,
+            "Total Total Equity": -9866.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              81,
+              103,
+              916,
+              689
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash dividend declared to noncontrolling interest",
+          "raw_values": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "(449)",
+            "(449)"
+          ],
+          "values": {
+            "Common Stock Shares": null,
+            "Common Stock Amount": null,
+            "Capital in Par Value": null,
+            "Accumulated Excess of Income (Loss)": null,
+            "Accumulated Retained": null,
+            "Accumulated Other Comprehensive Shareholders' Equity": null,
+            "Total Walmart": null,
+            "Total Noncontrolling Interest": -449.0,
+            "Total Total Equity": -449.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              81,
+              103,
+              916,
+              689
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Purchase of noncontrolling interest",
+          "raw_values": [
+            "",
+            "",
+            "",
+            "(18)",
+            "",
+            "(1,262)",
+            "(1,280)",
+            "(493)",
+            "(1,773)"
+          ],
+          "values": {
+            "Common Stock Shares": null,
+            "Common Stock Amount": null,
+            "Capital in Par Value": null,
+            "Accumulated Excess of Income (Loss)": -18.0,
+            "Accumulated Retained": null,
+            "Accumulated Other Comprehensive Shareholders' Equity": -1262.0,
+            "Total Walmart": -1280.0,
+            "Total Noncontrolling Interest": -493.0,
+            "Total Total Equity": -1773.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              81,
+              103,
+              916,
+              689
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Sale of subsidiary stock",
+          "raw_values": [
+            "",
+            "",
+            "",
+            "48",
+            "",
+            "",
+            "48",
+            "18",
+            "66"
+          ],
+          "values": {
+            "Common Stock Shares": null,
+            "Common Stock Amount": null,
+            "Capital in Par Value": null,
+            "Accumulated Excess of Income (Loss)": 48.0,
+            "Accumulated Retained": null,
+            "Accumulated Other Comprehensive Shareholders' Equity": null,
+            "Total Walmart": 48.0,
+            "Total Noncontrolling Interest": 18.0,
+            "Total Total Equity": 66.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              81,
+              103,
+              916,
+              689
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other",
+          "raw_values": [
+            "17",
+            "2",
+            "631",
+            "",
+            "(9)",
+            "",
+            "624",
+            "139",
+            "763"
+          ],
+          "values": {
+            "Common Stock Shares": 17.0,
+            "Common Stock Amount": 2.0,
+            "Capital in Par Value": 631.0,
+            "Accumulated Excess of Income (Loss)": null,
+            "Accumulated Retained": -9.0,
+            "Accumulated Other Comprehensive Shareholders' Equity": null,
+            "Total Walmart": 624.0,
+            "Total Noncontrolling Interest": 139.0,
+            "Total Total Equity": 763.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              81,
+              103,
+              916,
+              689
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Balances as of January 31, 2023",
+          "raw_values": [
+            "8,080",
+            "808",
+            "4,430",
+            "",
+            "83,135",
+            "(11,680)",
+            "76,693",
+            "7,061",
+            "83,754"
+          ],
+          "values": {
+            "Common Stock Shares": 8080.0,
+            "Common Stock Amount": 808.0,
+            "Capital in Par Value": 4430.0,
+            "Accumulated Excess of Income (Loss)": null,
+            "Accumulated Retained": 83135.0,
+            "Accumulated Other Comprehensive Shareholders' Equity": -11680.0,
+            "Total Walmart": 76693.0,
+            "Total Noncontrolling Interest": 7061.0,
+            "Total Total Equity": 83754.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              81,
+              103,
+              916,
+              689
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Consolidated net income",
+          "raw_values": [
+            "",
+            "",
+            "",
+            "",
+            "15,511",
+            "",
+            "15,511",
+            "774",
+            "16,285"
+          ],
+          "values": {
+            "Common Stock Shares": null,
+            "Common Stock Amount": null,
+            "Capital in Par Value": null,
+            "Accumulated Excess of Income (Loss)": null,
+            "Accumulated Retained": 15511.0,
+            "Accumulated Other Comprehensive Shareholders' Equity": null,
+            "Total Walmart": 15511.0,
+            "Total Noncontrolling Interest": 774.0,
+            "Total Total Equity": 16285.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              81,
+              103,
+              916,
+              689
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other comprehensive income, net of income taxes",
+          "raw_values": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "378",
+            "378",
+            "566",
+            "944"
+          ],
+          "values": {
+            "Common Stock Shares": null,
+            "Common Stock Amount": null,
+            "Capital in Par Value": null,
+            "Accumulated Excess of Income (Loss)": null,
+            "Accumulated Retained": null,
+            "Accumulated Other Comprehensive Shareholders' Equity": 378.0,
+            "Total Walmart": 378.0,
+            "Total Noncontrolling Interest": 566.0,
+            "Total Total Equity": 944.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              81,
+              103,
+              916,
+              689
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash dividends declared ($0.7600 per share)",
+          "raw_values": [
+            "",
+            "",
+            "",
+            "",
+            "(6,140)",
+            "",
+            "(6,140)",
+            "",
+            "(6,140)"
+          ],
+          "values": {
+            "Common Stock Shares": null,
+            "Common Stock Amount": null,
+            "Capital in Par Value": null,
+            "Accumulated Excess of Income (Loss)": null,
+            "Accumulated Retained": -6140.0,
+            "Accumulated Other Comprehensive Shareholders' Equity": null,
+            "Total Walmart": -6140.0,
+            "Total Noncontrolling Interest": null,
+            "Total Total Equity": -6140.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              81,
+              103,
+              916,
+              689
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Purchase of Company stock",
+          "raw_values": [
+            "(55)",
+            "（6",
+            "(150)",
+            "",
+            "(2.635)",
+            "",
+            "(2,791)",
+            "",
+            "(2,791)"
+          ],
+          "values": {
+            "Common Stock Shares": -55.0,
+            "Common Stock Amount": null,
+            "Capital in Par Value": -150.0,
+            "Accumulated Excess of Income (Loss)": null,
+            "Accumulated Retained": -2.635,
+            "Accumulated Other Comprehensive Shareholders' Equity": null,
+            "Total Walmart": -2791.0,
+            "Total Noncontrolling Interest": null,
+            "Total Total Equity": -2791.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              81,
+              103,
+              916,
+              689
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash dividend declared to noncontrolling interest",
+          "raw_values": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "(776)",
+            "(776)"
+          ],
+          "values": {
+            "Common Stock Shares": null,
+            "Common Stock Amount": null,
+            "Capital in Par Value": null,
+            "Accumulated Excess of Income (Loss)": null,
+            "Accumulated Retained": null,
+            "Accumulated Other Comprehensive Shareholders' Equity": null,
+            "Total Walmart": null,
+            "Total Noncontrolling Interest": -776.0,
+            "Total Total Equity": -776.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              81,
+              103,
+              916,
+              689
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Purchase of noncontrolling interest",
+          "raw_values": [
+            "",
+            "",
+            "(1,076)",
+            "",
+            "",
+            "",
+            "(1,076)",
+            "(1,367)",
+            "(2.443)"
+          ],
+          "values": {
+            "Common Stock Shares": null,
+            "Common Stock Amount": null,
+            "Capital in Par Value": -1076.0,
+            "Accumulated Excess of Income (Loss)": null,
+            "Accumulated Retained": null,
+            "Accumulated Other Comprehensive Shareholders' Equity": null,
+            "Total Walmart": -1076.0,
+            "Total Noncontrolling Interest": -1367.0,
+            "Total Total Equity": -2.443
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              81,
+              103,
+              916,
+              689
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Sale of subsidiary stock",
+          "raw_values": [
+            "",
+            "",
+            "",
+            "562",
+            "",
+            "",
+            "562",
+            "154",
+            "716"
+          ],
+          "values": {
+            "Common Stock Shares": null,
+            "Common Stock Amount": null,
+            "Capital in Par Value": null,
+            "Accumulated Excess of Income (Loss)": 562.0,
+            "Accumulated Retained": null,
+            "Accumulated Other Comprehensive Shareholders' Equity": null,
+            "Total Walmart": 562.0,
+            "Total Noncontrolling Interest": 154.0,
+            "Total Total Equity": 716.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              81,
+              103,
+              916,
+              689
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other",
+          "raw_values": [
+            "29",
+            "3",
+            "",
+            "778",
+            "(57)",
+            "",
+            "724",
+            "76",
+            "800"
+          ],
+          "values": {
+            "Common Stock Shares": 29.0,
+            "Common Stock Amount": 3.0,
+            "Capital in Par Value": null,
+            "Accumulated Excess of Income (Loss)": 778.0,
+            "Accumulated Retained": -57.0,
+            "Accumulated Other Comprehensive Shareholders' Equity": null,
+            "Total Walmart": 724.0,
+            "Total Noncontrolling Interest": 76.0,
+            "Total Total Equity": 800.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              81,
+              103,
+              916,
+              689
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Balances as of January 31, 2024",
+          "raw_values": [
+            "8,054",
+            "805",
+            "4.544",
+            "",
+            "89.814",
+            "(11.,302)",
+            "83.861",
+            "6.488",
+            "90,349"
+          ],
+          "values": {
+            "Common Stock Shares": 8054.0,
+            "Common Stock Amount": 805.0,
+            "Capital in Par Value": 4.544,
+            "Accumulated Excess of Income (Loss)": null,
+            "Accumulated Retained": 89.814,
+            "Accumulated Other Comprehensive Shareholders' Equity": -11.302,
+            "Total Walmart": 83.861,
+            "Total Noncontrolling Interest": 6.488,
+            "Total Total Equity": 90349.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              81,
+              103,
+              916,
+              689
+            ],
+            "source": "html_table"
+          }
+        }
+      ],
+      "evidence": {
+        "page_start": 3,
+        "bbox": [
+          81,
+          103,
+          916,
+          689
+        ],
+        "page_end": 3
+      },
+      "raw_block": {
+        "type": "table",
+        "content": {
+          "image_source": {
+            "path": "images/410bb809adb89354108a5bb2dcaafc6dfb24a64cd30c6ccc5cd3739dc6e065df.jpg"
+          },
+          "table_caption": [],
+          "table_footnote": [
+            {
+              "type": "text",
+              "content": "See accompanying notes."
+            }
+          ],
+          "html": "<table><tr><td colspan=\"3\"></td><td rowspan=\"2\">Capital in</td><td colspan=\"3\">Accumulated</td><td colspan=\"3\">Total</td></tr><tr><td></td><td colspan=\"2\">Common Stock</td><td>Excess of</td><td rowspan=\"2\">Retained</td><td>Other Comprehensive</td><td>Walmart</td><td rowspan=\"2\">Noncontrolling Interest</td><td rowspan=\"2\">Total Equity</td></tr><tr><td>(Amounts in millions)</td><td>Shares</td><td>Amount</td><td>Par Value</td><td>Income (Loss)</td><td>Shareholders&#x27; Equity</td></tr><tr><td>Balances as of February 1, 2021</td><td>8,464$</td><td>846$</td><td>3,082</td><td>Earnings $88,763</td><td>$</td><td>(11,766) $</td><td>80,925$</td><td>6,606$</td><td>87,531</td></tr><tr><td> Consolidated net income</td><td></td><td></td><td></td><td>13,673</td><td></td><td>13,673</td><td></td><td>267</td><td>13,940</td></tr><tr><td>Other comprehensive income (loss),et fie</td><td></td><td></td><td></td><td></td><td></td><td>3,000</td><td>3,000</td><td>(230)</td><td>2,770</td></tr><tr><td>Cash dividends declared ($0.7333 per share)</td><td></td><td></td><td></td><td>(6,152)</td><td></td><td></td><td>(6,152)</td><td></td><td>(6,152)</td></tr><tr><td>Purchase of Company stock</td><td> (210)</td><td>(21)</td><td>(412)</td><td></td><td>(9,375)</td><td></td><td>(9,808)</td><td></td><td>(9,808)</td></tr><tr><td>Cash dividend declared to noncontrolling interest</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>(416)</td><td>(416)</td></tr><tr><td>Sale of subsidiary stock</td><td></td><td></td><td></td><td>952</td><td></td><td></td><td>952</td><td>2,287</td><td>3,239</td></tr><tr><td>Other</td><td>30</td><td>3</td><td></td><td>665</td><td>⑤</td><td></td><td>663</td><td>124</td><td>787</td></tr><tr><td>Balances as of January 31, 2022</td><td>8,284</td><td>828</td><td>4,287</td><td></td><td>86,904</td><td>(8,766)</td><td>83,253</td><td>8,638</td><td>91,891</td></tr><tr><td> Consolidated net income</td><td></td><td></td><td></td><td></td><td>11,680</td><td></td><td>11,680</td><td>(388)</td><td>11,292</td></tr><tr><td>Other comprehensive (loss), net of income taxes</td><td></td><td></td><td></td><td></td><td></td><td>(1,652)</td><td>(1,652)</td><td>(404)</td><td>(2.056)</td></tr><tr><td>Cash dividends declared ($0.7467 per share)</td><td></td><td></td><td></td><td></td><td>(6,114)</td><td></td><td>(6,114)</td><td></td><td>(6,14)</td></tr><tr><td>Purchase of Company stock</td><td>(221)</td><td> (22)</td><td>(518)</td><td></td><td>(9,326)</td><td></td><td>(9,866)</td><td></td><td>(9,866)</td></tr><tr><td>Cash dividend declared to noncontrolling interest</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>(449)</td><td>(449)</td></tr><tr><td>Purchase of noncontrolling interest</td><td></td><td></td><td></td><td>(18)</td><td></td><td>(1,262)</td><td>(1,280)</td><td>(493)</td><td>(1,773)</td></tr><tr><td> Sale of subsidiary stock</td><td></td><td></td><td></td><td>48</td><td></td><td></td><td>48</td><td>18</td><td>66</td></tr><tr><td>Other</td><td>17</td><td>2</td><td>631</td><td></td><td>(9)</td><td></td><td>624</td><td>139</td><td>763</td></tr><tr><td> Balances as of January 31, 2023</td><td>8,080</td><td>808</td><td>4,430</td><td></td><td>83,135</td><td>(11,680)</td><td>76,693</td><td>7,061</td><td>83,754</td></tr><tr><td>Consolidated net income</td><td></td><td></td><td></td><td></td><td>15,511</td><td></td><td>15,511</td><td>774</td><td>16,285</td></tr><tr><td>Other comprehensive income, net of income taxes</td><td></td><td></td><td></td><td></td><td></td><td>378</td><td>378</td><td>566</td><td>944</td></tr><tr><td>Cash dividends declared ($0.7600 per share)</td><td></td><td></td><td></td><td></td><td>(6,140)</td><td></td><td>(6,140)</td><td></td><td>(6,140)</td></tr><tr><td> Purchase of Company stock</td><td>(55)</td><td>（6</td><td>(150)</td><td></td><td>(2.635)</td><td></td><td>(2,791)</td><td></td><td>(2,791)</td></tr><tr><td>Cash dividend declared to noncontrolling interest</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>(776)</td><td>(776)</td></tr><tr><td>Purchase of noncontrolling interest</td><td></td><td></td><td>(1,076)</td><td></td><td></td><td></td><td>(1,076)</td><td>(1,367)</td><td>(2.443)</td></tr><tr><td>Sale of subsidiary stock</td><td></td><td></td><td></td><td>562</td><td></td><td></td><td>562</td><td>154</td><td>716</td></tr><tr><td>Other</td><td>29</td><td>3</td><td></td><td>778</td><td>(57)</td><td></td><td>724</td><td>76</td><td>800</td></tr><tr><td>Balances as of January 31, 2024</td><td>8,054</td><td>805</td><td>4.544</td><td></td><td>89.814</td><td>(11.,302)</td><td>83.861</td><td>6.488</td><td>90,349</td></tr></table>",
+          "table_type": "complex_table",
+          "table_nest_level": 1
+        },
+        "bbox": [
+          81,
+          103,
+          916,
+          689
+        ],
+        "page_idx": 3,
+        "source_input": {
+          "path": "examples/inputs/public_benchmark/wmt_2024.pdf",
+          "url": null,
+          "role": "primary",
+          "mime_type": null
+        },
+        "context_title": "Consolidated Statements of Shareholders' Equity"
+      },
+      "sources": [
+        {
+          "page_start": 3,
+          "bbox": [
+            81,
+            103,
+            916,
+            689
+          ]
+        }
+      ]
+    },
+    {
+      "name": "walmart_inc_consolidated_statements_of_cash_flows",
+      "title": "Walmart Inc. Consolidated Statements of Cash Flows",
+      "unit": "",
+      "table_type": "complex_table",
+      "table_nest_level": 1,
+      "footnote": "See accompanying notes.",
+      "image_source": {
+        "path": "images/d6eb874c805993e0056cc360a91e2926eb36e10f65a393400512c60e9acef08d.jpg"
+      },
+      "periods": [
+        "2024",
+        "2024",
+        "2022"
+      ],
+      "rows": [
+        {
+          "item": "(Amounts in millions)",
+          "raw_values": [
+            "",
+            "2023",
+            ""
+          ],
+          "values": {
+            "2024": 2023.0,
+            "2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash flows from operating activities:",
+          "raw_values": [
+            "$",
+            "",
+            ""
+          ],
+          "values": {
+            "2024": null,
+            "2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Consolidated net income",
+          "raw_values": [
+            "16,270 $",
+            "",
+            "11,292$13.940"
+          ],
+          "values": {
+            "2024": null,
+            "2022": 1129213.94
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Adjustments to reconcile consolidated net income to net cash provided by operating activities:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "2024": null,
+            "2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Depreciation and amortization",
+          "raw_values": [
+            "11,853",
+            "10,945",
+            "10,658"
+          ],
+          "values": {
+            "2024": 10945.0,
+            "2022": 10658.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net unrealized and realized (gains) and losses",
+          "raw_values": [
+            "3,193",
+            "1,683",
+            "2,440"
+          ],
+          "values": {
+            "2024": 1683.0,
+            "2022": 2440.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Losses on disposal of business operations",
+          "raw_values": [
+            "",
+            "",
+            "433"
+          ],
+          "values": {
+            "2024": null,
+            "2022": 433.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Deferred income taxes",
+          "raw_values": [
+            "(175)",
+            "449",
+            "(755)"
+          ],
+          "values": {
+            "2024": 449.0,
+            "2022": -755.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Loss on extinguishment of debt",
+          "raw_values": [
+            "",
+            "",
+            "2,410"
+          ],
+          "values": {
+            "2024": null,
+            "2022": 2410.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other operating activities",
+          "raw_values": [
+            "2.642",
+            "1,919",
+            "1,652"
+          ],
+          "values": {
+            "2024": 1919.0,
+            "2022": 1652.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Changes in certain assets and liabilities,net of efects of acquisitions and dispositions:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "2024": null,
+            "2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Receivables, net",
+          "raw_values": [
+            "(797)",
+            "240",
+            "(1,796)"
+          ],
+          "values": {
+            "2024": 240.0,
+            "2022": -1796.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Inventories",
+          "raw_values": [
+            "2.017",
+            "(528)",
+            "(11,764)"
+          ],
+          "values": {
+            "2024": -528.0,
+            "2022": -11764.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Accounts payable",
+          "raw_values": [
+            "2,515",
+            "(1,425)",
+            "5,520"
+          ],
+          "values": {
+            "2024": -1425.0,
+            "2022": 5520.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Accrued liabilities",
+          "raw_values": [
+            "(1,324)",
+            "4,393",
+            "1,404"
+          ],
+          "values": {
+            "2024": 4393.0,
+            "2022": 1404.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Accrued income taxes",
+          "raw_values": [
+            "(468)",
+            "(127)",
+            "39"
+          ],
+          "values": {
+            "2024": -127.0,
+            "2022": 39.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Netcash provided by operating activities",
+          "raw_values": [
+            "35,726",
+            "28.841",
+            "24,181"
+          ],
+          "values": {
+            "2024": 28.841,
+            "2022": 24181.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash flows from investing activities:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "2024": null,
+            "2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Payments for property and equipment",
+          "raw_values": [
+            "(20,606)",
+            "",
+            ""
+          ],
+          "values": {
+            "2024": null,
+            "2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Proceeds from the disposal of property and equipment",
+          "raw_values": [
+            "250",
+            "(16,857)",
+            "(13,106)"
+          ],
+          "values": {
+            "2024": -16857.0,
+            "2022": -13106.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Proceeds from disposal of certain operations, net of divested cash",
+          "raw_values": [
+            "135",
+            "170",
+            "394"
+          ],
+          "values": {
+            "2024": 170.0,
+            "2022": 394.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Payments for business acquisitions, net of cash acquired",
+          "raw_values": [
+            "(9)",
+            "二",
+            "7,935"
+          ],
+          "values": {
+            "2024": null,
+            "2022": 7935.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "",
+          "raw_values": [
+            "(1,057)",
+            "(740)",
+            "(359)"
+          ],
+          "values": {
+            "2024": -740.0,
+            "2022": -359.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other investing activities Net cash used in investing activities",
+          "raw_values": [
+            "(21,287)",
+            "(295)",
+            "(879)"
+          ],
+          "values": {
+            "2024": -295.0,
+            "2022": -879.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "",
+          "raw_values": [
+            "",
+            "(17,722)",
+            "(6,015)"
+          ],
+          "values": {
+            "2024": -17722.0,
+            "2022": -6015.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash flows from financing activities:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "2024": null,
+            "2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net change in short-term borrowings",
+          "raw_values": [
+            "512",
+            "(34)",
+            "193"
+          ],
+          "values": {
+            "2024": -34.0,
+            "2022": 193.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Proceeds from issuance of long-term debt",
+          "raw_values": [
+            "4,967",
+            "5,041",
+            "6,945"
+          ],
+          "values": {
+            "2024": 5041.0,
+            "2022": 6945.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Repayments oflong-term debt",
+          "raw_values": [
+            "(4,217)",
+            "(2,689)",
+            "(13.010)"
+          ],
+          "values": {
+            "2024": -2689.0,
+            "2022": -13.01
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Premiums paid to extinguish debt",
+          "raw_values": [
+            "",
+            "",
+            "(2,317)"
+          ],
+          "values": {
+            "2024": null,
+            "2022": -2317.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Dividends paid",
+          "raw_values": [
+            "(6,140)",
+            "(6,114)",
+            "(6,152)"
+          ],
+          "values": {
+            "2024": -6114.0,
+            "2022": -6152.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Purchase of Company stock",
+          "raw_values": [
+            "(2,779)",
+            "(9,920)",
+            "(9.787)"
+          ],
+          "values": {
+            "2024": -9920.0,
+            "2022": -9.787
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Dividends paid to noncontrolling interest",
+          "raw_values": [
+            "(763)",
+            "(444)",
+            "(424)"
+          ],
+          "values": {
+            "2024": -444.0,
+            "2022": -424.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Purchaseofnoncontrolling itest",
+          "raw_values": [
+            "(3,462)",
+            "(827)",
+            ""
+          ],
+          "values": {
+            "2024": -827.0,
+            "2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Sale of subsidiary stock",
+          "raw_values": [
+            "716",
+            "66",
+            "3,239"
+          ],
+          "values": {
+            "2024": 66.0,
+            "2022": 3239.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other financing activities",
+          "raw_values": [
+            "(2.248)",
+            "(2,118)",
+            "(1,515)"
+          ],
+          "values": {
+            "2024": -2118.0,
+            "2022": -1515.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net cash used in financing activities",
+          "raw_values": [
+            "(13,414)",
+            "(17,039)",
+            "(22,828)"
+          ],
+          "values": {
+            "2024": -17039.0,
+            "2022": -22828.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Effect of exchange rates on cash, cash equivalents and restricted cash",
+          "raw_values": [
+            "69",
+            "(73)",
+            "(140)"
+          ],
+          "values": {
+            "2024": -73.0,
+            "2022": -140.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net increase (decrease) in cash, cash equivalents and restricted cash",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "2024": null,
+            "2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "",
+          "raw_values": [
+            "1,094",
+            "(5,993)",
+            "(4,802)"
+          ],
+          "values": {
+            "2024": -5993.0,
+            "2022": -4802.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Change in cash and cash equivalents reclasified from assets held for sale",
+          "raw_values": [
+            "",
+            "",
+            "1,848"
+          ],
+          "values": {
+            "2024": null,
+            "2022": 1848.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash, cash equivalents and restricted cash at beginning of year",
+          "raw_values": [
+            "8.841",
+            "14,834",
+            "17,788"
+          ],
+          "values": {
+            "2024": 14834.0,
+            "2022": 17788.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash, cash equivalents and restricted cash at end of year",
+          "raw_values": [
+            "$ 9.935",
+            "8.841",
+            "S 14.834"
+          ],
+          "values": {
+            "2024": 8.841,
+            "2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Supplemental disclosure of cash flow information:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "2024": null,
+            "2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Income taxes paid",
+          "raw_values": [
+            "$ 5,879$",
+            "3,310$",
+            "5,918"
+          ],
+          "values": {
+            "2024": 3310.0,
+            "2022": 5918.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Interest paid",
+          "raw_values": [
+            "2,519",
+            "2.051",
+            "2,237"
+          ],
+          "values": {
+            "2024": 2.051,
+            "2022": 2237.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              76,
+              107,
+              921,
+              815
+            ],
+            "source": "html_table"
+          }
+        }
+      ],
+      "evidence": {
+        "page_start": 4,
+        "bbox": [
+          76,
+          107,
+          921,
+          815
+        ],
+        "page_end": 4
+      },
+      "raw_block": {
+        "type": "table",
+        "content": {
+          "image_source": {
+            "path": "images/d6eb874c805993e0056cc360a91e2926eb36e10f65a393400512c60e9acef08d.jpg"
+          },
+          "table_caption": [],
+          "table_footnote": [
+            {
+              "type": "text",
+              "content": "See accompanying notes."
+            }
+          ],
+          "html": "<table><tr><td rowspan=\"2\">(Amounts in millions)</td><td colspan=\"2\">2024</td><td>2022</td></tr><tr><td></td><td>2023</td><td></td></tr><tr><td> Cash flows from operating activities:</td><td>$</td><td></td><td></td></tr><tr><td> Consolidated net income</td><td>16,270 $</td><td></td><td>11,292$13.940</td></tr><tr><td> Adjustments to reconcile consolidated net income to net cash provided by operating activities:</td><td></td><td></td><td></td></tr><tr><td> Depreciation and amortization</td><td> 11,853</td><td>10,945</td><td>10,658</td></tr><tr><td> Net unrealized and realized (gains) and losses</td><td>3,193</td><td>1,683</td><td>2,440</td></tr><tr><td> Losses on disposal of business operations</td><td></td><td></td><td>433</td></tr><tr><td> Deferred income taxes</td><td>(175)</td><td>449</td><td>(755)</td></tr><tr><td> Loss on extinguishment of debt</td><td></td><td></td><td>2,410</td></tr><tr><td> Other operating activities</td><td>2.642</td><td>1,919</td><td>1,652</td></tr><tr><td> Changes in certain assets and liabilities,net of efects of acquisitions and dispositions:</td><td></td><td></td><td></td></tr><tr><td> Receivables, net</td><td>(797)</td><td>240</td><td>(1,796)</td></tr><tr><td> Inventories</td><td>2.017</td><td>(528)</td><td>(11,764)</td></tr><tr><td> Accounts payable</td><td>2,515</td><td>(1,425)</td><td>5,520</td></tr><tr><td> Accrued liabilities</td><td>(1,324)</td><td>4,393</td><td>1,404</td></tr><tr><td> Accrued income taxes</td><td>(468)</td><td>(127)</td><td>39</td></tr><tr><td>Netcash provided by operating activities</td><td>35,726</td><td>28.841</td><td>24,181</td></tr><tr><td>Cash flows from investing activities:</td><td></td><td></td><td></td></tr><tr><td> Payments for property and equipment</td><td>(20,606)</td><td></td><td></td></tr><tr><td> Proceeds from the disposal of property and equipment</td><td>250</td><td>(16,857)</td><td>(13,106)</td></tr><tr><td>Proceeds from disposal of certain operations, net of divested cash</td><td>135</td><td>170</td><td>394</td></tr><tr><td> Payments for business acquisitions, net of cash acquired</td><td>(9)</td><td>二</td><td>7,935</td></tr><tr><td></td><td>(1,057)</td><td>(740)</td><td>(359)</td></tr><tr><td>Other investing activities Net cash used in investing activities</td><td>(21,287)</td><td>(295)</td><td>(879)</td></tr><tr><td></td><td></td><td>(17,722)</td><td>(6,015)</td></tr><tr><td>Cash flows from financing activities:</td><td></td><td></td><td></td></tr><tr><td> Net change in short-term borrowings</td><td>512</td><td>(34)</td><td>193</td></tr><tr><td> Proceeds from issuance of long-term debt</td><td>4,967</td><td>5,041</td><td>6,945</td></tr><tr><td> Repayments oflong-term debt</td><td>(4,217)</td><td>(2,689)</td><td>(13.010)</td></tr><tr><td> Premiums paid to extinguish debt</td><td></td><td></td><td>(2,317)</td></tr><tr><td> Dividends paid</td><td>(6,140)</td><td>(6,114)</td><td>(6,152)</td></tr><tr><td> Purchase of Company stock</td><td>(2,779)</td><td>(9,920)</td><td>(9.787)</td></tr><tr><td>Dividends paid to noncontrolling interest</td><td>(763)</td><td>(444)</td><td>(424)</td></tr><tr><td> Purchaseofnoncontrolling itest</td><td>(3,462)</td><td>(827)</td><td></td></tr><tr><td> Sale of subsidiary stock</td><td>716</td><td>66</td><td>3,239</td></tr><tr><td> Other financing activities</td><td>(2.248)</td><td>(2,118)</td><td>(1,515)</td></tr><tr><td>Net cash used in financing activities</td><td>(13,414)</td><td>(17,039)</td><td>(22,828)</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td> Effect of exchange rates on cash, cash equivalents and restricted cash</td><td>69</td><td>(73)</td><td>(140)</td></tr><tr><td> Net increase (decrease) in cash, cash equivalents and restricted cash</td><td></td><td></td><td></td></tr><tr><td></td><td>1,094</td><td>(5,993)</td><td>(4,802)</td></tr><tr><td>Change in cash and cash equivalents reclasified from assets held for sale</td><td></td><td></td><td>1,848</td></tr><tr><td> Cash, cash equivalents and restricted cash at beginning of year</td><td>8.841</td><td>14,834</td><td>17,788</td></tr><tr><td>Cash, cash equivalents and restricted cash at end of year</td><td>$ 9.935</td><td>8.841</td><td>S 14.834</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>Supplemental disclosure of cash flow information:</td><td></td><td></td><td></td></tr><tr><td> Income taxes paid</td><td>$ 5,879$</td><td>3,310$</td><td>5,918</td></tr><tr><td> Interest paid</td><td>2,519</td><td>2.051</td><td>2,237</td></tr></table>",
+          "table_type": "complex_table",
+          "table_nest_level": 1
+        },
+        "bbox": [
+          76,
+          107,
+          921,
+          815
+        ],
+        "page_idx": 4,
+        "source_input": {
+          "path": "examples/inputs/public_benchmark/wmt_2024.pdf",
+          "url": null,
+          "role": "primary",
+          "mime_type": null
+        },
+        "context_title": "Walmart Inc. Consolidated Statements of Cash Flows"
+      },
+      "sources": [
+        {
+          "page_start": 4,
+          "bbox": [
+            76,
+            107,
+            921,
+            815
+          ]
+        }
+      ]
+    }
+  ],
+  "quality": {
+    "validation_pass_rate": 1.0,
+    "check_count": 7,
+    "hard_check_count": 3,
+    "passed_count": 3,
+    "warning_count": 5,
+    "failed_count": 0,
+    "issue_count": 5,
+    "checks": [
+      {
+        "table": "walmart_inc_consolidated_statements_of_income",
+        "type": "table_presence",
+        "status": "pass",
+        "detail": "Table loaded successfully."
+      },
+      {
+        "table": "walmart_inc_consolidated_statements_of_comprehensive_income",
+        "type": "table_presence",
+        "status": "pass",
+        "detail": "Table loaded successfully."
+      },
+      {
+        "table": "walmart_inc_consolidated_balance_sheets",
+        "type": "numeric_parse",
+        "row": "Retained earnings",
+        "status": "warn",
+        "detail": "Numeric-looking cells could not be parsed.",
+        "cells": [
+          "83,135 (11,302) (11,680)"
+        ]
+      },
+      {
+        "table": "walmart_inc_consolidated_balance_sheets",
+        "type": "numeric_parse",
+        "row": "Total equity Total liabilities,redeemable noncontrolling interest, and equity $",
+        "status": "warn",
+        "detail": "Numeric-looking cells could not be parsed.",
+        "cells": [
+          "252.399 $ 243.197"
+        ]
+      },
+      {
+        "table": "consolidated_statements_of_shareholders_equity",
+        "type": "numeric_parse",
+        "row": "Balances as of February 1, 2021",
+        "status": "warn",
+        "detail": "Numeric-looking cells could not be parsed.",
+        "cells": [
+          "Earnings $88,763",
+          "(11,766) $"
+        ]
+      },
+      {
+        "table": "consolidated_statements_of_shareholders_equity",
+        "type": "numeric_parse",
+        "row": "Purchase of Company stock",
+        "status": "warn",
+        "detail": "Numeric-looking cells could not be parsed.",
+        "cells": [
+          "（6"
+        ]
+      },
+      {
+        "table": "walmart_inc_consolidated_statements_of_cash_flows",
+        "type": "table_presence",
+        "status": "pass",
+        "detail": "Table loaded successfully."
+      }
+    ],
+    "warnings": [
+      "At least one table is missing an explicit unit or scale."
+    ],
+    "diagnostics": {
+      "risk_level": "medium",
+      "table_count": 5,
+      "row_count": 154,
+      "raw_cell_count": 410,
+      "numeric_like_cell_count": 386,
+      "parsed_numeric_cell_count": 381,
+      "numeric_parse_coverage": 0.987,
+      "evidence_coverage": 1.0,
+      "financial_table_count": 5,
+      "recommended_actions": [
+        "Apply numeric repair for OCR-confused digits and footnote markers.",
+        "Infer or confirm units from nearby paragraphs and table footnotes."
+      ],
+      "tables": [
+        {
+          "name": "walmart_inc_consolidated_statements_of_income",
+          "title": "Walmart Inc. Consolidated Statements of Income",
+          "table_type": "complex_table",
+          "row_count": 29,
+          "raw_cell_count": 65,
+          "numeric_like_cell_count": 62,
+          "parsed_numeric_cell_count": 62,
+          "numeric_parse_coverage": 1.0,
+          "rows_with_evidence": 29,
+          "evidence_coverage": 1.0,
+          "has_periods": true,
+          "has_unit": false,
+          "financial_relevance": 1.0
+        },
+        {
+          "name": "walmart_inc_consolidated_statements_of_comprehensive_income",
+          "title": "Walmart Inc. Consolidated Statements of Comprehensive Income",
+          "table_type": "complex_table",
+          "row_count": 15,
+          "raw_cell_count": 40,
+          "numeric_like_cell_count": 38,
+          "parsed_numeric_cell_count": 38,
+          "numeric_parse_coverage": 1.0,
+          "rows_with_evidence": 15,
+          "evidence_coverage": 1.0,
+          "has_periods": true,
+          "has_unit": false,
+          "financial_relevance": 1.0
+        },
+        {
+          "name": "walmart_inc_consolidated_balance_sheets",
+          "title": "Walmart Inc. Consolidated Balance Sheets",
+          "table_type": "complex_table",
+          "row_count": 37,
+          "raw_cell_count": 68,
+          "numeric_like_cell_count": 56,
+          "parsed_numeric_cell_count": 54,
+          "numeric_parse_coverage": 0.9643,
+          "rows_with_evidence": 37,
+          "evidence_coverage": 1.0,
+          "has_periods": true,
+          "has_unit": false,
+          "financial_relevance": 1.0
+        },
+        {
+          "name": "consolidated_statements_of_shareholders_equity",
+          "title": "Consolidated Statements of Shareholders' Equity",
+          "table_type": "complex_table",
+          "row_count": 27,
+          "raw_cell_count": 134,
+          "numeric_like_cell_count": 130,
+          "parsed_numeric_cell_count": 127,
+          "numeric_parse_coverage": 0.9769,
+          "rows_with_evidence": 27,
+          "evidence_coverage": 1.0,
+          "has_periods": true,
+          "has_unit": false,
+          "financial_relevance": 1.0
+        },
+        {
+          "name": "walmart_inc_consolidated_statements_of_cash_flows",
+          "title": "Walmart Inc. Consolidated Statements of Cash Flows",
+          "table_type": "complex_table",
+          "row_count": 46,
+          "raw_cell_count": 103,
+          "numeric_like_cell_count": 100,
+          "parsed_numeric_cell_count": 100,
+          "numeric_parse_coverage": 1.0,
+          "rows_with_evidence": 46,
+          "evidence_coverage": 1.0,
+          "has_periods": true,
+          "has_unit": false,
+          "financial_relevance": 1.0
+        }
+      ]
+    },
+    "repairs": {
+      "applied": false,
+      "repair_count": 0,
+      "repairs": [],
+      "truncated": false,
+      "input_warning_count": 5
+    }
+  },
+  "trace_path": "runs/public-wmt-2024-financials/trace.jsonl",
+  "result_path": "runs/public-wmt-2024-financials/result.json"
+}

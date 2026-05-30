@@ -1,0 +1,257 @@
+{
+  "status": "pass",
+  "created_at": "2026-05-30T09:35:07.710934+00:00",
+  "artifact_root": "runs/capability_evidence",
+  "scenario_count": 4,
+  "scenarios": [
+    {
+      "name": "html_native_parse",
+      "status": "pass",
+      "task_id": "capability-html-native",
+      "plan_path": "runs/capability_evidence/capability-html-native/plan.json",
+      "trace_path": "runs/capability_evidence/capability-html-native/trace.jsonl",
+      "result_path": "runs/capability_evidence/capability-html-native/result.json",
+      "native_html_tool_events": 2,
+      "table_count": 1,
+      "first_table": {
+        "title": "主要财务指标",
+        "unit": "人民币百万元",
+        "periods": [
+          "报告期 2025 Q2",
+          "报告期 2024 Q2"
+        ],
+        "row_count": 2
+      },
+      "quality": {
+        "risk_level": "low",
+        "table_count": 1,
+        "row_count": 2,
+        "raw_cell_count": 4,
+        "numeric_like_cell_count": 4,
+        "parsed_numeric_cell_count": 4,
+        "numeric_parse_coverage": 1.0,
+        "evidence_coverage": 1.0,
+        "financial_table_count": 1,
+        "recommended_actions": [],
+        "tables": [
+          {
+            "name": "主要财务指标",
+            "title": "主要财务指标",
+            "table_type": "html_table",
+            "page_start": 0,
+            "page_end": 0,
+            "row_count": 2,
+            "raw_cell_count": 4,
+            "numeric_like_cell_count": 4,
+            "parsed_numeric_cell_count": 4,
+            "numeric_parse_coverage": 1.0,
+            "rows_with_evidence": 2,
+            "evidence_coverage": 1.0,
+            "has_periods": true,
+            "has_unit": true,
+            "financial_relevance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "mixed_dag_execution",
+      "status": "pass",
+      "task_id": "capability-mixed-dag",
+      "plan_path": "runs/capability_evidence/capability-mixed-dag/plan.json",
+      "trace_path": "runs/capability_evidence/capability-mixed-dag/trace.jsonl",
+      "result_path": "runs/capability_evidence/capability-mixed-dag/result.json",
+      "graph": {
+        "step_count": 19,
+        "edge_count": 22,
+        "is_dag": true,
+        "parallel_group_count": 12
+      },
+      "parse_stages": [
+        "parse_input_00_annual_report",
+        "parse_input_01_scanned_financial_statement",
+        "parse_input_02_financial_model"
+      ],
+      "shared_context": {
+        "source_roles": {
+          "primary": 1,
+          "reference": 1,
+          "attachment": 1
+        },
+        "units": [
+          "RMB million"
+        ],
+        "periods": [
+          "2025"
+        ],
+        "metric_alias_count": 1,
+        "metric_alias_examples": [
+          "revenue"
+        ]
+      },
+      "cross_file_checks": {
+        "matched_metric_count": 1,
+        "conflict_count": 0,
+        "conflicts": [],
+        "truncated": false
+      }
+    },
+    {
+      "name": "contextual_numeric_repair",
+      "status": "pass",
+      "repair_summary": {
+        "applied": true,
+        "repair_count": 1,
+        "repairs": [
+          {
+            "table": "income_statement",
+            "row": "营业收入",
+            "period": "2025",
+            "original": "1O0百万元",
+            "repaired": "100",
+            "value": 100.0,
+            "reason": "contextual_ocr_unit_suffix",
+            "confidence": 0.98,
+            "context_used": [
+              "table_unit",
+              "table_footnote",
+              "period_header",
+              "row_label",
+              "source_evidence",
+              "peer_period_values"
+            ],
+            "context_evidence": {
+              "table": "income_statement",
+              "title": "合并利润表",
+              "unit": "人民币百万元",
+              "footnote": "除特别注明外，单位为人民币百万元",
+              "period": "2025",
+              "row": "营业收入",
+              "row_evidence": {
+                "page": 12,
+                "bbox": [
+                  10,
+                  20,
+                  200,
+                  40
+                ]
+              },
+              "table_evidence": {
+                "page_start": 12,
+                "page_end": 12
+              },
+              "peer_values": {
+                "2024": 90.0
+              }
+            }
+          }
+        ],
+        "truncated": false,
+        "input_warning_count": 0
+      },
+      "repaired_value": 100.0
+    },
+    {
+      "name": "chart_reference_resolution",
+      "status": "pass",
+      "fixture_path": "examples/inputs/complex_chart_reference_blocks.json",
+      "tables_path": "runs/capability_evidence/chart_reference_tables.json",
+      "chart_table_count": 3,
+      "chart_types": [
+        "line_chart",
+        "stacked_bar",
+        "waterfall"
+      ],
+      "resolved_reference_count": 5,
+      "resolved_metric_kinds": [
+        "cash_flow",
+        "growth",
+        "rate",
+        "revenue"
+      ],
+      "min_reference_confidence": 0.94,
+      "quality": {
+        "risk_level": "low",
+        "table_count": 4,
+        "row_count": 16,
+        "raw_cell_count": 27,
+        "numeric_like_cell_count": 27,
+        "parsed_numeric_cell_count": 27,
+        "numeric_parse_coverage": 1.0,
+        "evidence_coverage": 1.0,
+        "financial_table_count": 3,
+        "recommended_actions": [],
+        "tables": [
+          {
+            "name": "图1_2025_年收入结构堆叠柱状图",
+            "title": "图1 2025 年收入结构堆叠柱状图",
+            "table_type": "chart_metrics",
+            "page_start": 7,
+            "page_end": 7,
+            "row_count": 5,
+            "raw_cell_count": 9,
+            "numeric_like_cell_count": 9,
+            "parsed_numeric_cell_count": 9,
+            "numeric_parse_coverage": 1.0,
+            "rows_with_evidence": 5,
+            "evidence_coverage": 1.0,
+            "has_periods": true,
+            "has_unit": true,
+            "financial_relevance": 0.5
+          },
+          {
+            "name": "图2_综合毛利率趋势折线图",
+            "title": "图2 综合毛利率趋势折线图",
+            "table_type": "chart_metrics",
+            "page_start": 9,
+            "page_end": 9,
+            "row_count": 1,
+            "raw_cell_count": 3,
+            "numeric_like_cell_count": 3,
+            "parsed_numeric_cell_count": 3,
+            "numeric_parse_coverage": 1.0,
+            "rows_with_evidence": 1,
+            "evidence_coverage": 1.0,
+            "has_periods": true,
+            "has_unit": true,
+            "financial_relevance": 0.0
+          },
+          {
+            "name": "图3_经营现金流瀑布图",
+            "title": "图3 经营现金流瀑布图",
+            "table_type": "chart_metrics",
+            "page_start": 11,
+            "page_end": 11,
+            "row_count": 5,
+            "raw_cell_count": 5,
+            "numeric_like_cell_count": 5,
+            "parsed_numeric_cell_count": 5,
+            "numeric_parse_coverage": 1.0,
+            "rows_with_evidence": 5,
+            "evidence_coverage": 1.0,
+            "has_periods": true,
+            "has_unit": true,
+            "financial_relevance": 0.5
+          },
+          {
+            "name": "global_reference_resolution",
+            "title": "Global Reference Resolution",
+            "table_type": "global_reference_resolution",
+            "page_start": 8,
+            "page_end": 12,
+            "row_count": 5,
+            "raw_cell_count": 10,
+            "numeric_like_cell_count": 10,
+            "parsed_numeric_cell_count": 10,
+            "numeric_parse_coverage": 1.0,
+            "rows_with_evidence": 5,
+            "evidence_coverage": 1.0,
+            "has_periods": true,
+            "has_unit": true,
+            "financial_relevance": 0.5
+          }
+        ]
+      }
+    }
+  ]
+}

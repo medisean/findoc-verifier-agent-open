@@ -1,0 +1,282 @@
+{
+  "benchmark_name": "edge_layout_targeted",
+  "status": "pass",
+  "case_count": 3,
+  "passed_count": 3,
+  "aggregate": {
+    "status": "pass",
+    "case_count": 3,
+    "passed_count": 3,
+    "required_metric_count": 7,
+    "required_metric_passed": 7,
+    "required_metric_accuracy": 1.0,
+    "mean_evidence_coverage": 1.0,
+    "mean_numeric_parse_coverage": 1.0,
+    "hard_failures": 0,
+    "annotation_noise_rejection": 1.0,
+    "reading_order_accuracy": 1.0,
+    "nested_header_accuracy": 1.0,
+    "merged_cell_expansion_accuracy": 1.0
+  },
+  "cases": [
+    {
+      "name": "edge_handwritten_annotation_overlay",
+      "status": "pass",
+      "table": {
+        "name": "annotated_income_statement",
+        "row_count": 3,
+        "periods": [
+          "2025",
+          "2024"
+        ],
+        "unit": "USD million"
+      },
+      "metrics": {
+        "required_metric_accuracy": 1.0,
+        "evidence_coverage": 1.0,
+        "numeric_parse_coverage": 1.0,
+        "hard_failures": 0,
+        "warning_count": 1,
+        "annotation_noise_rejection": 1.0,
+        "reading_order_accuracy": null,
+        "nested_header_accuracy": null,
+        "merged_cell_expansion_accuracy": null
+      },
+      "checks": {
+        "table_found": {
+          "name": "table_found",
+          "status": "pass",
+          "expected": "annotated_income_statement"
+        },
+        "required_metrics": [
+          {
+            "name": "required_metric",
+            "status": "pass",
+            "row": "Revenue",
+            "period": "2025",
+            "expected": 8420,
+            "observed": 8420
+          },
+          {
+            "name": "required_metric",
+            "status": "pass",
+            "row": "Net profit",
+            "period": "2024",
+            "expected": 1110,
+            "observed": 1110
+          }
+        ],
+        "warning_type": {
+          "name": "warning_type",
+          "status": "pass",
+          "expected": "handwritten_annotation_overlay"
+        },
+        "edge_flags": [
+          {
+            "name": "edge_flag",
+            "status": "pass",
+            "flag": "annotation_noise_rejected",
+            "expected": true,
+            "observed": true
+          }
+        ],
+        "forbidden_rows": {
+          "name": "forbidden_rows",
+          "status": "pass",
+          "fragments": [
+            "recheck",
+            "approved",
+            "ok"
+          ],
+          "hits": []
+        },
+        "expected_periods": {
+          "name": "expected_periods",
+          "status": "pass",
+          "expected": []
+        }
+      },
+      "result_path": "examples/edge_layout_results/edge_handwritten_annotation_overlay.json"
+    },
+    {
+      "name": "edge_two_column_mixed_layout",
+      "status": "pass",
+      "table": {
+        "name": "right_column_segment_table",
+        "row_count": 2,
+        "periods": [
+          "2025",
+          "2024"
+        ],
+        "unit": "USD million"
+      },
+      "metrics": {
+        "required_metric_accuracy": 1.0,
+        "evidence_coverage": 1.0,
+        "numeric_parse_coverage": 1.0,
+        "hard_failures": 0,
+        "warning_count": 0,
+        "annotation_noise_rejection": null,
+        "reading_order_accuracy": 1.0,
+        "nested_header_accuracy": null,
+        "merged_cell_expansion_accuracy": null
+      },
+      "checks": {
+        "table_found": {
+          "name": "table_found",
+          "status": "pass",
+          "expected": "right_column_segment_table"
+        },
+        "required_metrics": [
+          {
+            "name": "required_metric",
+            "status": "pass",
+            "row": "Cloud",
+            "period": "2025",
+            "expected": 3180,
+            "observed": 3180
+          },
+          {
+            "name": "required_metric",
+            "status": "pass",
+            "row": "Devices",
+            "period": "2024",
+            "expected": 1280,
+            "observed": 1280
+          }
+        ],
+        "warning_type": {
+          "name": "warning_type",
+          "status": "pass",
+          "expected": null
+        },
+        "edge_flags": [
+          {
+            "name": "edge_flag",
+            "status": "pass",
+            "flag": "column_bleed_rejected",
+            "expected": true,
+            "observed": true
+          },
+          {
+            "name": "edge_flag",
+            "status": "pass",
+            "flag": "reading_order_accuracy",
+            "expected": 1.0,
+            "observed": 1.0
+          }
+        ],
+        "forbidden_rows": {
+          "name": "forbidden_rows",
+          "status": "pass",
+          "fragments": [
+            "management discussion",
+            "margin pressure"
+          ],
+          "hits": []
+        },
+        "expected_periods": {
+          "name": "expected_periods",
+          "status": "pass",
+          "expected": []
+        }
+      },
+      "result_path": "examples/edge_layout_results/edge_two_column_mixed_layout.json"
+    },
+    {
+      "name": "edge_nested_multiline_header_table",
+      "status": "pass",
+      "table": {
+        "name": "nested_header_kpi_table",
+        "row_count": 3,
+        "periods": [
+          "H1 2025 actual",
+          "H1 2025 budget",
+          "H1 2024 actual"
+        ],
+        "unit": "RMB million; percent"
+      },
+      "metrics": {
+        "required_metric_accuracy": 1.0,
+        "evidence_coverage": 1.0,
+        "numeric_parse_coverage": 1.0,
+        "hard_failures": 0,
+        "warning_count": 0,
+        "annotation_noise_rejection": null,
+        "reading_order_accuracy": null,
+        "nested_header_accuracy": 1.0,
+        "merged_cell_expansion_accuracy": 1.0
+      },
+      "checks": {
+        "table_found": {
+          "name": "table_found",
+          "status": "pass",
+          "expected": "nested_header_kpi_table"
+        },
+        "required_metrics": [
+          {
+            "name": "required_metric",
+            "status": "pass",
+            "row": "Operating revenue",
+            "period": "H1 2025 actual",
+            "expected": 5280,
+            "observed": 5280
+          },
+          {
+            "name": "required_metric",
+            "status": "pass",
+            "row": "Gross margin",
+            "period": "H1 2024 actual",
+            "expected": 36.8,
+            "observed": 36.8
+          },
+          {
+            "name": "required_metric",
+            "status": "pass",
+            "row": "Operating cash flow",
+            "period": "H1 2025 budget",
+            "expected": 1040,
+            "observed": 1040
+          }
+        ],
+        "warning_type": {
+          "name": "warning_type",
+          "status": "pass",
+          "expected": null
+        },
+        "edge_flags": [
+          {
+            "name": "edge_flag",
+            "status": "pass",
+            "flag": "nested_header_accuracy",
+            "expected": 1.0,
+            "observed": 1.0
+          },
+          {
+            "name": "edge_flag",
+            "status": "pass",
+            "flag": "merged_cell_expansion_accuracy",
+            "expected": 1.0,
+            "observed": 1.0
+          }
+        ],
+        "forbidden_rows": {
+          "name": "forbidden_rows",
+          "status": "pass",
+          "fragments": []
+        },
+        "expected_periods": {
+          "name": "expected_periods",
+          "status": "pass",
+          "expected": [
+            "H1 2025 actual",
+            "H1 2025 budget",
+            "H1 2024 actual"
+          ],
+          "missing": []
+        }
+      },
+      "result_path": "examples/edge_layout_results/edge_nested_multiline_header_table.json"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "cases": [
+    {
+      "name": "html_rowspan_colspan_header",
+      "type": "html_table",
+      "input_path": "examples/inputs/html_financial_table.html",
+      "expected_title": "主要财务指标",
+      "expected_periods": ["报告期 2025 Q2", "报告期 2024 Q2"],
+      "expected_rows": ["营业收入", "经营利润"],
+      "expected_values": [
+        {"row": "营业收入", "period": "报告期 2025 Q2", "value": 1250},
+        {"row": "营业收入", "period": "报告期 2024 Q2", "value": 1080},
+        {"row": "经营利润", "period": "报告期 2025 Q2", "value": -215},
+        {"row": "经营利润", "period": "报告期 2024 Q2", "value": 180}
+      ]
+    },
+    {
+      "name": "cross_page_unit_inheritance",
+      "type": "result_json",
+      "result_path": "examples/adversarial_results/adversarial_cross_page_unit.json",
+      "expected_table": "cross_page_cash_flow_statement",
+      "expected_unit": "RMB thousand",
+      "expected_page_start": 0,
+      "expected_page_end": 1,
+      "expected_rows": [
+        "Net cash from operating activities",
+        "Cash paid for capital expenditure",
+        "Cash and equivalents at end of year"
+      ],
+      "expected_values": [
+        {"row": "Net cash from operating activities", "period": "2025", "value": 183200},
+        {"row": "Cash paid for capital expenditure", "period": "2025", "value": -35200},
+        {"row": "Cash and equivalents at end of year", "period": "2025", "value": 271900}
+      ]
+    },
+    {
+      "name": "dense_numeric_footnote_cells",
+      "type": "result_json",
+      "result_path": "examples/adversarial_results/adversarial_dense_numeric_footnotes.json",
+      "expected_table": "dense_numeric_footnote_table",
+      "expected_periods": ["2025", "2024", "change_percent"],
+      "expected_rows": ["Revenue", "Net income (loss)", "Operating margin"],
+      "expected_values": [
+        {"row": "Revenue", "period": "2025", "value": 12567},
+        {"row": "Revenue", "period": "change_percent", "value": 6.5},
+        {"row": "Net income (loss)", "period": "2024", "value": -512},
+        {"row": "Operating margin", "period": "2025", "value": 24.1}
+      ]
+    }
+  ]
+}

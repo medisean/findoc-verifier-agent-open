@@ -1,0 +1,146 @@
+{
+  "benchmark_name": "layout_accuracy_targeted",
+  "case_count": 3,
+  "status": "pass",
+  "aggregate": {
+    "status": "pass",
+    "case_count": 3,
+    "passed_count": 3,
+    "header_precision": 1.0,
+    "header_recall": 1.0,
+    "row_precision": 1.0,
+    "row_recall": 1.0,
+    "numeric_exact_match": 1.0,
+    "cross_page_merge_accuracy": 1.0,
+    "unit_inheritance_accuracy": 1.0
+  },
+  "cases": [
+    {
+      "name": "html_rowspan_colspan_header",
+      "type": "html_table",
+      "status": "pass",
+      "table": {
+        "name": "主要财务指标",
+        "title": "主要财务指标",
+        "row_count": 2,
+        "periods": [
+          "报告期 2025 Q2",
+          "报告期 2024 Q2"
+        ],
+        "unit": "人民币百万元",
+        "page_start": 0,
+        "page_end": 0
+      },
+      "metrics": {
+        "header_precision": 1.0,
+        "header_recall": 1.0,
+        "row_precision": 1.0,
+        "row_recall": 1.0,
+        "numeric_exact_match": 1.0,
+        "cross_page_merge_accuracy": 1.0,
+        "unit_inheritance_accuracy": 1.0
+      },
+      "checks": {
+        "expected_periods": {
+          "matched": 2,
+          "total": 2
+        },
+        "expected_rows": {
+          "matched": 2,
+          "total": 2
+        },
+        "expected_values": {
+          "matched": 4,
+          "total": 4
+        },
+        "page_span_ok": true,
+        "unit_ok": true
+      }
+    },
+    {
+      "name": "cross_page_unit_inheritance",
+      "type": "result_json",
+      "status": "pass",
+      "table": {
+        "name": "cross_page_cash_flow_statement",
+        "title": "Cash Flow Statement",
+        "row_count": 3,
+        "periods": [
+          "2025",
+          "2024"
+        ],
+        "unit": "RMB thousand",
+        "page_start": 0,
+        "page_end": 1
+      },
+      "metrics": {
+        "header_precision": null,
+        "header_recall": null,
+        "row_precision": 1.0,
+        "row_recall": 1.0,
+        "numeric_exact_match": 1.0,
+        "cross_page_merge_accuracy": 1.0,
+        "unit_inheritance_accuracy": 1.0
+      },
+      "checks": {
+        "expected_periods": {
+          "matched": 0,
+          "total": 0
+        },
+        "expected_rows": {
+          "matched": 3,
+          "total": 3
+        },
+        "expected_values": {
+          "matched": 3,
+          "total": 3
+        },
+        "page_span_ok": true,
+        "unit_ok": true
+      }
+    },
+    {
+      "name": "dense_numeric_footnote_cells",
+      "type": "result_json",
+      "status": "pass",
+      "table": {
+        "name": "dense_numeric_footnote_table",
+        "title": "Dense Numeric Footnote Table",
+        "row_count": 3,
+        "periods": [
+          "2025",
+          "2024",
+          "change_percent"
+        ],
+        "unit": "USD million; percent; USD per share",
+        "page_start": 0,
+        "page_end": 0
+      },
+      "metrics": {
+        "header_precision": 1.0,
+        "header_recall": 1.0,
+        "row_precision": 1.0,
+        "row_recall": 1.0,
+        "numeric_exact_match": 1.0,
+        "cross_page_merge_accuracy": 1.0,
+        "unit_inheritance_accuracy": 1.0
+      },
+      "checks": {
+        "expected_periods": {
+          "matched": 3,
+          "total": 3
+        },
+        "expected_rows": {
+          "matched": 3,
+          "total": 3
+        },
+        "expected_values": {
+          "matched": 4,
+          "total": 4
+        },
+        "page_span_ok": true,
+        "unit_ok": true
+      }
+    }
+  ]
+}

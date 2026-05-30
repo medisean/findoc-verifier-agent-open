@@ -1,0 +1,3796 @@
+{
+  "task_id": "public-aapl-2024-financials",
+  "status": "succeeded",
+  "document_type": "annual_report_pdf",
+  "summary": "Parsed 5 tables with 136 rows. Validation pass rate: 100.00%. Warnings: 4; failures: 0; repairs: 0.",
+  "tables": [
+    {
+      "name": "in_millions_except_number_of_shares_which_are_reflected_in_thousands_and_per_share_amounts",
+      "title": "(In millions, except number of shares, which are reflected in thousands, and per-share amounts)",
+      "unit": "",
+      "table_type": "complex_table",
+      "table_nest_level": 1,
+      "footnote": "See accompanying Notes to Consolidated Financial Statements.",
+      "image_source": {
+        "path": "images/6e5cfbe2290f1494a295975966cb209c66b567347ebc9a56414777aee9ff5493.jpg"
+      },
+      "periods": [
+        "Years ended September 28, 2024 $",
+        "Years ended September 30, 2023",
+        "Years ended September 24, 2022"
+      ],
+      "rows": [
+        {
+          "item": "Net sales: Products",
+          "raw_values": [
+            "294,866 $",
+            "298,085",
+            "$ 316,199"
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": 294866.0,
+            "Years ended September 30, 2023": 298085.0,
+            "Years ended September 24, 2022": 316199.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              26,
+              138,
+              972,
+              594
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Services",
+          "raw_values": [
+            "96,169",
+            "85.200",
+            "78,129"
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": 96169.0,
+            "Years ended September 30, 2023": 85.2,
+            "Years ended September 24, 2022": 78129.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              26,
+              138,
+              972,
+              594
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total net sales",
+          "raw_values": [
+            "391,035",
+            "383,285",
+            "394,328"
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": 391035.0,
+            "Years ended September 30, 2023": 383285.0,
+            "Years ended September 24, 2022": 394328.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              26,
+              138,
+              972,
+              594
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cost of sales:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": null,
+            "Years ended September 30, 2023": null,
+            "Years ended September 24, 2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              26,
+              138,
+              972,
+              594
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Products",
+          "raw_values": [
+            "185,233",
+            "189,282",
+            ""
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": 185233.0,
+            "Years ended September 30, 2023": 189282.0,
+            "Years ended September 24, 2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              26,
+              138,
+              972,
+              594
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Services",
+          "raw_values": [
+            "25,119",
+            "24.855",
+            "201,471"
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": 25119.0,
+            "Years ended September 30, 2023": 24.855,
+            "Years ended September 24, 2022": 201471.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              26,
+              138,
+              972,
+              594
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total cost of sales",
+          "raw_values": [
+            "210,352",
+            "",
+            "22.075"
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": 210352.0,
+            "Years ended September 30, 2023": null,
+            "Years ended September 24, 2022": 22.075
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              26,
+              138,
+              972,
+              594
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Gross margin",
+          "raw_values": [
+            "",
+            "214,137",
+            "223,546"
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": null,
+            "Years ended September 30, 2023": 214137.0,
+            "Years ended September 24, 2022": 223546.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              26,
+              138,
+              972,
+              594
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "",
+          "raw_values": [
+            "180,683",
+            "169,148",
+            "170,782"
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": 180683.0,
+            "Years ended September 30, 2023": 169148.0,
+            "Years ended September 24, 2022": 170782.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              26,
+              138,
+              972,
+              594
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Operating expenses:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": null,
+            "Years ended September 30, 2023": null,
+            "Years ended September 24, 2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              26,
+              138,
+              972,
+              594
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Research and development",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": null,
+            "Years ended September 30, 2023": null,
+            "Years ended September 24, 2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              26,
+              138,
+              972,
+              594
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Selling, general and administrative",
+          "raw_values": [
+            "31,370 26.097",
+            "29.915",
+            "26,251"
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": 3137026.097,
+            "Years ended September 30, 2023": 29.915,
+            "Years ended September 24, 2022": 26251.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              26,
+              138,
+              972,
+              594
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total operating expenses",
+          "raw_values": [
+            "",
+            "24.932",
+            "25.094"
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": null,
+            "Years ended September 30, 2023": 24.932,
+            "Years ended September 24, 2022": 25.094
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              26,
+              138,
+              972,
+              594
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "",
+          "raw_values": [
+            "57,467",
+            "54,847",
+            "51.345"
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": 57467.0,
+            "Years ended September 30, 2023": 54847.0,
+            "Years ended September 24, 2022": 51.345
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              26,
+              138,
+              972,
+              594
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Operating income",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": null,
+            "Years ended September 30, 2023": null,
+            "Years ended September 24, 2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              26,
+              138,
+              972,
+              594
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other income/(expense), net",
+          "raw_values": [
+            "123,216 269",
+            "114,301",
+            "119,437"
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": 123216269.0,
+            "Years ended September 30, 2023": 114301.0,
+            "Years ended September 24, 2022": 119437.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              26,
+              138,
+              972,
+              594
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Income before provision for income taxes",
+          "raw_values": [
+            "123,485",
+            "(565)",
+            "(334)"
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": 123485.0,
+            "Years ended September 30, 2023": -565.0,
+            "Years ended September 24, 2022": -334.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              26,
+              138,
+              972,
+              594
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Provision for income taxes",
+          "raw_values": [
+            "29.749",
+            "113,736",
+            "119,103"
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": 29.749,
+            "Years ended September 30, 2023": 113736.0,
+            "Years ended September 24, 2022": 119103.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              26,
+              138,
+              972,
+              594
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net income",
+          "raw_values": [
+            "$",
+            "16.741",
+            "19.300"
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": null,
+            "Years ended September 30, 2023": 16.741,
+            "Years ended September 24, 2022": 19.3
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              26,
+              138,
+              972,
+              594
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "",
+          "raw_values": [
+            "93.736 $",
+            "96.995",
+            "$ 99.803"
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": 93.736,
+            "Years ended September 30, 2023": 96.995,
+            "Years ended September 24, 2022": 99.803
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              26,
+              138,
+              972,
+              594
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Earnings per share:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": null,
+            "Years ended September 30, 2023": null,
+            "Years ended September 24, 2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              26,
+              138,
+              972,
+              594
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Basic",
+          "raw_values": [
+            "6.11 $",
+            "",
+            ""
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": 6.11,
+            "Years ended September 30, 2023": null,
+            "Years ended September 24, 2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              26,
+              138,
+              972,
+              594
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Diluted",
+          "raw_values": [
+            "$ 6.08$ $",
+            "6.16 $ 6.13$",
+            "6.15"
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": 6.08,
+            "Years ended September 30, 2023": null,
+            "Years ended September 24, 2022": 6.15
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              26,
+              138,
+              972,
+              594
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "",
+          "raw_values": [
+            "",
+            "",
+            "6.11"
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": null,
+            "Years ended September 30, 2023": null,
+            "Years ended September 24, 2022": 6.11
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              26,
+              138,
+              972,
+              594
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Shares used in computing earnings per share:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": null,
+            "Years ended September 30, 2023": null,
+            "Years ended September 24, 2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              26,
+              138,
+              972,
+              594
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Basic",
+          "raw_values": [
+            "15,343,783",
+            "15,744,231",
+            "16,215,963"
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": 15343783.0,
+            "Years ended September 30, 2023": 15744231.0,
+            "Years ended September 24, 2022": 16215963.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              26,
+              138,
+              972,
+              594
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Diluted",
+          "raw_values": [
+            "15,408,095",
+            "15,812,547",
+            "16,325,819"
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": 15408095.0,
+            "Years ended September 30, 2023": 15812547.0,
+            "Years ended September 24, 2022": 16325819.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": [
+              26,
+              138,
+              972,
+              594
+            ],
+            "source": "html_table"
+          }
+        }
+      ],
+      "evidence": {
+        "page_start": 0,
+        "bbox": [
+          26,
+          138,
+          972,
+          594
+        ],
+        "page_end": 0
+      },
+      "raw_block": {
+        "type": "table",
+        "content": {
+          "image_source": {
+            "path": "images/6e5cfbe2290f1494a295975966cb209c66b567347ebc9a56414777aee9ff5493.jpg"
+          },
+          "table_caption": [],
+          "table_footnote": [
+            {
+              "type": "text",
+              "content": "See accompanying Notes to Consolidated Financial Statements."
+            }
+          ],
+          "html": "<table><tr><td rowspan=\"3\"></td><td colspan=\"3\">Years ended</td></tr><tr><td>September 28, 2024</td><td>September 30, 2023</td><td>September 24, 2022</td></tr><tr><td>$</td><td></td><td></td></tr><tr><td>Net sales: Products</td><td>294,866 $</td><td>298,085</td><td>$ 316,199</td></tr><tr><td> Services</td><td>96,169</td><td>85.200</td><td>78,129</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td> Total net sales</td><td>391,035</td><td>383,285</td><td>394,328</td></tr><tr><td>Cost of sales:</td><td></td><td></td><td></td></tr><tr><td>Products</td><td>185,233</td><td>189,282</td><td></td></tr><tr><td> Services</td><td>25,119</td><td>24.855</td><td>201,471</td></tr><tr><td>Total cost of sales</td><td>210,352</td><td></td><td>22.075</td></tr><tr><td> Gross margin</td><td></td><td>214,137</td><td>223,546</td></tr><tr><td></td><td>180,683</td><td>169,148</td><td>170,782</td></tr><tr><td>Operating expenses:</td><td></td><td></td><td></td></tr><tr><td>Research and development</td><td></td><td></td><td></td></tr><tr><td> Selling, general and administrative</td><td>31,370 26.097</td><td>29.915</td><td>26,251</td></tr><tr><td> Total operating expenses</td><td></td><td>24.932</td><td>25.094</td></tr><tr><td></td><td>57,467</td><td>54,847</td><td>51.345</td></tr><tr><td>Operating income</td><td></td><td></td><td></td></tr><tr><td>Other income/(expense), net</td><td>123,216 269</td><td>114,301</td><td>119,437</td></tr><tr><td> Income before provision for income taxes</td><td>123,485</td><td>(565)</td><td>(334)</td></tr><tr><td>Provision for income taxes</td><td>29.749</td><td>113,736</td><td>119,103</td></tr><tr><td>Net income</td><td>$</td><td>16.741</td><td>19.300</td></tr><tr><td></td><td>93.736 $</td><td>96.995</td><td>$ 99.803</td></tr><tr><td> Earnings per share:</td><td></td><td></td><td></td></tr><tr><td>Basic</td><td>6.11 $</td><td></td><td></td></tr><tr><td>Diluted</td><td>$ 6.08$ $</td><td>6.16 $ 6.13$</td><td>6.15</td></tr><tr><td></td><td></td><td></td><td>6.11</td></tr><tr><td> Shares used in computing earnings per share:</td><td></td><td></td><td></td></tr><tr><td>Basic</td><td>15,343,783</td><td>15,744,231</td><td>16,215,963</td></tr><tr><td>Diluted</td><td>15,408,095</td><td>15,812,547</td><td>16,325,819</td></tr></table>",
+          "table_type": "complex_table",
+          "table_nest_level": 1
+        },
+        "bbox": [
+          26,
+          138,
+          972,
+          594
+        ],
+        "page_idx": 0,
+        "source_input": {
+          "path": "examples/inputs/public_benchmark/aapl_2024.pdf",
+          "url": null,
+          "role": "primary",
+          "mime_type": null
+        },
+        "context_title": "(In millions, except number of shares, which are reflected in thousands, and per-share amounts)"
+      },
+      "sources": [
+        {
+          "page_start": 0,
+          "bbox": [
+            26,
+            138,
+            972,
+            594
+          ]
+        }
+      ]
+    },
+    {
+      "name": "consolidated_statements_of_comprehensive_income_in_millions",
+      "title": "CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME (In millions)",
+      "unit": "",
+      "table_type": "complex_table",
+      "table_nest_level": 1,
+      "footnote": "See accompanying Notes to Consolidated Financial Statements.",
+      "image_source": {
+        "path": "images/656a182a4edd0704ffb26e123644f2fdf23cb5b70494b67d1bdbab615950b2d5.jpg"
+      },
+      "periods": [
+        "Years ended September 28, 2024 $",
+        "Years ended September 30, 2023",
+        "Years ended September 24, 2022"
+      ],
+      "rows": [
+        {
+          "item": "Net income",
+          "raw_values": [
+            "93.736",
+            "$ 96.995",
+            "$ 99.803"
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": 93.736,
+            "Years ended September 30, 2023": 96.995,
+            "Years ended September 24, 2022": 99.803
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              26,
+              138,
+              970,
+              406
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other comprehensive income/(loss):",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": null,
+            "Years ended September 30, 2023": null,
+            "Years ended September 24, 2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              26,
+              138,
+              970,
+              406
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Change in foreign currency translation, net of tax",
+          "raw_values": [
+            "395",
+            "(765)",
+            "(1.511)"
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": 395.0,
+            "Years ended September 30, 2023": -765.0,
+            "Years ended September 24, 2022": -1.511
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              26,
+              138,
+              970,
+              406
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Change in unrealized gains/losses on derivative instruments, net of tax: Change in fair value of derivative instruments",
+          "raw_values": [
+            "",
+            "323",
+            ""
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": null,
+            "Years ended September 30, 2023": 323.0,
+            "Years ended September 24, 2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              26,
+              138,
+              970,
+              406
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Adjustment for net (gains)/losses realized and included in net income",
+          "raw_values": [
+            "(832)",
+            "",
+            "3,212"
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": -832.0,
+            "Years ended September 30, 2023": null,
+            "Years ended September 24, 2022": 3212.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              26,
+              138,
+              970,
+              406
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total change in unrealized gains/losses on derivative instruments",
+          "raw_values": [
+            "(1.337)",
+            "(1.717)",
+            "(1.074)"
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": -1.337,
+            "Years ended September 30, 2023": -1.717,
+            "Years ended September 24, 2022": -1.074
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              26,
+              138,
+              970,
+              406
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "",
+          "raw_values": [
+            "(2,169)",
+            "(1,394)",
+            "2.138"
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": -2169.0,
+            "Years ended September 30, 2023": -1394.0,
+            "Years ended September 24, 2022": 2.138
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              26,
+              138,
+              970,
+              406
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Change in unrealized gains/osses on marketable debt securities, net of tax:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": null,
+            "Years ended September 30, 2023": null,
+            "Years ended September 24, 2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              26,
+              138,
+              970,
+              406
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Change in fair value of marketable debt securities",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": null,
+            "Years ended September 30, 2023": null,
+            "Years ended September 24, 2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              26,
+              138,
+              970,
+              406
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Adjustment for net (gains)/losses realized and included in net income",
+          "raw_values": [
+            "5.850 204",
+            "1,563",
+            "(12,104)"
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": 5.850204,
+            "Years ended September 30, 2023": 1563.0,
+            "Years ended September 24, 2022": -12104.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              26,
+              138,
+              970,
+              406
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "",
+          "raw_values": [
+            "",
+            "253",
+            "205"
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": null,
+            "Years ended September 30, 2023": 253.0,
+            "Years ended September 24, 2022": 205.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              26,
+              138,
+              970,
+              406
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total change in unrealized gains/losses on marketable debt securities",
+          "raw_values": [
+            "6.054",
+            "1.816",
+            "(11.899)"
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": 6.054,
+            "Years ended September 30, 2023": 1.816,
+            "Years ended September 24, 2022": -11.899
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              26,
+              138,
+              970,
+              406
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total other comprehensive income/(loss)",
+          "raw_values": [
+            "4.280",
+            "(343)",
+            ""
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": 4.28,
+            "Years ended September 30, 2023": -343.0,
+            "Years ended September 24, 2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              26,
+              138,
+              970,
+              406
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total comprehensive income",
+          "raw_values": [
+            "98.016 $",
+            "96,652",
+            "(11.272) $ 88,531"
+          ],
+          "values": {
+            "Years ended September 28, 2024 $": 98.016,
+            "Years ended September 30, 2023": 96652.0,
+            "Years ended September 24, 2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 1,
+            "bbox": [
+              26,
+              138,
+              970,
+              406
+            ],
+            "source": "html_table"
+          }
+        }
+      ],
+      "evidence": {
+        "page_start": 1,
+        "bbox": [
+          26,
+          138,
+          970,
+          406
+        ],
+        "page_end": 1
+      },
+      "raw_block": {
+        "type": "table",
+        "content": {
+          "image_source": {
+            "path": "images/656a182a4edd0704ffb26e123644f2fdf23cb5b70494b67d1bdbab615950b2d5.jpg"
+          },
+          "table_caption": [],
+          "table_footnote": [
+            {
+              "type": "text",
+              "content": "See accompanying Notes to Consolidated Financial Statements."
+            }
+          ],
+          "html": "<table><tr><td rowspan=\"2\"></td><td colspan=\"3\">Years ended</td></tr><tr><td>September 28, 2024 $</td><td>September 30, 2023</td><td>September 24, 2022</td></tr><tr><td>Net income</td><td>93.736</td><td>$ 96.995</td><td>$ 99.803</td></tr><tr><td>Other comprehensive income/(loss):</td><td></td><td></td><td></td></tr><tr><td> Change in foreign currency translation, net of tax</td><td>395</td><td>(765)</td><td>(1.511)</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>Change in unrealized gains/losses on derivative instruments, net of tax: Change in fair value of derivative instruments</td><td></td><td>323</td><td></td></tr><tr><td> Adjustment for net (gains)/losses realized and included in net income</td><td>(832)</td><td></td><td>3,212</td></tr><tr><td> Total change in unrealized gains/losses on derivative instruments</td><td>(1.337)</td><td>(1.717)</td><td>(1.074)</td></tr><tr><td></td><td>(2,169)</td><td>(1,394)</td><td>2.138</td></tr><tr><td> Change in unrealized gains/osses on marketable debt securities, net of tax:</td><td></td><td></td><td></td></tr><tr><td>Change in fair value of marketable debt securities</td><td></td><td></td><td></td></tr><tr><td> Adjustment for net (gains)/losses realized and included in net income</td><td>5.850 204</td><td>1,563</td><td>(12,104)</td></tr><tr><td></td><td></td><td>253</td><td>205</td></tr><tr><td>Total change in unrealized gains/losses on marketable debt securities</td><td>6.054</td><td>1.816</td><td>(11.899)</td></tr><tr><td>Total other comprehensive income/(loss)</td><td>4.280</td><td>(343)</td><td></td></tr><tr><td>Total comprehensive income</td><td>98.016 $</td><td>96,652</td><td>(11.272) $ 88,531</td></tr></table>",
+          "table_type": "complex_table",
+          "table_nest_level": 1
+        },
+        "bbox": [
+          26,
+          138,
+          970,
+          406
+        ],
+        "page_idx": 1,
+        "source_input": {
+          "path": "examples/inputs/public_benchmark/aapl_2024.pdf",
+          "url": null,
+          "role": "primary",
+          "mime_type": null
+        },
+        "context_title": "CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME (In millions)"
+      },
+      "sources": [
+        {
+          "page_start": 1,
+          "bbox": [
+            26,
+            138,
+            970,
+            406
+          ]
+        }
+      ]
+    },
+    {
+      "name": "in_millions_except_number_of_shares_which_are_reflected_in_thousands_and_par_value",
+      "title": "(In millions, except number of shares, which are reflected in thousands, and par value)",
+      "unit": "",
+      "table_type": "complex_table",
+      "table_nest_level": 1,
+      "footnote": "",
+      "image_source": {
+        "path": "images/d2e7cfb12b4fa783c48fd960307de047e22198d5eaad95902c6f9cef92db43a2.jpg"
+      },
+      "periods": [
+        "September 28, 2024",
+        "September 30, 2023"
+      ],
+      "rows": [
+        {
+          "item": "Cash and cash equivalents",
+          "raw_values": [
+            "$ 29,943",
+            "29.965"
+          ],
+          "values": {
+            "September 28, 2024": 29943.0,
+            "September 30, 2023": 29.965
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              135,
+              970,
+              387
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Marketable securities",
+          "raw_values": [
+            "35,228",
+            "31,590"
+          ],
+          "values": {
+            "September 28, 2024": 35228.0,
+            "September 30, 2023": 31590.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              135,
+              970,
+              387
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Accounts receivable, net",
+          "raw_values": [
+            "33,410",
+            "29,508"
+          ],
+          "values": {
+            "September 28, 2024": 33410.0,
+            "September 30, 2023": 29508.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              135,
+              970,
+              387
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Vendor non-trade receivables",
+          "raw_values": [
+            "32.833",
+            "31,477"
+          ],
+          "values": {
+            "September 28, 2024": 32.833,
+            "September 30, 2023": 31477.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              135,
+              970,
+              387
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Inventories",
+          "raw_values": [
+            "7,286",
+            "6,331"
+          ],
+          "values": {
+            "September 28, 2024": 7286.0,
+            "September 30, 2023": 6331.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              135,
+              970,
+              387
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other current assets",
+          "raw_values": [
+            "14,287",
+            "14,695"
+          ],
+          "values": {
+            "September 28, 2024": 14287.0,
+            "September 30, 2023": 14695.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              135,
+              970,
+              387
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total current assets",
+          "raw_values": [
+            "152,987",
+            "143,566"
+          ],
+          "values": {
+            "September 28, 2024": 152987.0,
+            "September 30, 2023": 143566.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              135,
+              970,
+              387
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Non-current assets:",
+          "raw_values": [
+            "",
+            ""
+          ],
+          "values": {
+            "September 28, 2024": null,
+            "September 30, 2023": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              135,
+              970,
+              387
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Marketable securities",
+          "raw_values": [
+            "91,479",
+            "100,544"
+          ],
+          "values": {
+            "September 28, 2024": 91479.0,
+            "September 30, 2023": 100544.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              135,
+              970,
+              387
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Property, plant and equipment, net",
+          "raw_values": [
+            "45,680",
+            "43,715"
+          ],
+          "values": {
+            "September 28, 2024": 45680.0,
+            "September 30, 2023": 43715.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              135,
+              970,
+              387
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other non-current assets",
+          "raw_values": [
+            "74.834",
+            "64,758"
+          ],
+          "values": {
+            "September 28, 2024": 74.834,
+            "September 30, 2023": 64758.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              135,
+              970,
+              387
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total non-current assets",
+          "raw_values": [
+            "211993",
+            "209.017"
+          ],
+          "values": {
+            "September 28, 2024": 211993.0,
+            "September 30, 2023": 209.017
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              135,
+              970,
+              387
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total assets",
+          "raw_values": [
+            "$ 364,980",
+            "$ 352,583"
+          ],
+          "values": {
+            "September 28, 2024": 364980.0,
+            "September 30, 2023": 352583.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              135,
+              970,
+              387
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Current liabiities:",
+          "raw_values": [
+            "$",
+            "62.611"
+          ],
+          "values": {
+            "LIABILITIES AND SHAREHOLDERS' EQUITY:": 62.611
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              401,
+              970,
+              742
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Accounts payable",
+          "raw_values": [
+            "",
+            "68,960 $"
+          ],
+          "values": {
+            "LIABILITIES AND SHAREHOLDERS' EQUITY:": 68960.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              401,
+              970,
+              742
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other current liabilities",
+          "raw_values": [
+            "78,304",
+            "58,829"
+          ],
+          "values": {
+            "LIABILITIES AND SHAREHOLDERS' EQUITY:": 58829.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              401,
+              970,
+              742
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Deferred revenue",
+          "raw_values": [
+            "8,249",
+            "8,061"
+          ],
+          "values": {
+            "LIABILITIES AND SHAREHOLDERS' EQUITY:": 8061.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              401,
+              970,
+              742
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Commercial paper",
+          "raw_values": [
+            "9,967",
+            "5,985"
+          ],
+          "values": {
+            "LIABILITIES AND SHAREHOLDERS' EQUITY:": 5985.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              401,
+              970,
+              742
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Term debt",
+          "raw_values": [
+            "10.912",
+            "9.822"
+          ],
+          "values": {
+            "LIABILITIES AND SHAREHOLDERS' EQUITY:": 9.822
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              401,
+              970,
+              742
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total current liabilities",
+          "raw_values": [
+            "176,392",
+            "145,308"
+          ],
+          "values": {
+            "LIABILITIES AND SHAREHOLDERS' EQUITY:": 145308.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              401,
+              970,
+              742
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Non-current liabilities:",
+          "raw_values": [
+            "",
+            ""
+          ],
+          "values": {
+            "LIABILITIES AND SHAREHOLDERS' EQUITY:": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              401,
+              970,
+              742
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Term debt",
+          "raw_values": [
+            "85,750",
+            "95,281"
+          ],
+          "values": {
+            "LIABILITIES AND SHAREHOLDERS' EQUITY:": 95281.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              401,
+              970,
+              742
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other non-current iabilities",
+          "raw_values": [
+            "",
+            ""
+          ],
+          "values": {
+            "LIABILITIES AND SHAREHOLDERS' EQUITY:": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              401,
+              970,
+              742
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "",
+          "raw_values": [
+            "45.888",
+            "49,848"
+          ],
+          "values": {
+            "LIABILITIES AND SHAREHOLDERS' EQUITY:": 49848.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              401,
+              970,
+              742
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total non-current liabilities",
+          "raw_values": [
+            "131,638",
+            "145,129"
+          ],
+          "values": {
+            "LIABILITIES AND SHAREHOLDERS' EQUITY:": 145129.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              401,
+              970,
+              742
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total liabilities",
+          "raw_values": [
+            "308.030",
+            "290,437"
+          ],
+          "values": {
+            "LIABILITIES AND SHAREHOLDERS' EQUITY:": 290437.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              401,
+              970,
+              742
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Commitments and contingencies",
+          "raw_values": [
+            "",
+            ""
+          ],
+          "values": {
+            "LIABILITIES AND SHAREHOLDERS' EQUITY:": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              401,
+              970,
+              742
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Shareholders' equity:",
+          "raw_values": [
+            "",
+            ""
+          ],
+          "values": {
+            "LIABILITIES AND SHAREHOLDERS' EQUITY:": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              401,
+              970,
+              742
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Common stockandadditional paid-incapital,$.0oo01 parvalue: 50,400000 sharesauthorized;15,16,786",
+          "raw_values": [
+            "",
+            ""
+          ],
+          "values": {
+            "LIABILITIES AND SHAREHOLDERS' EQUITY:": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              401,
+              970,
+              742
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "and15,5561saresisuedandutstandingrespectively",
+          "raw_values": [
+            "83,276",
+            "73,812"
+          ],
+          "values": {
+            "LIABILITIES AND SHAREHOLDERS' EQUITY:": 73812.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              401,
+              970,
+              742
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Accumulated deficit",
+          "raw_values": [
+            "(19,154)",
+            "(214)"
+          ],
+          "values": {
+            "LIABILITIES AND SHAREHOLDERS' EQUITY:": -214.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              401,
+              970,
+              742
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Accumulated other comprehensive loss Total shareholders' equity",
+          "raw_values": [
+            "(7,172)",
+            "(11,452)"
+          ],
+          "values": {
+            "LIABILITIES AND SHAREHOLDERS' EQUITY:": -11452.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              401,
+              970,
+              742
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "",
+          "raw_values": [
+            "56,950",
+            "62,146"
+          ],
+          "values": {
+            "LIABILITIES AND SHAREHOLDERS' EQUITY:": 62146.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              401,
+              970,
+              742
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total liabities and shareholders' equity",
+          "raw_values": [
+            "364,980",
+            "352,583"
+          ],
+          "values": {
+            "LIABILITIES AND SHAREHOLDERS' EQUITY:": 352583.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 2,
+            "bbox": [
+              26,
+              401,
+              970,
+              742
+            ],
+            "source": "html_table"
+          }
+        }
+      ],
+      "evidence": {
+        "page_start": 2,
+        "bbox": [
+          26,
+          135,
+          970,
+          387
+        ],
+        "page_end": 2
+      },
+      "raw_block": {
+        "type": "table",
+        "content": {
+          "image_source": {
+            "path": "images/d2e7cfb12b4fa783c48fd960307de047e22198d5eaad95902c6f9cef92db43a2.jpg"
+          },
+          "table_caption": [],
+          "table_footnote": [],
+          "html": "<table><tr><td colspan=\"2\">September 28, 2024</td><td rowspan=\"2\">September 30, 2023</td></tr><tr><td>ASSETS:</td><td></td></tr><tr><td>Current assets:</td><td></td><td></td></tr><tr><td> Cash and cash equivalents</td><td>$ 29,943</td><td>29.965</td></tr><tr><td> Marketable securities</td><td>35,228</td><td>31,590</td></tr><tr><td> Accounts receivable, net</td><td>33,410</td><td>29,508</td></tr><tr><td>Vendor non-trade receivables</td><td>32.833</td><td>31,477</td></tr><tr><td> Inventories</td><td>7,286</td><td>6,331</td></tr><tr><td> Other current assets</td><td>14,287</td><td>14,695</td></tr><tr><td>Total current assets</td><td>152,987</td><td>143,566</td></tr><tr><td></td><td></td><td></td></tr><tr><td>Non-current assets:</td><td></td><td></td></tr><tr><td> Marketable securities</td><td>91,479</td><td>100,544</td></tr><tr><td> Property, plant and equipment, net</td><td>45,680</td><td>43,715</td></tr><tr><td> Other non-current assets</td><td>74.834</td><td>64,758</td></tr><tr><td>Total non-current assets</td><td>211993</td><td>209.017</td></tr><tr><td>Total assets</td><td>$ 364,980</td><td>$ 352,583</td></tr></table>",
+          "table_type": "complex_table",
+          "table_nest_level": 1
+        },
+        "bbox": [
+          26,
+          135,
+          970,
+          387
+        ],
+        "page_idx": 2,
+        "source_input": {
+          "path": "examples/inputs/public_benchmark/aapl_2024.pdf",
+          "url": null,
+          "role": "primary",
+          "mime_type": null
+        },
+        "context_title": "(In millions, except number of shares, which are reflected in thousands, and par value)"
+      },
+      "sources": [
+        {
+          "page_start": 2,
+          "bbox": [
+            26,
+            135,
+            970,
+            387
+          ]
+        },
+        {
+          "page_start": 2,
+          "bbox": [
+            26,
+            401,
+            970,
+            742
+          ]
+        }
+      ]
+    },
+    {
+      "name": "apple_inc_consolidated_statements_of_shareholders_equity_in_millions_except_per_share_amounts",
+      "title": "Apple Inc. CONSOLIDATED STATEMENTS OF SHAREHOLDERS’ EQUITY (In millions, except per-share amounts)",
+      "unit": "",
+      "table_type": "complex_table",
+      "table_nest_level": 1,
+      "footnote": "See accompanying Notes to Consolidated Financial Statements.",
+      "image_source": {
+        "path": "images/dbec2391c83f1bad32b6d69f0a9c1cc838153d191f45e456959bb81b0080a64e.jpg"
+      },
+      "periods": [
+        "September 28, 2024",
+        "Yearsended September 30, 2023",
+        "September 24, 2022"
+      ],
+      "rows": [
+        {
+          "item": "",
+          "raw_values": [
+            "$ 62.146 $",
+            "50,672",
+            "$ 63,090"
+          ],
+          "values": {
+            "September 28, 2024": 62.146,
+            "Yearsended September 30, 2023": 50672.0,
+            "September 24, 2022": 63090.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              26,
+              142,
+              972,
+              536
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total shareholders'equity, begining balances",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "September 28, 2024": null,
+            "Yearsended September 30, 2023": null,
+            "September 24, 2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              26,
+              142,
+              972,
+              536
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Common stock and additional paid-in capital:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "September 28, 2024": null,
+            "Yearsended September 30, 2023": null,
+            "September 24, 2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              26,
+              142,
+              972,
+              536
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Begining balances",
+          "raw_values": [
+            "73,812",
+            "64,849",
+            "57,365"
+          ],
+          "values": {
+            "September 28, 2024": 73812.0,
+            "Yearsended September 30, 2023": 64849.0,
+            "September 24, 2022": 57365.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              26,
+              142,
+              972,
+              536
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Common stock issued",
+          "raw_values": [
+            "1,423",
+            "1,346",
+            "1,175"
+          ],
+          "values": {
+            "September 28, 2024": 1423.0,
+            "Yearsended September 30, 2023": 1346.0,
+            "September 24, 2022": 1175.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              26,
+              142,
+              972,
+              536
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Common stock withheld related to net share settlement of equity awards",
+          "raw_values": [
+            "(3,993)",
+            "(3,521)",
+            "(2.971)"
+          ],
+          "values": {
+            "September 28, 2024": -3993.0,
+            "Yearsended September 30, 2023": -3521.0,
+            "September 24, 2022": -2.971
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              26,
+              142,
+              972,
+              536
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Share-based compensation",
+          "raw_values": [
+            "12,034",
+            "11,138",
+            "9.280"
+          ],
+          "values": {
+            "September 28, 2024": 12034.0,
+            "Yearsended September 30, 2023": 11138.0,
+            "September 24, 2022": 9.28
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              26,
+              142,
+              972,
+              536
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Ending balances",
+          "raw_values": [
+            "83.276",
+            "73.812",
+            "64,849"
+          ],
+          "values": {
+            "September 28, 2024": 83.276,
+            "Yearsended September 30, 2023": 73.812,
+            "September 24, 2022": 64849.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              26,
+              142,
+              972,
+              536
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Retained earnings/(Accumulated deficit):",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "September 28, 2024": null,
+            "Yearsended September 30, 2023": null,
+            "September 24, 2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              26,
+              142,
+              972,
+              536
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Beginning balances",
+          "raw_values": [
+            "(214)",
+            "(3.,068)",
+            ""
+          ],
+          "values": {
+            "September 28, 2024": -214.0,
+            "Yearsended September 30, 2023": -3.068,
+            "September 24, 2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              26,
+              142,
+              972,
+              536
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net income",
+          "raw_values": [
+            "93,736",
+            "96,995",
+            "5.562 99,803"
+          ],
+          "values": {
+            "September 28, 2024": 93736.0,
+            "Yearsended September 30, 2023": 96995.0,
+            "September 24, 2022": 5.56299803
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              26,
+              142,
+              972,
+              536
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Dividends and dividend equivalents declared",
+          "raw_values": [
+            "(15,218)",
+            "(14,996)",
+            "(14,793)"
+          ],
+          "values": {
+            "September 28, 2024": -15218.0,
+            "Yearsended September 30, 2023": -14996.0,
+            "September 24, 2022": -14793.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              26,
+              142,
+              972,
+              536
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Common stock withheld related to net share settlement of equity awards",
+          "raw_values": [
+            "(1,612)",
+            "(2.099)",
+            "(3,454)"
+          ],
+          "values": {
+            "September 28, 2024": -1612.0,
+            "Yearsended September 30, 2023": -2.099,
+            "September 24, 2022": -3454.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              26,
+              142,
+              972,
+              536
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Common stock repurchased",
+          "raw_values": [
+            "(95,846)",
+            "(77.046)",
+            "(90,186)"
+          ],
+          "values": {
+            "September 28, 2024": -95846.0,
+            "Yearsended September 30, 2023": -77.046,
+            "September 24, 2022": -90186.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              26,
+              142,
+              972,
+              536
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Ending balances",
+          "raw_values": [
+            "(19,154)",
+            "(214)",
+            "(3.068)"
+          ],
+          "values": {
+            "September 28, 2024": -19154.0,
+            "Yearsended September 30, 2023": -214.0,
+            "September 24, 2022": -3.068
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              26,
+              142,
+              972,
+              536
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Accumulated other comprehensive income/(loss):",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "September 28, 2024": null,
+            "Yearsended September 30, 2023": null,
+            "September 24, 2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              26,
+              142,
+              972,
+              536
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Beginning balances",
+          "raw_values": [
+            "(11,452)",
+            "(11,109)",
+            "163"
+          ],
+          "values": {
+            "September 28, 2024": -11452.0,
+            "Yearsended September 30, 2023": -11109.0,
+            "September 24, 2022": 163.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              26,
+              142,
+              972,
+              536
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other comprehensive income/(loss)",
+          "raw_values": [
+            "4.280",
+            "(343)",
+            "(11,272)"
+          ],
+          "values": {
+            "September 28, 2024": 4.28,
+            "Yearsended September 30, 2023": -343.0,
+            "September 24, 2022": -11272.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              26,
+              142,
+              972,
+              536
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Ending balances",
+          "raw_values": [
+            "(7.172)",
+            "(11.452)",
+            "(11,109)"
+          ],
+          "values": {
+            "September 28, 2024": -7.172,
+            "Yearsended September 30, 2023": -11.452,
+            "September 24, 2022": -11109.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              26,
+              142,
+              972,
+              536
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total shareholders'equity,ending balances",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "September 28, 2024": null,
+            "Yearsended September 30, 2023": null,
+            "September 24, 2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              26,
+              142,
+              972,
+              536
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Total shareholders'equity,ending balances",
+          "raw_values": [
+            "$ 56,950",
+            "$ 62,146",
+            "$ 50,672"
+          ],
+          "values": {
+            "September 28, 2024": 56950.0,
+            "Yearsended September 30, 2023": 62146.0,
+            "September 24, 2022": 50672.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              26,
+              142,
+              972,
+              536
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "",
+          "raw_values": [
+            "$",
+            "",
+            ""
+          ],
+          "values": {
+            "September 28, 2024": null,
+            "Yearsended September 30, 2023": null,
+            "September 24, 2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              26,
+              142,
+              972,
+              536
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Dividends and dividend equivalents declared per share or RSU",
+          "raw_values": [
+            "0.98$",
+            "0.94$",
+            "0.90"
+          ],
+          "values": {
+            "September 28, 2024": 0.98,
+            "Yearsended September 30, 2023": 0.94,
+            "September 24, 2022": 0.9
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 3,
+            "bbox": [
+              26,
+              142,
+              972,
+              536
+            ],
+            "source": "html_table"
+          }
+        }
+      ],
+      "evidence": {
+        "page_start": 3,
+        "bbox": [
+          26,
+          142,
+          972,
+          536
+        ],
+        "page_end": 3
+      },
+      "raw_block": {
+        "type": "table",
+        "content": {
+          "image_source": {
+            "path": "images/dbec2391c83f1bad32b6d69f0a9c1cc838153d191f45e456959bb81b0080a64e.jpg"
+          },
+          "table_caption": [],
+          "table_footnote": [
+            {
+              "type": "text",
+              "content": "See accompanying Notes to Consolidated Financial Statements."
+            }
+          ],
+          "html": "<table><tr><td rowspan=\"2\"></td><td>September 28, 2024</td><td>Yearsended September 30, 2023</td><td>September 24, 2022</td></tr><tr><td>$ 62.146 $</td><td>50,672</td><td>$ 63,090</td></tr><tr><td>Total shareholders&#x27;equity, begining balances</td><td></td><td></td><td></td></tr><tr><td>Common stock and additional paid-in capital:</td><td></td><td></td><td></td></tr><tr><td> Begining balances</td><td>73,812</td><td>64,849</td><td>57,365</td></tr><tr><td>Common stock issued</td><td>1,423</td><td>1,346</td><td>1,175</td></tr><tr><td> Common stock withheld related to net share settlement of equity awards</td><td>(3,993)</td><td>(3,521)</td><td>(2.971)</td></tr><tr><td> Share-based compensation</td><td>12,034</td><td>11,138</td><td>9.280</td></tr><tr><td> Ending balances</td><td>83.276</td><td>73.812</td><td>64,849</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>Retained earnings/(Accumulated deficit):</td><td></td><td></td><td></td></tr><tr><td> Beginning balances</td><td>(214)</td><td>(3.,068)</td><td></td></tr><tr><td> Net income</td><td>93,736</td><td>96,995</td><td>5.562 99,803</td></tr><tr><td>Dividends and dividend equivalents declared</td><td>(15,218)</td><td>(14,996)</td><td>(14,793)</td></tr><tr><td> Common stock withheld related to net share settlement of equity awards</td><td>(1,612)</td><td>(2.099)</td><td>(3,454)</td></tr><tr><td>Common stock repurchased</td><td>(95,846)</td><td>(77.046)</td><td>(90,186)</td></tr><tr><td> Ending balances</td><td>(19,154)</td><td>(214)</td><td>(3.068)</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td>Accumulated other comprehensive income/(loss):</td><td></td><td></td><td></td></tr><tr><td>Beginning balances</td><td>(11,452)</td><td>(11,109)</td><td>163</td></tr><tr><td>Other comprehensive income/(loss)</td><td>4.280</td><td>(343)</td><td>(11,272)</td></tr><tr><td>Ending balances</td><td>(7.172)</td><td>(11.452)</td><td>(11,109)</td></tr><tr><td rowspan=\"2\">Total shareholders&#x27;equity,ending balances</td><td></td><td></td><td></td></tr><tr><td>$ 56,950</td><td>$ 62,146</td><td>$ 50,672</td></tr><tr><td></td><td>$</td><td></td><td></td></tr><tr><td>Dividends and dividend equivalents declared per share or RSU</td><td>0.98$</td><td>0.94$</td><td>0.90</td></tr></table>",
+          "table_type": "complex_table",
+          "table_nest_level": 1
+        },
+        "bbox": [
+          26,
+          142,
+          972,
+          536
+        ],
+        "page_idx": 3,
+        "source_input": {
+          "path": "examples/inputs/public_benchmark/aapl_2024.pdf",
+          "url": null,
+          "role": "primary",
+          "mime_type": null
+        },
+        "context_title": "Apple Inc. CONSOLIDATED STATEMENTS OF SHAREHOLDERS’ EQUITY (In millions, except per-share amounts)"
+      },
+      "sources": [
+        {
+          "page_start": 3,
+          "bbox": [
+            26,
+            142,
+            972,
+            536
+          ]
+        }
+      ]
+    },
+    {
+      "name": "apple_inc_consolidated_statements_of_cash_flows_in_millions",
+      "title": "Apple Inc. CONSOLIDATED STATEMENTS OF CASH FLOWS (In millions)",
+      "unit": "",
+      "table_type": "complex_table",
+      "table_nest_level": 1,
+      "footnote": "See accompanying Notes to Consolidated Financial Statements.",
+      "image_source": {
+        "path": "images/3a4c8df194667d1816753f994bc04358465081586cd698f2f98e8e61b2741917.jpg"
+      },
+      "periods": [
+        "Yearsended September 28, September 30,",
+        "Yearsended September 28, September 30,",
+        "September 24, 2022"
+      ],
+      "rows": [
+        {
+          "item": "Cash, cash equivalents,and restricted cash and cash equivalents, begining balances S",
+          "raw_values": [
+            "2024 30,737 $",
+            "2023 24.977 $",
+            "September 24, 2022"
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": 202324.977,
+            "September 24, 2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "",
+          "raw_values": [
+            "",
+            "",
+            "35,929"
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": null,
+            "September 24, 2022": 35929.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Operating activities:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": null,
+            "September 24, 2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Net income",
+          "raw_values": [
+            "93,736",
+            "96.995",
+            "99,803"
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": 96.995,
+            "September 24, 2022": 99803.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Adjustments to reconcile net income to cash generated by operating activities:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": null,
+            "September 24, 2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Depreciation and amortization",
+          "raw_values": [
+            "11,445",
+            "11,519",
+            "11,104"
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": 11519.0,
+            "September 24, 2022": 11104.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Share-based compensation expense",
+          "raw_values": [
+            "11,688",
+            "10,833",
+            "9,038"
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": 10833.0,
+            "September 24, 2022": 9038.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other",
+          "raw_values": [
+            "(2.266)",
+            "(2.227)",
+            "1,006"
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": -2.227,
+            "September 24, 2022": 1006.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Changes in operating assets and liabilities:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": null,
+            "September 24, 2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Accounts receivable, net",
+          "raw_values": [
+            "(3,788)",
+            "(1,688)",
+            "(1,823)"
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": -1688.0,
+            "September 24, 2022": -1823.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Vendor non-trade receivables",
+          "raw_values": [
+            "(1,356)",
+            "1271",
+            "(7,520)"
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": 1271.0,
+            "September 24, 2022": -7520.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Inventories",
+          "raw_values": [
+            "(1.046)",
+            "(1,618)",
+            "1,484"
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": -1618.0,
+            "September 24, 2022": 1484.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other current and non-current assets",
+          "raw_values": [
+            "(11,731)",
+            "(5,684)",
+            "(6,499)"
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": -5684.0,
+            "September 24, 2022": -6499.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Accounts payable",
+          "raw_values": [
+            "6.020",
+            "(1,889)",
+            "9,448"
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": -1889.0,
+            "September 24, 2022": 9448.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other current and non-current iabilities",
+          "raw_values": [
+            "15.552",
+            "3.031",
+            "6,110"
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": 3.031,
+            "September 24, 2022": 6110.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash generated by operating activities",
+          "raw_values": [
+            "118,254",
+            "110,.543",
+            "122,151"
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": 110.543,
+            "September 24, 2022": 122151.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Investing activities:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": null,
+            "September 24, 2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Purchases of marketable securities",
+          "raw_values": [
+            "(48,656)",
+            "(29,513)",
+            "(76,923)"
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": -29513.0,
+            "September 24, 2022": -76923.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Proceeds from maturities of marketable securities",
+          "raw_values": [
+            "51,211",
+            "39,686",
+            "29.917"
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": 39686.0,
+            "September 24, 2022": 29.917
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Proceeds from sales of marketable securities",
+          "raw_values": [
+            "11,135",
+            "5,828",
+            "37,446"
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": 5828.0,
+            "September 24, 2022": 37446.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Payments for acquisition of property, plant and equipment Other",
+          "raw_values": [
+            "(9,447)",
+            "(10.959)",
+            "(10,708)"
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": -10.959,
+            "September 24, 2022": -10708.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash generated by/(used in) investing activities",
+          "raw_values": [
+            "(1.308)",
+            "(1.337)",
+            "(2.086)"
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": -1.337,
+            "September 24, 2022": -2.086
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "",
+          "raw_values": [
+            "2,935",
+            "3.705",
+            "(22.354)"
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": 3.705,
+            "September 24, 2022": -22.354
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Financing activities:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": null,
+            "September 24, 2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Payments for taxes related to net share settlement of equity awards",
+          "raw_values": [
+            "(5,441)",
+            "",
+            ""
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": null,
+            "September 24, 2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Payments for dividends and dividend equivalents",
+          "raw_values": [
+            "(15,234)",
+            "(5,431)",
+            "(6,223)"
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": -5431.0,
+            "September 24, 2022": -6223.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Repurchases of common stock",
+          "raw_values": [
+            "(94,949)",
+            "(15,025)",
+            "(14,841)"
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": -15025.0,
+            "September 24, 2022": -14841.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Proceeds from issuance of term debt, net",
+          "raw_values": [
+            "",
+            "(77,550)",
+            "(89,402)"
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": -77550.0,
+            "September 24, 2022": -89402.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Repayments of term debt",
+          "raw_values": [
+            "丨",
+            "5,228",
+            "5,465"
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": 5228.0,
+            "September 24, 2022": 5465.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "",
+          "raw_values": [
+            "(9,958)",
+            "(11,151)",
+            "(9,543)"
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": -11151.0,
+            "September 24, 2022": -9543.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Proceeds from/(Repayments of) commercial paper, net",
+          "raw_values": [
+            "3,960",
+            "(3.978)",
+            "3,955"
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": -3.978,
+            "September 24, 2022": 3955.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Other",
+          "raw_values": [
+            "(361)",
+            "(581)",
+            "（160)"
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": -581.0,
+            "September 24, 2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash used in financing activities",
+          "raw_values": [
+            "(121,983)",
+            "(108,488)",
+            "(110,749)"
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": -108488.0,
+            "September 24, 2022": -110749.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Increase/(Decrease) in cash, cash equivalents, and restricted cash and cash equivalents",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": null,
+            "September 24, 2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash,cash equivalents,and restricted cash and cash equivalents,ending balances $",
+          "raw_values": [
+            "(794)",
+            "5.760",
+            "(10,952)"
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": 5.76,
+            "September 24, 2022": -10952.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "",
+          "raw_values": [
+            "29.943 $",
+            "30,737",
+            "$ 24,977"
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": 30737.0,
+            "September 24, 2022": 24977.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Supplemental cash flow disclosure:",
+          "raw_values": [
+            "",
+            "",
+            ""
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": null,
+            "September 24, 2022": null
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        },
+        {
+          "item": "Cash paid for income taxes, net",
+          "raw_values": [
+            "26,102 $",
+            "18,679$",
+            "19,573"
+          ],
+          "values": {
+            "Yearsended September 28, September 30,": 18679.0,
+            "September 24, 2022": 19573.0
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 4,
+            "bbox": [
+              26,
+              135,
+              972,
+              715
+            ],
+            "source": "html_table"
+          }
+        }
+      ],
+      "evidence": {
+        "page_start": 4,
+        "bbox": [
+          26,
+          135,
+          972,
+          715
+        ],
+        "page_end": 4
+      },
+      "raw_block": {
+        "type": "table",
+        "content": {
+          "image_source": {
+            "path": "images/3a4c8df194667d1816753f994bc04358465081586cd698f2f98e8e61b2741917.jpg"
+          },
+          "table_caption": [],
+          "table_footnote": [
+            {
+              "type": "text",
+              "content": "See accompanying Notes to Consolidated Financial Statements."
+            }
+          ],
+          "html": "<table><tr><td rowspan=\"2\">Cash, cash equivalents,and restricted cash and cash equivalents, begining balances S</td><td colspan=\"2\">Yearsended September 28, September 30,</td><td rowspan=\"2\">September 24, 2022</td></tr><tr><td>2024 30,737 $</td><td>2023 24.977 $</td></tr><tr><td></td><td></td><td></td><td>35,929</td></tr><tr><td> Operating activities:</td><td></td><td></td><td></td></tr><tr><td>Net income</td><td>93,736</td><td>96.995</td><td>99,803</td></tr><tr><td> Adjustments to reconcile net income to cash generated by operating activities:</td><td></td><td></td><td></td></tr><tr><td> Depreciation and amortization</td><td> 11,445</td><td>11,519</td><td>11,104</td></tr><tr><td> Share-based compensation expense</td><td> 11,688</td><td>10,833</td><td>9,038</td></tr><tr><td> Other</td><td>(2.266)</td><td>(2.227)</td><td>1,006</td></tr><tr><td> Changes in operating assets and liabilities:</td><td></td><td></td><td></td></tr><tr><td> Accounts receivable, net</td><td>(3,788)</td><td>(1,688)</td><td>(1,823)</td></tr><tr><td>Vendor non-trade receivables</td><td>(1,356)</td><td>1271</td><td>(7,520)</td></tr><tr><td> Inventories</td><td> (1.046)</td><td>(1,618)</td><td>1,484</td></tr><tr><td> Other current and non-current assets</td><td>(11,731)</td><td>(5,684)</td><td>(6,499)</td></tr><tr><td> Accounts payable</td><td>6.020</td><td>(1,889)</td><td>9,448</td></tr><tr><td> Other current and non-current iabilities</td><td>15.552</td><td>3.031</td><td>6,110</td></tr><tr><td> Cash generated by operating activities</td><td>118,254</td><td>110,.543</td><td>122,151</td></tr><tr><td></td><td></td><td></td><td></td></tr><tr><td> Investing activities:</td><td></td><td></td><td></td></tr><tr><td> Purchases of marketable securities</td><td>(48,656)</td><td>(29,513)</td><td>(76,923)</td></tr><tr><td> Proceeds from maturities of marketable securities</td><td>51,211</td><td>39,686</td><td>29.917</td></tr><tr><td>Proceeds from sales of marketable securities</td><td>11,135</td><td>5,828</td><td>37,446</td></tr><tr><td>Payments for acquisition of property, plant and equipment Other</td><td>(9,447)</td><td>(10.959)</td><td>(10,708)</td></tr><tr><td>Cash generated by/(used in) investing activities</td><td>(1.308)</td><td>(1.337)</td><td>(2.086)</td></tr><tr><td></td><td>2,935</td><td>3.705</td><td>(22.354)</td></tr><tr><td>Financing activities:</td><td></td><td></td><td></td></tr><tr><td> Payments for taxes related to net share settlement of equity awards</td><td> (5,441)</td><td></td><td></td></tr><tr><td> Payments for dividends and dividend equivalents</td><td>(15,234)</td><td>(5,431)</td><td>(6,223)</td></tr><tr><td>Repurchases of common stock</td><td>(94,949)</td><td>(15,025)</td><td>(14,841)</td></tr><tr><td> Proceeds from issuance of term debt, net</td><td></td><td>(77,550)</td><td>(89,402)</td></tr><tr><td>Repayments of term debt</td><td>丨</td><td>5,228</td><td>5,465</td></tr><tr><td></td><td>(9,958)</td><td>(11,151)</td><td>(9,543)</td></tr><tr><td>Proceeds from/(Repayments of) commercial paper, net</td><td>3,960</td><td>(3.978)</td><td>3,955</td></tr><tr><td>Other</td><td>(361)</td><td>(581)</td><td>（160)</td></tr><tr><td> Cash used in financing activities</td><td>(121,983)</td><td>(108,488)</td><td>(110,749)</td></tr><tr><td> Increase/(Decrease) in cash, cash equivalents, and restricted cash and cash equivalents</td><td></td><td></td><td></td></tr><tr><td>Cash,cash equivalents,and restricted cash and cash equivalents,ending balances $</td><td>(794)</td><td>5.760</td><td>(10,952)</td></tr><tr><td></td><td>29.943 $</td><td>30,737</td><td>$ 24,977</td></tr><tr><td>Supplemental cash flow disclosure:</td><td></td><td></td><td></td></tr><tr><td> Cash paid for income taxes, net</td><td>26,102 $</td><td>18,679$</td><td>19,573</td></tr></table>",
+          "table_type": "complex_table",
+          "table_nest_level": 1
+        },
+        "bbox": [
+          26,
+          135,
+          972,
+          715
+        ],
+        "page_idx": 4,
+        "source_input": {
+          "path": "examples/inputs/public_benchmark/aapl_2024.pdf",
+          "url": null,
+          "role": "primary",
+          "mime_type": null
+        },
+        "context_title": "Apple Inc. CONSOLIDATED STATEMENTS OF CASH FLOWS (In millions)"
+      },
+      "sources": [
+        {
+          "page_start": 4,
+          "bbox": [
+            26,
+            135,
+            972,
+            715
+          ]
+        }
+      ]
+    }
+  ],
+  "quality": {
+    "validation_pass_rate": 1.0,
+    "check_count": 5,
+    "hard_check_count": 2,
+    "passed_count": 2,
+    "warning_count": 4,
+    "failed_count": 0,
+    "issue_count": 4,
+    "checks": [
+      {
+        "table": "in_millions_except_number_of_shares_which_are_reflected_in_thousands_and_per_share_amounts",
+        "type": "numeric_parse",
+        "row": "Diluted",
+        "status": "warn",
+        "detail": "Numeric-looking cells could not be parsed.",
+        "cells": [
+          "6.16 $ 6.13$"
+        ]
+      },
+      {
+        "table": "consolidated_statements_of_comprehensive_income_in_millions",
+        "type": "numeric_parse",
+        "row": "Total comprehensive income",
+        "status": "warn",
+        "detail": "Numeric-looking cells could not be parsed.",
+        "cells": [
+          "(11.272) $ 88,531"
+        ]
+      },
+      {
+        "table": "in_millions_except_number_of_shares_which_are_reflected_in_thousands_and_par_value",
+        "type": "table_presence",
+        "status": "pass",
+        "detail": "Table loaded successfully."
+      },
+      {
+        "table": "apple_inc_consolidated_statements_of_shareholders_equity_in_millions_except_per_share_amounts",
+        "type": "table_presence",
+        "status": "pass",
+        "detail": "Table loaded successfully."
+      },
+      {
+        "table": "apple_inc_consolidated_statements_of_cash_flows_in_millions",
+        "type": "numeric_parse",
+        "row": "Other",
+        "status": "warn",
+        "detail": "Numeric-looking cells could not be parsed.",
+        "cells": [
+          "（160)"
+        ]
+      }
+    ],
+    "warnings": [
+      "At least one table is missing an explicit unit or scale."
+    ],
+    "diagnostics": {
+      "risk_level": "medium",
+      "table_count": 5,
+      "row_count": 136,
+      "raw_cell_count": 277,
+      "numeric_like_cell_count": 272,
+      "parsed_numeric_cell_count": 269,
+      "numeric_parse_coverage": 0.989,
+      "evidence_coverage": 1.0,
+      "financial_table_count": 5,
+      "recommended_actions": [
+        "Apply numeric repair for OCR-confused digits and footnote markers.",
+        "Infer or confirm units from nearby paragraphs and table footnotes."
+      ],
+      "tables": [
+        {
+          "name": "in_millions_except_number_of_shares_which_are_reflected_in_thousands_and_per_share_amounts",
+          "title": "(In millions, except number of shares, which are reflected in thousands, and per-share amounts)",
+          "table_type": "complex_table",
+          "row_count": 27,
+          "raw_cell_count": 55,
+          "numeric_like_cell_count": 54,
+          "parsed_numeric_cell_count": 53,
+          "numeric_parse_coverage": 0.9815,
+          "rows_with_evidence": 27,
+          "evidence_coverage": 1.0,
+          "has_periods": true,
+          "has_unit": false,
+          "financial_relevance": 0.75
+        },
+        {
+          "name": "consolidated_statements_of_comprehensive_income_in_millions",
+          "title": "CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME (In millions)",
+          "table_type": "complex_table",
+          "row_count": 14,
+          "raw_cell_count": 28,
+          "numeric_like_cell_count": 28,
+          "parsed_numeric_cell_count": 27,
+          "numeric_parse_coverage": 0.9643,
+          "rows_with_evidence": 14,
+          "evidence_coverage": 1.0,
+          "has_periods": true,
+          "has_unit": false,
+          "financial_relevance": 0.75
+        },
+        {
+          "name": "in_millions_except_number_of_shares_which_are_reflected_in_thousands_and_par_value",
+          "title": "(In millions, except number of shares, which are reflected in thousands, and par value)",
+          "table_type": "complex_table",
+          "row_count": 34,
+          "raw_cell_count": 55,
+          "numeric_like_cell_count": 54,
+          "parsed_numeric_cell_count": 54,
+          "numeric_parse_coverage": 1.0,
+          "rows_with_evidence": 34,
+          "evidence_coverage": 1.0,
+          "has_periods": true,
+          "has_unit": false,
+          "financial_relevance": 1.0
+        },
+        {
+          "name": "apple_inc_consolidated_statements_of_shareholders_equity_in_millions_except_per_share_amounts",
+          "title": "Apple Inc. CONSOLIDATED STATEMENTS OF SHAREHOLDERS’ EQUITY (In millions, except per-share amounts)",
+          "table_type": "complex_table",
+          "row_count": 23,
+          "raw_cell_count": 51,
+          "numeric_like_cell_count": 50,
+          "parsed_numeric_cell_count": 50,
+          "numeric_parse_coverage": 1.0,
+          "rows_with_evidence": 23,
+          "evidence_coverage": 1.0,
+          "has_periods": true,
+          "has_unit": false,
+          "financial_relevance": 1.0
+        },
+        {
+          "name": "apple_inc_consolidated_statements_of_cash_flows_in_millions",
+          "title": "Apple Inc. CONSOLIDATED STATEMENTS OF CASH FLOWS (In millions)",
+          "table_type": "complex_table",
+          "row_count": 38,
+          "raw_cell_count": 88,
+          "numeric_like_cell_count": 86,
+          "parsed_numeric_cell_count": 85,
+          "numeric_parse_coverage": 0.9884,
+          "rows_with_evidence": 38,
+          "evidence_coverage": 1.0,
+          "has_periods": true,
+          "has_unit": false,
+          "financial_relevance": 1.0
+        }
+      ]
+    },
+    "repairs": {
+      "applied": false,
+      "repair_count": 0,
+      "repairs": [],
+      "truncated": false,
+      "input_warning_count": 4
+    }
+  },
+  "trace_path": "runs/public-aapl-2024-financials/trace.jsonl",
+  "result_path": "runs/public-aapl-2024-financials/result.json"
+}

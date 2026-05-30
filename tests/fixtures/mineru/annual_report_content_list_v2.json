@@ -1,0 +1,53 @@
+[
+  [
+    {
+      "type": "title",
+      "content": "Consolidated Balance Sheet",
+      "bbox": [120, 110, 540, 150],
+      "page_idx": 0
+    },
+    {
+      "type": "table",
+      "bbox": [80, 180, 920, 520],
+      "page_idx": 0,
+      "content": {
+        "title": "Consolidated Balance Sheet",
+        "unit": "RMB thousand",
+        "periods": ["2025-12-31", "2024-12-31"],
+        "rows": [
+          {
+            "label": "Cash and cash equivalents",
+            "values": ["10,000", "8,000"],
+            "bbox": [100, 230, 860, 260]
+          },
+          {
+            "label": "Inventories",
+            "values": ["20,000", "17,000"],
+            "bbox": [100, 270, 860, 300]
+          }
+        ]
+      }
+    }
+  ],
+  [
+    {
+      "type": "table",
+      "bbox": [80, 170, 920, 500],
+      "page_idx": 1,
+      "content": {
+        "title": "Consolidated Balance Sheet",
+        "unit": "RMB thousand",
+        "periods": ["2025-12-31", "2024-12-31"],
+        "rows": [
+          {
+            "label": "Total assets",
+            "values": ["30,000", "25,000"],
+            "components": ["Cash and cash equivalents", "Inventories"],
+            "bbox": [100, 220, 860, 250]
+          }
+        ]
+      }
+    }
+  ]
+]
+

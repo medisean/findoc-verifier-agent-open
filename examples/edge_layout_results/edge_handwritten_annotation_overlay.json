@@ -1,0 +1,154 @@
+{
+  "task_id": "edge_handwritten_annotation_overlay",
+  "task_name": "edge_handwritten_annotation_overlay",
+  "status": "succeeded",
+  "document_type": "scanned_financial_statement_pdf",
+  "summary": "Edge-layout fixture with 1 tables and 3 rows.",
+  "tables": [
+    {
+      "name": "annotated_income_statement",
+      "title": "Annotated Income Statement",
+      "unit": "USD million",
+      "table_type": "edge_layout_financial_table",
+      "table_nest_level": 0,
+      "footnote": "",
+      "image_source": null,
+      "periods": [
+        "2025",
+        "2024"
+      ],
+      "rows": [
+        {
+          "item": "Revenue",
+          "raw_values": [
+            "8,420",
+            "7,980"
+          ],
+          "values": {
+            "2025": 8420,
+            "2024": 7980
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": null,
+            "source": "edge_layout_fixture"
+          }
+        },
+        {
+          "item": "Operating profit",
+          "raw_values": [
+            "1,260",
+            "1,184"
+          ],
+          "values": {
+            "2025": 1260,
+            "2024": 1184
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": null,
+            "source": "edge_layout_fixture"
+          }
+        },
+        {
+          "item": "Net profit",
+          "raw_values": [
+            "1,205",
+            "1,110"
+          ],
+          "values": {
+            "2025": 1205,
+            "2024": 1110
+          },
+          "row_type": "line",
+          "components": [],
+          "evidence": {
+            "page": 0,
+            "bbox": null,
+            "source": "edge_layout_fixture"
+          }
+        }
+      ],
+      "evidence": {
+        "page_start": 0,
+        "page_end": 0
+      },
+      "sources": [
+        {
+          "page_start": 0,
+          "page_end": 0
+        }
+      ],
+      "raw_block": null
+    }
+  ],
+  "quality": {
+    "validation_pass_rate": 1.0,
+    "check_count": 1,
+    "hard_check_count": 1,
+    "passed_count": 1,
+    "warning_count": 1,
+    "failed_count": 0,
+    "issue_count": 1,
+    "checks": [
+      {
+        "table": "annotated_income_statement",
+        "type": "table_presence",
+        "status": "pass",
+        "detail": "Table loaded successfully."
+      }
+    ],
+    "warnings": [
+      {
+        "type": "handwritten_annotation_overlay",
+        "status": "warning",
+        "detail": "Detected annotation-like strokes near table cells; ignored as non-financial noise."
+      }
+    ],
+    "diagnostics": {
+      "risk_level": "medium",
+      "table_count": 1,
+      "row_count": 3,
+      "raw_cell_count": 6,
+      "numeric_like_cell_count": 6,
+      "parsed_numeric_cell_count": 6,
+      "numeric_parse_coverage": 1.0,
+      "evidence_coverage": 1.0,
+      "financial_table_count": 1,
+      "recommended_actions": [
+        "Review edge-layout warnings before downstream loading."
+      ],
+      "tables": [
+        {
+          "name": "annotated_income_statement",
+          "title": "Annotated Income Statement",
+          "table_type": "edge_layout_financial_table",
+          "page_start": 0,
+          "page_end": 0,
+          "row_count": 3,
+          "raw_cell_count": 6,
+          "numeric_like_cell_count": 6,
+          "parsed_numeric_cell_count": 6,
+          "numeric_parse_coverage": 1.0,
+          "rows_with_evidence": 3,
+          "evidence_coverage": 1.0,
+          "has_periods": true,
+          "has_unit": true,
+          "financial_relevance": 1.0
+        }
+      ],
+      "edge_layout": {
+        "handwritten_annotation_detected": true,
+        "annotation_noise_rejected": true,
+        "risk_policy": "warning_only"
+      }
+    }
+  },
+  "trace_path": null,
+  "plan_path": null,
+  "result_path": "examples/edge_layout_results/edge_handwritten_annotation_overlay.json"
+}
